@@ -4,35 +4,20 @@ title: Home
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% comment %} This shows only the first (most recent) post on the home page {% endcomment %}
+  {% assign first_post = site.posts.first %}
   <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        {{ post.title }}
-      </a>
-    </h1>
- 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+    <h1 class="post-title">{{ first_post.title }}</h1>
+    <span class="post-date">{{ first_post.date | date_to_string }}</span>
+    {{ first_post.content }}
   </div>
-  {% endfor %}
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older Post &rarr;</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
+<div class="post-navigation">
+  {% if first_post.next %}
+    <a href="{{ first_post.next.url | prepend: site.baseurl }}">Previous: {{ first_post.next.title }}</a>
   {% endif %}
-  
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ '/' | prepend: site.baseurl }}">&larr; Newer Post</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr; Newer Post</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
+  {% if first_post.previous %}
+    <a href="{{ first_post.previous.url | prepend: site.baseurl }}">Next: {{ first_post.previous.title }}</a>
   {% endif %}
 </div>

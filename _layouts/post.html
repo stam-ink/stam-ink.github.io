@@ -8,6 +8,7 @@ layout: default
   {{ content }}
 </div>
 
+<!-- "related posts"
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
@@ -22,12 +23,14 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-<div class="related">
-  {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}">Next: {{ page.next.title }}</a>
-  {% endif %}
-  {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}">Previous: {{ page.previous.title }}</a>
-  {% endif %}
 </div>
+-->
+
+<div class="post-navigation">
+  {% if page.next %}
+    <a href="{{ page.next.url | prepend: site.baseurl }}">Previous: {{ page.next.title }}</a>
+  {% endif %}
+  {% if page.previous %}
+    <a href="{{ page.previous.url | prepend: site.baseurl }}">Next: {{ page.previous.title }}</a>
+  {% endif %}
 </div>
