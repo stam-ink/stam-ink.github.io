@@ -22,4 +22,12 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+<div class="related">
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.baseurl }}">Next: {{ page.next.title }}</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.baseurl }}">Previous: {{ page.previous.title }}</a>
+  {% endif %}
+</div>
 </div>
