@@ -4,5 +4,5 @@ remote_theme: poole/hyde
 permalink: pretty
 url: https://stam-ink.github.io
 baseurl: /blog-draft
-paginate: 5
+paginate: 3
 paginate_path: "/page:num/"
