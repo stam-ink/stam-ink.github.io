@@ -248,3 +248,24 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Custom Post Navigation Alignment */
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between; /* Pushes items to the far left and right */
+  align-items: center;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.prev-link, .next-link {
+  text-decoration: none;
+  font-weight: bold;
+  max-width: 45%; /* Prevents long titles from overlapping */
+}
+
+.next-link {
+  text-align: right;
+  margin-left: auto; /* Forces 'Next' to the right even if 'Previous' is missing */
+}
