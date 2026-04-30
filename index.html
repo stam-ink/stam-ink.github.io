@@ -13,11 +13,18 @@ title: Home
   </div>
 </div>
 
-<div class="post-navigation">
-  {% if first_post.next %}
-    <a href="{{ first_post.next.url | prepend: site.baseurl }}">Previous: {{ first_post.next.title }}</a>
-  {% endif %}
-  {% if first_post.previous %}
-    <a href="{{ first_post.previous.url | prepend: site.baseurl }}">Next: {{ first_post.previous.title }}</a>
+<div id="post-nav">
+  {% assign latest_post = site.posts.first %}
+  
+  {% comment %} 
+    On the home page (the newest post), there is no 'Previous' (newer) post. 
+    So we only show a spacer.
+  {% endcomment %}
+  <span></span> 
+
+  {% if latest_post.previous %}
+    <a class="next-item" href="{{ latest_post.previous.url | prepend: site.baseurl }}">
+      Next: {{ latest_post.previous.title }} &rarr;
+    </a>
   {% endif %}
 </div>
