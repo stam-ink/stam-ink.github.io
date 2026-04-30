@@ -16,10 +16,7 @@ title: Home
 <div id="post-nav">
   {% assign latest_post = site.posts.first %}
   
-  {% comment %} 
-    On the home page (the newest post), there is no 'Previous' (newer) post. 
-    So we only show a spacer.
-  {% endcomment %}
+  {% comment %} Spacer to keep 'Next' on the right {% endcomment %}
   <span></span> 
 
   {% if latest_post.previous %}
