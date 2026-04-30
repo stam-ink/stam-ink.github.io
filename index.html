@@ -15,13 +15,15 @@ title: Home
 
 <div id="post-nav">
   {% assign latest_post = site.posts.first %}
-  
-  {% comment %} Spacer for alignment {% endcomment %}
-  <span></span> 
 
   {% if latest_post.previous %}
-    <a class="next-item" href="{{ latest_post.previous.url | prepend: site.baseurl }}">
-      Next: {{ latest_post.previous.title }} &rarr;
+    <a class="prev-item" href="{{ latest_post.previous.url | prepend: site.baseurl }}">
+      &larr; Previous: {{ latest_post.previous.title }}
     </a>
   {% endif %}
+
+  {% comment %} 
+    Since this is the newest post, there is no 'Next'. 
+    We don't need a span here because 'Previous' will naturally stay on the left.
+  {% endcomment %}
 </div>
