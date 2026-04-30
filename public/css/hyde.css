@@ -249,23 +249,22 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-/* Custom Post Navigation Alignment */
-.nav-wrapper {
-  display: flex;
-  justify-content: space-between; /* Pushes items to the far left and right */
-  align-items: center;
-  margin-top: 2.5rem;
+/* Force Navigation Layout */
+#post-nav {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100%;
+  margin-top: 3rem;
   padding-top: 1rem;
   border-top: 1px solid #eee;
 }
 
-.prev-link, .next-link {
+#post-nav a {
   text-decoration: none;
   font-weight: bold;
-  max-width: 45%; /* Prevents long titles from overlapping */
 }
 
-.next-link {
+.next-item {
+  margin-left: auto;
   text-align: right;
-  margin-left: auto; /* Forces 'Next' to the right even if 'Previous' is missing */
 }
