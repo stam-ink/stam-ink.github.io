@@ -27,17 +27,17 @@ layout: default
 -->
 
 <div id="post-nav">
-  {% if page.previous %}
-    <a class="prev-item" href="{{ page.previous.url | prepend: site.baseurl }}">
-      &larr; Previous: {{ page.previous.title }}
+  {% if page.next %}
+    <a class="prev-item" href="{{ page.next.url | prepend: site.baseurl }}">
+      &larr; Previous: {{ page.next.title }}
     </a>
   {% else %}
     <span></span>
   {% endif %}
 
-  {% if page.next %}
-    <a class="next-item" href="{{ page.next.url | prepend: site.baseurl }}">
-      Next: {{ page.next.title }} &rarr;
+  {% if page.previous %}
+    <a class="next-item" href="{{ page.previous.url | prepend: site.baseurl }}">
+      Next: {{ page.previous.title }} &rarr;
     </a>
   {% endif %}
 </div>
