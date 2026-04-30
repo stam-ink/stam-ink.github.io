@@ -26,20 +26,18 @@ layout: default
 </div>
 -->
 
-<div class="post-navigation">
-  <div class="nav-wrapper">
-    {% if page.previous %}
-      <a class="prev-link" href="{{ page.previous.url | prepend: site.baseurl }}">
-        &larr; Previous: {{ page.previous.title }}
-      </a>
-    {% else %}
-      <div></div> <!-- This empty div acts as a spacer -->
-    {% endif %}
+<div id="post-nav">
+  {% if page.previous %}
+    <a class="prev-item" href="{{ page.previous.url | prepend: site.baseurl }}">
+      &larr; Previous: {{ page.previous.title }}
+    </a>
+  {% else %}
+    <span></span> <!-- Spacer -->
+  {% endif %}
 
-    {% if page.next %}
-      <a class="next-link" href="{{ page.next.url | prepend: site.baseurl }}">
-        Next: {{ page.next.title }} &rarr;
-      </a>
-    {% endif %}
-  </div>
+  {% if page.next %}
+    <a class="next-item" href="{{ page.next.url | prepend: site.baseurl }}">
+      Next: {{ page.next.title }} &rarr;
+    </a>
+  {% endif %}
 </div>
