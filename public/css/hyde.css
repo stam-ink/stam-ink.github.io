@@ -1,4 +1,68 @@
 /*
+ * custom CSS
+ */ 
+
+:root {
+  /* Core Palette */
+  --bg-color: #ffffff;      /* White */
+  --text-color: #000000;    /* Black */
+  
+  /* Your Custom Colors */
+  --accent-tan: #dbd2bd;    /* Rules and colored areas */
+  --link-purple: #878799;   /* Standard links */
+  --link-hover: #999384;    /* Hover state */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Horizontal Rules */
+hr {
+  border: 0;
+  border-top: 1px solid var(--accent-tan);
+}
+
+/* Sidebar Background (if you want the sidebar to be your accent color. If not, comment out this next section) */
+.sidebar {
+  background-color: var(--accent-tan);
+  color: var(--text-color);
+}
+
+/* Links: Normal, Visited, and Active states are all the same */
+a, 
+a:visited, 
+a:active {
+  color: var(--link-purple);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Hover state only */
+a:hover, 
+a:focus {
+  color: var(--link-hover);
+  text-decoration: underline; /* Optional: adds a visual cue on hover */
+}
+
+#post-nav {
+  border-top: 1px solid var(--accent-tan); /* Uses your rule color */
+}
+
+#post-nav a {
+  color: var(--link-purple);
+}
+
+#post-nav a:hover {
+  color: var(--link-hover);
+}
+
+/*
+ * end custom CSS
+ */ 
+
+/*
  *  __                  __
  * /\ \                /\ \
  * \ \ \___   __  __   \_\ \     __
@@ -268,3 +332,88 @@ a.sidebar-nav-item:focus {
   margin-left: auto;
   text-align: right;
 }
+
+
+/*
+ * custom CSS
+ */ 
+
+:root {
+  /* Your specific palette */
+  --accent-tan: #dbd2bd;    /* Rules and color areas */
+  --link-purple: #878799;   /* Links */
+  --link-hover: #999384;    /* Hover */
+  --full-black: #000000;    /* Backgrounds */
+  --pure-white: #ffffff;    /* Main content background */
+}
+
+/* Base Layout */
+body {
+  background-color: var(--pure-white);
+  color: var(--full-black);
+}
+
+/* The Sidebar - Currently set to your Tan color to set it to black, coment out or delete this section and the next one (sidebar links) and un-comment the next section (Black sidebar with whiter text)*/
+.sidebar {
+  background-color: var(--accent-tan);
+  color: var(--full-black);
+}
+
+/* Sidebar Links (Navigation) */
+.sidebar a {
+  color: var(--full-black);
+  opacity: 0.8;
+}
+
+
+/*black sidebar with white text -- uncomment if tan is too much*/
+/*
+.sidebar {
+  background-color: var(--full-black);
+  color: var(--pure-white); 
+}
+
+.sidebar a {
+  color: var(--pure-white);
+}
+*/
+
+
+
+
+.sidebar a:hover {
+  color: var(--full-black);
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* Content Links: Normal, Visited, and Active are identical */
+.content a, 
+.content a:visited, 
+.content a:active {
+  color: var(--link-purple);
+  text-decoration: none;
+}
+
+/* Hover/Focus only */
+.content a:hover, 
+.content a:focus {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--accent-tan);
+  margin: 2rem 0;
+}
+
+/* Applying it to your custom post navigation border */
+#post-nav {
+  border-top: 1px solid var(--accent-tan);
+  padding-top: 1rem;
+}
+
+/*
+ * end custom CSS
+ */ 
