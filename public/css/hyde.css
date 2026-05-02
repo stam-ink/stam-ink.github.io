@@ -414,6 +414,23 @@ hr {
   padding-top: 1rem;
 }
 
+/* Sidebar Link Overrides */
+.sidebar a, 
+.sidebar-nav-item, 
+.sidebar-title a {
+  color: var(--link-purple) !important;
+  text-decoration: none !important;
+  opacity: 1 !important; /* Hyde sometimes lowers opacity by default */
+}
+
+/* Sidebar Hover Overrides */
+.sidebar a:hover, 
+.sidebar-nav-item:hover, 
+.sidebar-title a:hover {
+  color: var(--link-hover) !important;
+  text-decoration: underline !important;
+}
+
 /*
  * end custom CSS
  */ 
