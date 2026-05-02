@@ -431,6 +431,11 @@ hr {
   text-decoration: underline !important;
 }
 
+/* kill post date */
+.post-date {
+  display: none !important;
+}
+
 /*
  * end custom CSS
  */ 
