@@ -484,6 +484,7 @@ h3 {
 font-size: 1em;
 letter-spacing: 0.3em;
 text-transform: uppercase;
+font-weight: bold;
 }
 
 .callout /* for "note" */
