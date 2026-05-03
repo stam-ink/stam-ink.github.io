@@ -520,7 +520,7 @@ font-weight: bold;
   margin-bottom: 3em;
 }
 
-mark /* for highlighting */
+.mark /* for highlighting */
 {
 background-color: #dbd2bd;
 color: black;
