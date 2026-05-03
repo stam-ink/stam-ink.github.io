@@ -466,6 +466,79 @@ hr {
   color: #666;
 } */
 
+/* Remove space between H3 and the paragraph immediately following it */
+h3 + p {
+  margin-top: 0;
+}
+
+/* Optional: Ensure the H3 itself has a consistent margin above it */
+h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 2.5rem; /* Space before the section starts (1.5 em in orig. CSS) */
+  margin-bottom: 0.5rem; /* Small gap to keep it 'connected' to the text (0 em in orig.CSS)*/
+}
+
+.ultra /* for "N O T E :" */
+{
+font-size: 1em;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.callout /* for "note" */
+{
+  margin-left: 2em;
+  margin-right: 2em;
+  font-style: italic;
+}
+
+/* rules above and below Note */
+.callout::before,
+.callout::after
+{
+  content: '';
+  display: block;
+  border: 0;
+  background-color: #dbd2bd;
+  height: 1px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.callout::before
+{
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+}
+
+.callout::after
+{
+  margin-top: 1.6em;
+  margin-bottom: 3em;
+}
+
+mark /* for highlighting */
+{
+background-color: #dbd2bd;
+color: black;
+}
+
+.box /* for tinted box (usually at top of post) */
+{
+  background-color: #dbd2bd;
+  font-style: italic;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: .5em 1.8em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
 /*
  * end custom CSS
  */ 
