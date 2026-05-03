@@ -436,6 +436,36 @@ hr {
   display: none !important;
 }
 
+/* The automatic rule above footnotes */
+.footnotes {
+  margin-top: 3em;
+  border-top: 1px solid #dbd2bd; /* Your light tan color */
+  padding-top: 1rem;
+/*  font-size: 0.85rem; /* Standard smaller footnoted size */
+/*  color: #555;        /* Optional: slightly softer black/grey */
+}
+
+/* Remove the default <hr> if kramdown is inserting one */
+.footnotes hr {
+  display: none;
+}
+
+/* Shared characteristics for actual footnotes and your custom class */
+.footnotes, 
+.endnotes {
+/*  font-family: serif;   /* Or whichever font you prefer for notes */
+  font-size: 0.85rem;
+/*  font-style: italic;   /* If you want that specific look */
+  line-height: 1.4;
+}
+
+/* Specific behaviors only for your manual class */
+/*.endnotes {
+  display: block;
+  margin: 1em 0;
+  color: #666;
+} */
+
 /*
  * end custom CSS
  */ 
