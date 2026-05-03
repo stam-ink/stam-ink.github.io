@@ -431,6 +431,32 @@ hr {
   text-decoration: underline !important;
 }
 
+/* sidebar logo Initial State */
+.sidebar-logo .logo-hover {
+  display: none;
+}
+
+.sidebar-logo .logo-static {
+  display: block;
+}
+
+/* siedbar logo Hover State */
+.sidebar-logo:hover .logo-static {
+  display: none;
+}
+
+.sidebar-logo:hover .logo-hover {
+  display: block;
+}
+
+/* sidebar logo Optional: Ensure the container doesn't shift */
+.sidebar-logo {
+  cursor: pointer;
+  width: 112px;
+  height: 99px;
+  margin-bottom: 1rem;
+}
+
 /* kill post date */
 .post-date {
   display: none !important;
