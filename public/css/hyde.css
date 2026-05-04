@@ -545,7 +545,7 @@ color: black;
   text-align: right;
   unicode-bidi: isolate;
 /*  font-family: "SBL Hebrew", "Times New Roman", serif; /* Manuscript-style fonts? */
-  font-size: 1.1em; /* Hebrew often needs to be slightly larger to be legible */
+/*  font-size: 1.1em; /* Hebrew often needs to be slightly larger to be legible */
 }
 
 /* Ensure inline Hebrew doesn't break the alignment of English paragraphs */
@@ -555,17 +555,23 @@ span[lang="he"] {
 }
 
 .content blockquote {
+  /* Use logical properties for everything */
   margin-inline-start: 2em;
   margin-inline-end: 2em;
   padding-inline-start: 1em;
   padding-inline-end: 0;
 
-  /* Palette Application */
-  border-inline-start: 2px solid #dbd2bd !important; /* Your Light-Tan */
+  /* This will place the rule on the Left for English and Right for Hebrew */
+  border-inline-start: 2px solid #dbd2bd !important; 
   
-  /* The "Double Line" Killer */
-  border-left: none !important; 
+  /* Kill BOTH physical borders so they don't interfere with the logical one */
+  border-left: none !important;
+  border-right: none !important;
+  
   color: black !important;
-}/*
+}
+
+
+/*
  * end custom CSS
  */ 
