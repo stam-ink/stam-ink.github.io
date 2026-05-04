@@ -450,7 +450,7 @@ hr {
   display: none;
 }
 
-/* Shared characteristics for actual footnotes and your custom class */
+/* Shared characteristics for actual footnotes and footnotes-style class */
 .footnotes, 
 .endnotes,
 .aside {
@@ -459,7 +459,7 @@ hr {
   line-height: 1.4;
 }
 
-/* Specific behaviors only for your manual class */
+/* Specific behaviors only for footnotes-style class */
 .endnotes,
 .aside {
   font-style: italic;   /* If you want that specific look */
@@ -473,6 +473,7 @@ h2 /* Post sub-head*/
 font-size: 1em;
 letter-spacing: 0.3em;
 text-transform: uppercase;
+font-weight: normal;
 }
 
 /* Remove space between H3 and the paragraph immediately following it */
@@ -481,7 +482,8 @@ h3 + p {
 }
 
 /* Optional: Ensure the H3 itself has a consistent margin above it */
-h3 {
+h3 /* Section head */
+{
   font-size: 1.3em;
   font-weight: bold;
   margin-top: 2.5rem; /* Space before the section starts (1.5 em in orig. CSS) */
