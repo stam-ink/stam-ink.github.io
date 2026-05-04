@@ -554,21 +554,25 @@ span[lang="he"] {
   display: inline-block;
 }
 
+/* 1. Set the standard behavior for ALL blockquotes */
 .content blockquote {
-  /* Use logical properties for everything */
   margin-inline-start: 2em;
   margin-inline-end: 2em;
   padding-inline-start: 1em;
   padding-inline-end: 0;
-
-  /* This will place the rule on the Left for English and Right for Hebrew */
-  border-inline-start: 2px solid #dbd2bd !important; 
-  
-  /* Kill BOTH physical borders so they don't interfere with the logical one */
-  border-left: none !important;
-  border-right: none !important;
-  
   color: black !important;
+  /* Apply the light-tan rule logically */
+  border-inline-start: 2px solid #dbd2bd !important;
+}
+
+/* 2. Specifically target Hebrew blockquotes to remove Hyde's default left border */
+.content blockquote[lang="he"] {
+  border-left: none !important;
+}
+
+/* 3. Ensure English blockquotes don't have a ghost right border */
+.content blockquote:not([lang="he"]) {
+  border-right: none !important;
 }
 
 
