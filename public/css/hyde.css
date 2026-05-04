@@ -468,6 +468,13 @@ hr {
   color: #666; */
 }
 
+h2 /* Post sub-head*/
+{
+font-size: 1em;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+}
+
 /* Remove space between H3 and the paragraph immediately following it */
 h3 + p {
   margin-top: 0;
@@ -481,7 +488,7 @@ h3 {
   margin-bottom: 0.5rem; /* Small gap to keep it 'connected' to the text (0 em in orig.CSS)*/
 }
 
-.ultra /* for "N O T E :" */
+.ultra /* for "N O T E :" title text */
 {
 font-size: 1em;
 letter-spacing: 0.3em;
@@ -489,7 +496,7 @@ text-transform: uppercase;
 font-weight: bold;
 }
 
-.callout /* for "note" */
+.callout /* for "note paragraph" */
 {
   margin-left: 2em;
   margin-right: 2em;
