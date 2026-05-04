@@ -554,16 +554,18 @@ span[lang="he"] {
   display: inline-block;
 }
 
-blockquote {
-  /* Layout Logic */
+.content blockquote {
   margin-inline-start: 2em;
   margin-inline-end: 2em;
   padding-inline-start: 1em;
-  
+  padding-inline-end: 0;
+
   /* Palette Application */
-  border-inline-start: 1px solid #dbd2bd; /* Light-Tan Accent */
-  color: black; /* Explicitly Black Text */
-}
-/*
+  border-inline-start: 2px solid #dbd2bd !important; /* Your Light-Tan */
+  
+  /* The "Double Line" Killer */
+  border-left: none !important; 
+  color: black !important;
+}/*
  * end custom CSS
  */ 
