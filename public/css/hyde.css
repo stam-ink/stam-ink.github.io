@@ -544,7 +544,7 @@ color: black;
   direction: rtl;
   text-align: right;
   unicode-bidi: isolate;
-  font-family: "SBL Hebrew", "Times New Roman", serif; /* Manuscript-style fonts */
+/*  font-family: "SBL Hebrew", "Times New Roman", serif; /* Manuscript-style fonts? */
   font-size: 1.1em; /* Hebrew often needs to be slightly larger to be legible */
 }
 
