@@ -539,8 +539,31 @@ color: black;
   box-sizing: border-box;
 }
 
+/* Target any element with lang="he" */
+[lang="he"] {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: isolate;
+  font-family: "SBL Hebrew", "Times New Roman", serif; /* Manuscript-style fonts */
+  font-size: 1.1em; /* Hebrew often needs to be slightly larger to be legible */
+}
 
+/* Ensure inline Hebrew doesn't break the alignment of English paragraphs */
+span[lang="he"] {
+  text-align: inherit; 
+  display: inline-block;
+}
 
+blockquote {
+  /* Layout Logic */
+  margin-inline-start: 2em;
+  margin-inline-end: 2em;
+  padding-inline-start: 1em;
+  
+  /* Palette Application */
+  border-inline-start: 1px solid #dbd2bd; /* Light-Tan Accent */
+  color: black; /* Explicitly Black Text */
+}
 /*
  * end custom CSS
  */ 
