@@ -452,19 +452,21 @@ hr {
 
 /* Shared characteristics for actual footnotes and your custom class */
 .footnotes, 
-.endnotes {
+.endnotes,
+.aside {
 /*  font-family: serif;   /* Or whichever font you prefer for notes */
   font-size: 0.85rem;
-/*  font-style: italic;   /* If you want that specific look */
   line-height: 1.4;
 }
 
 /* Specific behaviors only for your manual class */
-/*.endnotes {
-  display: block;
+.endnotes,
+.aside {
+  font-style: italic;   /* If you want that specific look */
+/*  display: block;
   margin: 1em 0;
-  color: #666;
-} */
+  color: #666; */
+}
 
 /* Remove space between H3 and the paragraph immediately following it */
 h3 + p {
