@@ -485,7 +485,7 @@ h3 + p {
 h3 /* Section head */
 {
   font-size: 1.3em;
-  font-weight: black;
+  font-weight: 900;
   margin-top: 2.5rem; /* Space before the section starts (1.5 em in orig. CSS) */
   margin-bottom: 0.5rem; /* Small gap to keep it 'connected' to the text (0 em in orig.CSS)*/
 }
@@ -495,7 +495,7 @@ h3 /* Section head */
 font-size: 1em;
 letter-spacing: 0.3em;
 text-transform: uppercase;
-font-weight: black;
+font-weight: 900;
 }
 
 .callout /* for "note paragraph" */
@@ -554,8 +554,6 @@ color: black;
   direction: rtl;
   text-align: right;
   unicode-bidi: isolate;
-/*  font-family: "SBL Hebrew", "Times New Roman", serif; /* Manuscript-style fonts? */
-/*  font-size: 1.1em; /* Hebrew often needs to be slightly larger to be legible */
 }
 
 /* Ensure inline Hebrew doesn't break the alignment of English paragraphs */
