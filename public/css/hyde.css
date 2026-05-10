@@ -56,6 +56,14 @@ a:focus {
 
 #post-nav a:hover {
   color: var(--link-hover);
+text-decoration: none;
+  font-weight: 900; /* Ensure nav links are punchy */
+  }
+
+/* Force Bold+Italic to use the Black Italic face */
+strong em, em strong, b i, i b {
+  font-weight: 900;
+  font-style: italic;
 }
 
 /*
@@ -143,8 +151,9 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Source Sans 3"", serif;
+  font-family: "Source Sans 3", sans-serif; /* Fixed the extra quote in your file */
   font-size: 3.25rem;
+  font-weight: 900; /* Force Black weight */
 }
 
 /* Sidebar nav */
@@ -482,20 +491,19 @@ h3 + p {
 }
 
 /* Optional: Ensure the H3 itself has a consistent margin above it */
-h3 /* Section head */
-{
+/* Section head */
+h3 {
   font-size: 1.3em;
-  font-weight: 900;
-  margin-top: 2.5rem; /* Space before the section starts (1.5 em in orig. CSS) */
+  font-weight: 900; /* Changed from bold */  margin-top: 2.5rem; /* Space before the section starts (1.5 em in orig. CSS) */
   margin-bottom: 0.5rem; /* Small gap to keep it 'connected' to the text (0 em in orig.CSS)*/
 }
 
-.ultra /* for "N O T E :" title text */
-{
-font-size: 1em;
-letter-spacing: 0.3em;
-text-transform: uppercase;
-font-weight: 900;
+/* "N O T E :" title text */
+.ultra {
+  font-size: 1em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-weight: 900; /* Changed from bold */
 }
 
 .callout /* for "note paragraph" */
