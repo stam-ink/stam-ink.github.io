@@ -567,27 +567,25 @@ span[lang="he"] {
 /* --- Global Typography --- */
 
 body {
-  /* Source Sans 3 as primary English font */
   font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Verdana, sans-serif;
-  color: black;
+  color: #000000; /* Ensuring full black */
   background-color: white;
 }
 
 /* Assistant for Hebrew blocks */
 [lang="he"] {
   font-family: "Assistant", sans-serif;
-  /* Visual adjustment to match Source Sans scale */
-  font-size: 1.15em; 
+  /* Reduced from 1.15em to 1.0em to match Source Sans 3 better */
+  font-size: 1.0em; 
 }
 
-/* Use the heaviest weights for bold (900 for English, 800 for Hebrew) */
+/* Use the heaviest weights for bold */
 strong, b {
   font-weight: 900;
 }
 
 /* --- Majority Rule Logic --- */
 
-/* This handles the automatic LTR/RTL flip based on the content */
 p, li, blockquote, h1, h2, h3, h4 {
   unicode-bidi: plaintext;
   text-align: start;
@@ -599,17 +597,21 @@ p, li, blockquote, h1, h2, h3, h4 {
   margin-inline-start: 2em;
   margin-inline-end: 2em;
   padding-inline-start: 1em;
-  border-inline-start: 2px solid #dbd2bd !important; /* Your light-tan rule */
+  /* Logical property for the tan rule */
+  border-inline-start: 2px solid #dbd2bd !important; 
   border-left: none;
   border-right: none;
+  
+  /* Color and Style Fixes */
+  color: #000000 !important; /* Force full black text */
   font-style: italic;
 }
 
-/* Keep Hebrew blockquotes upright (italics in Hebrew can look awkward) */
+/* Keep Hebrew blockquotes upright and handle sizing */
 blockquote[lang="he"] {
   font-style: normal;
+  font-size: 1.0em; /* Ensure Hebrew in quotes isn't oversized */
 }
-
 /*
  * end custom CSS
  */ 
