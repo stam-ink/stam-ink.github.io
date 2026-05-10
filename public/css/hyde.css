@@ -143,7 +143,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "Source Sans 3"", serif;
   font-size: 3.25rem;
 }
 
@@ -538,6 +538,7 @@ color: black;
 }
 
 .box /* for tinted box (usually at top of post) */
+.admin
 {
   background-color: #dbd2bd;
   font-style: italic;
@@ -563,27 +564,51 @@ span[lang="he"] {
   display: inline-block;
 }
 
-/* 1. Set the standard behavior for ALL blockquotes */
+/* --- Global Typography --- */
+
+body {
+  /* Source Sans 3 as primary English font */
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Verdana, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+/* Assistant for Hebrew blocks */
+[lang="he"] {
+  font-family: "Assistant", sans-serif;
+  /* Visual adjustment to match Source Sans scale */
+  font-size: 1.15em; 
+}
+
+/* Use the heaviest weights for bold (900 for English, 800 for Hebrew) */
+strong, b {
+  font-weight: 900;
+}
+
+/* --- Majority Rule Logic --- */
+
+/* This handles the automatic LTR/RTL flip based on the content */
+p, li, blockquote, h1, h2, h3, h4 {
+  unicode-bidi: plaintext;
+  text-align: start;
+}
+
+/* --- Refined Blockquote Style --- */
+
 .content blockquote {
   margin-inline-start: 2em;
   margin-inline-end: 2em;
   padding-inline-start: 1em;
-  padding-inline-end: 0;
-  color: black !important;
-  /* Apply the light-tan rule logically */
-  border-inline-start: 2px solid #dbd2bd !important;
+  border-inline-start: 2px solid #dbd2bd !important; /* Your light-tan rule */
+  border-left: none;
+  border-right: none;
+  font-style: italic;
 }
 
-/* 2. Specifically target Hebrew blockquotes to remove Hyde's default left border */
-.content blockquote[lang="he"] {
-  border-left: none !important;
+/* Keep Hebrew blockquotes upright (italics in Hebrew can look awkward) */
+blockquote[lang="he"] {
+  font-style: normal;
 }
-
-/* 3. Ensure English blockquotes don't have a ghost right border */
-.content blockquote:not([lang="he"]) {
-  border-right: none !important;
-}
-
 
 /*
  * end custom CSS
