@@ -39,10 +39,8 @@ Populi  splendidum licet sapidum posteaquam universum quotiens sonorus quodcumqu
   <p lang="he" style="font-weight: 800;">3. ExtraBold (800): בנסך לצרגש רחל עמם רקתוק ניילף</p>
 </div>
 
-
-
 -= 8 =-
 
-[^fn1]: Regius, aliquod veritas cloqor, prout divinum prout si delicatum qualiter regale sed delicatum ubi cum stultum si quidem elaboratum facere peculiare sive altitudinis quod ante separabile.
+[^fn1]: Regius, aliquod veritas cloqor, qualiter regale sed delicatum ubi cum stultum si quidem elaboratum facere peculiare sive altitudinis quod ante separabile.
 
 [^fn2]: Neque levissimum sed minimus quotie admirabile
