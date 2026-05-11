@@ -6,14 +6,14 @@ date: 2026-05-11
 
 ## Subhead (H2) 
 
-Zoe Julius, illud serenus mare atque magniloquens ut ne eximium quod curiosum quia magniloquens si cultum aut iucundissimum sicut periculosum dum odoratum et splendidum. Ad astra per aspera, ante aliquod diligentia quando.[^1]
+Zoe Julius, illud serenus mare atque magniloquens ut ne eximium quod curiosum quia magniloquens si cultum aut iucundissimum sicut periculosum dum odoratum et splendidum.[^fn1] Ad astra per aspera, ante aliquod diligentia quando. Zoe Julius, illud serenus mare atque magniloquens.s
 
 
 ### Section head (H3) English
 
-Populi statim 10<sup>th</sup> universum;[^2] sed sonorus sive splendidum licet sapidum posteaquam universum quotiens sonorus quodcumque peculiare secundum tenebrosum quam minimus? Unicitim, quaedam cælum peruenio, quod sinuatus quas expositum etiam necessarium ut monumentale cum excellentissimum si levissimum? Felix Octavian ab quid cognitiones dum tenebrosum tamen sapidum quod si festinum ac rapidum atque gratium velut sapientissimum quandoquidem benevolentissimum aut vastissimum! Quinque centum and quadraginta octo imperium elicere timent: quodam mirificum utpote felix et admirabile licet separabile etiam cum cotidianum. 
+Populi  splendidum licet sapidum posteaquam universum quotiens sonorus quodcumque peculiare secundum tenebrosum quam minimus? Unicitim, quaedam cælum peruenio, quod sinuatus quas expositum statim 10<sup>th</sup> universum.[^fn2] sed sonorus sive etiam necessarium ut monumentale cum excellentissimum si levissimum? Felix Octavian ab quid cognitiones dum tenebrosum tamen sapidum quod si festinum ac rapidum atque gratium velut sapientissimum quandoquidem benevolentissimum aut vastissimum! Quinque centum and quadraginta octo imperium elicere timent: quodam mirificum utpote felix et admirabile licet separabile etiam cum cotidianum. 
 
-### <!-- Section head (H3 Hebrew) -->
+###
 עברית
 {: lang="he"}
 
@@ -43,5 +43,5 @@ Populi statim 10<sup>th</sup> universum;[^2] sed sonorus sive splendidum licet s
 
 -= 8 =-
 
-[^1]: Regius, aliquod veritas cloqor, prout divinum prout si delicatum qualiter regale sed delicatum ubi cum stultum si quidem elaboratum facere peculiare sive altitudinis quod ante separabile.
-[2]: Neque levissimum sed minimus quotie admirabile
+[^fn1]: Regius, aliquod veritas cloqor, prout divinum prout si delicatum qualiter regale sed delicatum ubi cum stultum si quidem elaboratum facere peculiare sive altitudinis quod ante separabile.
+[^fn2]: Neque levissimum sed minimus quotie admirabile
