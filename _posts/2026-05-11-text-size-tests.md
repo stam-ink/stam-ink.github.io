@@ -13,10 +13,11 @@ Zoe Julius, illud serenus mare atque magniloquens ut ne eximium quod curiosum qu
 
 Populi  splendidum licet sapidum posteaquam universum quotiens sonorus quodcumque peculiare secundum tenebrosum quam minimus? Unicitim, quaedam cælum peruenio, quod sinuatus quas expositum statim 10<sup>th</sup> universum.[^fn2] sed sonorus sive etiam necessarium ut monumentale cum excellentissimum si levissimum? Felix Octavian ab quid cognitiones dum tenebrosum tamen sapidum quod si festinum ac rapidum atque gratium velut sapientissimum quandoquidem benevolentissimum aut vastissimum! Quinque centum and quadraginta octo imperium elicere timent: quodam mirificum utpote felix et admirabile licet separabile etiam cum cotidianum. 
 
-<h3 lang="he"> עברית<h3>
+<div lang="he">
+<h3> עברית<h3>
 
 בנסך לצרגש רחל עמם רקתוק ניילף צחזפך יצאיצת קכזך שזטטא השתהם פנף ומץ ולקף טצעא סכבם שזבץ בכתק חצרץ מד ודחכך קפוקיה בלסם דפך יטעד העכן ירלע דטנתחדן נעך **זנתתבר מעתסך קמה צסבד** חמהסב חתעלר זעך דף מפץ קקותדף עץ ושף גפאגט גהרדצן החרם לידגקן שיכצז דשתץ דהחגנם זנף אבשפם הכשלמאי מקדסצץ עם ההדן רעסועאץ אץ באך ההלחט גטחך קגצן לם טסך יוץ פהזכט יפך נכתינם צכדהף שבץ גף תכגך אהיך לפאעצבם אכהואך נם משבחק
-{: lang="he"}
+</div>
 
 
 <div style="border: 1px solid #dbd2bd; padding: 20px; margin: 20px 0;">
