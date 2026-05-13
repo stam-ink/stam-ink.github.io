@@ -624,7 +624,7 @@ blockquote[lang="he"] {
 }
 
 /* Syncing manual <sup> and Kramdown footnotes */
-/*sup, 
+sup, 
 .footnote {
   font-size: 0.8em !important; 
   vertical-align: super;
@@ -632,16 +632,18 @@ blockquote[lang="he"] {
   text-decoration: none; /* Often footnotes are links; this keeps them clean */
 }
 
-/* Force Post Titles and Site Title to Black/900 */
+/* Global "Black" Override: Force 900 weight and True Black color */
+h1, h2, h3, h4, h5, h6, 
 .post-title,
 .post-title a,
 .sidebar-about h1,
-h1 {
-  color: #000000 !important;
+strong, b, 
+.ultra, 
+.sidebar-nav-item.active {
   font-weight: 900 !important;
+  color: #000000 !important;
   font-family: "Source Sans 3", sans-serif !important;
 }
-
 /*
  * end custom CSS
  */ 
