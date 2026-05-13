@@ -539,10 +539,14 @@ h3 {
   margin-bottom: 3em;
 }
 
-.mark /* for highlighting */
+/* Target both the <mark> tag and any element with class="mark" */
+/* for highlighting */
+mark, 
+.mark 
 {
-background-color: #dbd2bd;
-color: black;
+  background-color: var(--accent-tan) !important;
+  color: #000000 !important; /* Ensures text stays black on the tan background */
+  padding: 0 2px; /* Adds a tiny bit of breathing room around the highlight */
 }
 
 .box /* for tinted box (usually at top of post) */
@@ -620,12 +624,22 @@ blockquote[lang="he"] {
 }
 
 /* Syncing manual <sup> and Kramdown footnotes */
-sup, 
+/*sup, 
 .footnote {
   font-size: 0.8em !important; 
   vertical-align: super;
   line-height: 0;
   text-decoration: none; /* Often footnotes are links; this keeps them clean */
+}
+
+/* Force Post Titles and Site Title to Black/900 */
+.post-title,
+.post-title a,
+.sidebar-about h1,
+h1 {
+  color: #000000 !important;
+  font-weight: 900 !important;
+  font-family: "Source Sans 3", sans-serif !important;
 }
 
 /*
