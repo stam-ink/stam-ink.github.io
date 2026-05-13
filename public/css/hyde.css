@@ -687,6 +687,16 @@ h2 {
   margin-top: 0; 
 }
 
+/* Ensure Hebrew headers scale up in size */
+h1[lang="he"], 
+.post-title[lang="he"] {
+  font-size: 2.5rem !important; /* Matches Hyde's large title scale */
+}
+
+h3[lang="he"] {
+  font-size: 1.3rem !important; /* Matches your English H3 size */
+  line-height: 1.2;
+}
 
 /*
  * end custom CSS
