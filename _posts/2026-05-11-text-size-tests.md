@@ -8,6 +8,8 @@ date: 2026-05-11
 
 Zoe Julius, illud serenus mare atque magniloquens ut ne eximium quod curiosum quia magniloquens si cultum aut iucundissimum sicut periculosum dum odoratum et splendidum.[^fn1] Ad astra per aspera, ante aliquod diligentia quando. Zoe Julius, illud serenus mare atque magniloquens.
 
+<div dir="rtl">
+
 <ul>
 <li>
 <p>(5:4) <strong><mark>י</mark></strong>בוא <strong><mark>ה</mark></strong>מלך <strong><mark>ו</mark></strong>המן <strong><mark>ה</mark></strong>יום</p>
@@ -17,6 +19,8 @@ Zoe Julius, illud serenus mare atque magniloquens ut ne eximium quod curiosum qu
 <p>(7:7) כ<strong><mark>י</mark></strong> כלת<strong><mark>ה</mark></strong> אלי<strong><mark>ו</mark></strong> הרע<strong><mark>ה</mark></strong></p>
 </li>
 </ul>
+
+</div>
 
 ### Section head (H3) English
 
