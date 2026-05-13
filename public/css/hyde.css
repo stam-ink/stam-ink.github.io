@@ -632,8 +632,8 @@ sup,
   text-decoration: none; /* Often footnotes are links; this keeps them clean */
 }
 
-/* Global "Black" Override: Force 900 weight and True Black color */
-h1, h2, h3, h4, h5, h6, 
+/* 1. Global "Black" Override (English / General) */
+h1, h3, h4, h5, h6, 
 .post-title,
 .post-title a,
 .sidebar-about h1,
@@ -642,8 +642,20 @@ strong, b,
 .sidebar-nav-item.active {
   font-weight: 900 !important;
   color: #000000 !important;
-  font-family: "Source Sans 3", sans-serif !important;
+  /* Remove the font-family from here so it doesn't override Hebrew */
 }
+
+/* 2. Specific Hebrew "ExtraBold" Override */
+[lang="he"] strong, 
+[lang="he"] b, 
+[lang="he"] h1, 
+[lang="he"] h3,
+.post-title[lang="he"] {
+  font-family: "Assistant", sans-serif !important;
+  font-weight: 800 !important; /* Assistant's maximum weight */
+  color: #000000 !important;
+}
+
 /*
  * end custom CSS
  */ 
