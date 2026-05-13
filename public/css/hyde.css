@@ -656,6 +656,38 @@ strong, b,
   color: #000000 !important;
 }
 
+/* 3. Global H2 Override */
+h2 {
+  font-weight: 400 !important; /* Forces the subhead to be normal weight, not bold */
+  /* This preserves the size, all-caps, and spacing already defined earlier in the CSS */
+}
+
+/* HEAD + SUBHEAD */
+
+/* 1. Default: Big space after H1 */
+.post-title, h1 {
+  margin-bottom: 2.5rem !important; 
+}
+
+/* 2. Exception: If H2 immediately follows H1, pull them together */
+h1 + h2, 
+.post-title + h2 {
+  margin-top: -2.0rem !important; /* Pulls the H2 up toward the H1 */
+  margin-bottom: 2.5rem !important; /* Pushes the body text down away from the H2 */
+}
+
+/* 3. Global H2 Override (Refined) */
+h2 {
+  color: #000000 !important;
+  font-weight: 400 !important; /* Forces the subhead to be normal weight, not bold */
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 1em;
+  /* Ensure H2 doesn't have its own large top margin by default */
+  margin-top: 0; 
+}
+
+
 /*
  * end custom CSS
  */ 
