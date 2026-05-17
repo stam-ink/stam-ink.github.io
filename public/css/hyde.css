@@ -722,6 +722,41 @@ h3[lang="he"] {
   border-inline-end: none;
 }
 
+/* table stuff
+
+table <!-- no idea what this is for -->
+{
+margin-top: 2em;
+margin-bottom: 2em;
+width: 100%;
+}
+
+th, td <!-- no idea what this is for -->
+{
+padding-top: .5em;
+padding-bottom: .5em;
+padding-right: 1.8em;
+padding-left: 1.8em;
+}
+
+.tabular <!-- no idea what this is for -->
+{
+    border-collapse: collapse;
+}
+
+.table-headr <!-- no idea what this is for -->
+{
+    background-color: #dbd2bd;
+    color: white;
+}
+
+.table-body <!-- no idea what this is for -->
+{    
+border-bottom: 1px solid #dbd2bd;
+}
+
+
+
 /*
  * end custom CSS
  */ 

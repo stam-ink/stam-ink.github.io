@@ -71,14 +71,14 @@ Felix Octavian ab quid cognitiones dum tenebrosum tamen sapidum quod si festinum
 
 [^fn1]: Regius, aliquod veritas cloqor, qualiter regale sed delicatum ubi cum stultum si quidem elaboratum facere peculiare sive altitudinis quod ante separabile.
 
-[^fn2]: Neque levissimum sed minimus quotie admirabile.
-|   Sefer    | Amudim | Haftaros | Ratio |
-| :--------: | :----: | :------: | :---: |
-| Yehoshu'ah |   32   |    3     | 0.09  |
-|  Shoftim   |   31   |    3     |  0.1  |
-|  Shmu'el   |   76   |    8     | 0.11  |
-|  Melachim  |   78   |    8     |  0.1  |
-| Yeshayahu  |   53   |    21    |  0.4  |
-| Yirmiyahu  |   69   |    9     | 0.13  |
-| Yechezkel  |   59   |    9     | 0.15  |
-| Trei Asar  |   46   |    15    | 0.33  |
+[^fn2]: Neque levissimum sed minimus quotie admirabile.  
+    |   Sefer    | Amudim | Haftaros | Ratio |
+    | :--------: | :----: | :------: | :---: |
+    | Yehoshu'ah |   32   |    3     | 0.09  |
+    |  Shoftim   |   31   |    3     |  0.1  |
+    |  Shmu'el   |   76   |    8     | 0.11  |
+    |  Melachim  |   78   |    8     |  0.1  |
+    | Yeshayahu  |   53   |    21    |  0.4  |
+    | Yirmiyahu  |   69   |    9     | 0.13  |
+    | Yechezkel  |   59   |    9     | 0.15  |
+    | Trei Asar  |   46   |    15    | 0.33  |
