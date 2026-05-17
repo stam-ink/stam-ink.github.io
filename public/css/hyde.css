@@ -698,6 +698,30 @@ h3[lang="he"] {
   line-height: 1.2;
 }
 
+/* Side-by-Side Translation Columns */
+.transl-row {
+  display: flex;
+  gap: 2rem; /* Creates breathing room between the columns */
+  margin: 2rem 0;
+}
+
+.transl-col {
+  flex: 1; /* Gives both columns equal width */
+  min-width: 250px; /* Forces them to stack on small mobile screens */
+}
+
+/* Clean up blockquotes inside columns using logical properties */
+.transl-col blockquote {
+  margin: 0;
+  
+  /* Logical properties: automatically flips based on dir="rtl" or dir="ltr" */
+  padding-inline-start: 1rem;
+  padding-inline-end: 0;
+  
+  border-inline-start: 3px solid #dbd2bd;
+  border-inline-end: none;
+}
+
 /*
  * end custom CSS
  */ 
