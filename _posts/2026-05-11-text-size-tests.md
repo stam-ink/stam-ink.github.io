@@ -72,6 +72,73 @@ Felix Octavian ab quid cognitiones dum tenebrosum tamen sapidum quod si festinum
 [^fn1]: Regius, aliquod veritas cloqor, qualiter regale sed delicatum ubi cum stultum si quidem elaboratum facere peculiare sive altitudinis quod ante separabile.
 
 [^fn2]: Neque levissimum sed minimus quotie admirabile.  
+<table>
+<col align="left" />
+<col align="left" />
+<col align="left" />
+<col align="left" />
+<thead>
+<tr>
+	<th>Sefer</th>
+	<th>Amudim</th>
+	<th>Haftaros</th>
+	<th>Ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td align="left">Yehoshu&#8217;ah</td>
+	<td align="left">32</td>
+	<td align="left">3</td>
+	<td align="left">0.09</td>
+</tr>
+<tr>
+	<td align="left">Shoftim</td>
+	<td align="left">31</td>
+	<td align="left">3</td>
+	<td align="left">0.1</td>
+</tr>
+<tr>
+	<td align="left">Shmu&#8217;el</td>
+	<td align="left">76</td>
+	<td align="left">8</td>
+	<td align="left">0.11</td>
+</tr>
+<tr>
+	<td align="left">Melachim</td>
+	<td align="left">78</td>
+	<td align="left">8</td>
+	<td align="left">0.1</td>
+</tr>
+<tr>
+	<td align="left">Yeshayahu</td>
+	<td align="left">53</td>
+	<td align="left">21</td>
+	<td align="left">0.4</td>
+</tr>
+<tr>
+	<td align="left">Yirmiyahu</td>
+	<td align="left">69</td>
+	<td align="left">9</td>
+	<td align="left">0.13</td>
+</tr>
+<tr>
+	<td align="left">Yechezkel</td>
+	<td align="left">59</td>
+	<td align="left">9</td>
+	<td align="left">0.15</td>
+</tr>
+<tr>
+	<td align="left">Trei Asar</td>
+	<td align="left">46</td>
+	<td align="left">15</td>
+	<td align="left">0.33</td>
+</tr>
+</tbody>
+</table>
+
+
+<!--
     |   Sefer    | Amudim | Haftaros | Ratio |
     | :--------: | :----: | :------: | :---: |
     | Yehoshu'ah |   32   |    3     | 0.09  |
@@ -82,3 +149,4 @@ Felix Octavian ab quid cognitiones dum tenebrosum tamen sapidum quod si festinum
     | Yirmiyahu  |   69   |    9     | 0.13  |
     | Yechezkel  |   59   |    9     | 0.15  |
     | Trei Asar  |   46   |    15    | 0.33  |
+    -->
