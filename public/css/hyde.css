@@ -722,72 +722,62 @@ h3[lang="he"] {
   border-inline-end: none;
 }
 
-/* Clean, Typographic Table Styling (Full Reset) */
+/* Clean, Centered Typographic Table Styling */
 table {
-  width: 100%;
+  width: auto !important;      /* Stops the table from forcing itself to 100% width */
+  max-width: 80%;             /* Prevents it from ever spilling over on small screens */
+  margin: 2.5rem auto !important; /* The 'auto' on left/right perfectly centers the table */
   border-collapse: collapse;
-  margin: 2.5rem 0;
   font-family: "Source Sans 3", sans-serif;
   font-size: 0.95rem;
   position: relative;
-  border: none !important; /* Forces out the outer box border */
+  border: none !important;
   background-color: transparent !important;
 }
 
-/* 1. Header Row Formatting */
+/* 1. Cell Padding (Controls column tightness) */
+table thead th,
+table tbody td {
+  padding: 8px 24px !important; /* 8px top/bottom for crisp spacing, 24px left/right for tight columns */
+  border-bottom: 1px solid #dbd2bd !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  background: none !important;
+  background-color: transparent !important;
+  color: #000000;
+}
+
+/* Header weight distinction */
 table thead th {
   font-weight: 900 !important;
   color: #000000 !important;
-  padding: 12px !important;
-  border-bottom: 1px solid #dbd2bd !important;
-  /* Annihilate any vertical borders from Poole */
-  border-top: none !important;
-  border-left: none !important;
-  border-right: none !important;
-  background-color: transparent !important;
 }
 
-/* 2. Body Rows Formatting */
-table tbody tr,
-table tbody td {
-  color: #000000;
-  padding: 12px !important;
-  /* Thin tan horizontal rule between data rows */
-  border-bottom: 1px solid #dbd2bd !important;
-  /* Annihilate any vertical borders from Poole */
-  border-top: none !important;
-  border-left: none !important;
-  border-right: none !important;
-  /* KILL THE ZEBRA STRIPING: Force background to transparent for all rows */
-  background: none !important;
-  background-color: transparent !important;
-}
-
-/* Remove the standard border from the last row so it doesn't double up with our custom footer line */
+/* Remove internal border from the final row so it doesn't fight our footer line */
 table tbody tr:last-child td {
   border-bottom: none !important;
 }
 
-/* 3. Indented Top Rule (Above Header) */
+/* 2. Top Framing Rule (40% Indent) */
 table::before {
   content: "";
   position: absolute;
   top: 0;
-  left: 5%;  
-  right: 5%; 
+  left: 40%;  /* Pulls line inward 40% from the left edge of the table */
+  right: 40%; /* Pulls line inward 40% from the right edge of the table */
   border-top: 1px solid #dbd2bd !important;
 }
 
-/* 4. Indented Bottom Rule (Below Last Row) */
+/* 3. Bottom Framing Rule (40% Indent) */
 table::after {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 5%;  
-  right: 5%; 
+  left: 40%;  /* Pulls line inward 40% from the left edge of the table */
+  right: 40%; /* Pulls line inward 40% from the right edge of the table */
   border-bottom: 1px solid #dbd2bd !important;
 }
-
 
 
  /* 
