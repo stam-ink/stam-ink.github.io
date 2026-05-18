@@ -462,7 +462,8 @@ hr {
 /* Shared characteristics for actual footnotes and footnotes-style class */
 .footnotes, 
 .endnotes,
-.aside {
+.aside,
+.table {
 /*  font-family: serif;   /* Or whichever font you prefer for notes */
   font-size: 0.85rem;
   line-height: 1.4;
@@ -723,23 +724,23 @@ h3[lang="he"] {
 }
 
 /* Clean, Centered Typographic Table Styling */
-table {
-  width: auto !important;      /* Stops the table from forcing itself to 100% width */
-  max-width: 80%;             /* Prevents it from ever spilling over on small screens */
-  margin: 2.5rem auto !important; /* The 'auto' on left/right perfectly centers the table */
+table.table {
+  width: auto !important;      /* Lets the columns shrink-wrap tightly to the content */
+  max-width: 85%;             /* Prevents any mobile overflow */
+  margin: 2.5rem auto !important; /* Perfectly centers the narrow table layout */
   border-collapse: collapse;
   font-family: "Source Sans 3", sans-serif;
-  font-size: 0.95rem;
+  /* Font size is now governed by your .table class definition elsewhere */
   position: relative;
   border: none !important;
   background-color: transparent !important;
 }
 
-/* 1. Cell Padding (Controls column tightness) */
-table thead th,
-table tbody td {
-  padding: 8px 24px !important; /* 8px top/bottom for crisp spacing, 24px left/right for tight columns */
-  border-bottom: 1px solid #dbd2bd !important;
+/* 1. Clear Cell Borders & Set Padding */
+table.table thead th,
+table.table tbody td {
+  padding: 8px 24px !important; /* Crisp vertical spacing, tight horizontal gaps */
+  border-bottom: 1px solid #dbd2bd !important; /* Clean horizontal separator rules */
   border-top: none !important;
   border-left: none !important;
   border-right: none !important;
@@ -748,37 +749,36 @@ table tbody td {
   color: #000000;
 }
 
-/* Header weight distinction */
-table thead th {
+/* Header Bold Weight Distinction Only */
+table.table thead th {
   font-weight: 900 !important;
   color: #000000 !important;
 }
 
-/* Remove internal border from the final row so it doesn't fight our footer line */
-table tbody tr:last-child td {
+/* Remove internal border from final row to prevent collision with our footer rule */
+table.table tbody tr:last-child td {
   border-bottom: none !important;
 }
 
-/* 2. Top Framing Rule (40% Indent) */
-table::before {
+/* 2. Top Framing Rule (15% Indent) */
+table.table::before {
   content: "";
   position: absolute;
   top: 0;
-  left: 40%;  /* Pulls line inward 40% from the left edge of the table */
-  right: 40%; /* Pulls line inward 40% from the right edge of the table */
+  left: 15%;  /* Pulls line gracefully inward from the left edge */
+  right: 15%; /* Pulls line gracefully inward from the right edge */
   border-top: 1px solid #dbd2bd !important;
 }
 
-/* 3. Bottom Framing Rule (40% Indent) */
-table::after {
+/* 3. Bottom Framing Rule (15% Indent) */
+table.table::after {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 40%;  /* Pulls line inward 40% from the left edge of the table */
-  right: 40%; /* Pulls line inward 40% from the right edge of the table */
+  left: 15%;  /* Mirrors the top left indent */
+  right: 15%; /* Mirrors the top right indent */
   border-bottom: 1px solid #dbd2bd !important;
 }
-
 
  /* 
  End custom CSS
