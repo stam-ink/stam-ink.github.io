@@ -722,40 +722,49 @@ h3[lang="he"] {
   border-inline-end: none;
 }
 
-/* Clean, Typographic Table Styling (Custom Accent Lines) */
+/* Clean, Typographic Table Styling (Full Reset) */
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 2.5rem 0;
   font-family: "Source Sans 3", sans-serif;
   font-size: 0.95rem;
-  position: relative; /* Necessary to anchor the indented top/bottom lines */
+  position: relative;
+  border: none !important; /* Forces out the outer box border */
+  background-color: transparent !important;
 }
 
 /* 1. Header Row Formatting */
-thead th {
-  font-weight: 900 !important; /* Differentiates header via bold weight only */
+table thead th {
+  font-weight: 900 !important;
   color: #000000 !important;
   padding: 12px !important;
-  border-bottom: 1px solid #dbd2bd !important; /* Minimal tan line below header */
+  border-bottom: 1px solid #dbd2bd !important;
+  /* Annihilate any vertical borders from Poole */
   border-top: none !important;
   border-left: none !important;
   border-right: none !important;
+  background-color: transparent !important;
 }
 
 /* 2. Body Rows Formatting */
-tbody td {
-  padding: 12px !important;
+table tbody tr,
+table tbody td {
   color: #000000;
-  /* Thin tan rules between all data rows */
+  padding: 12px !important;
+  /* Thin tan horizontal rule between data rows */
   border-bottom: 1px solid #dbd2bd !important;
+  /* Annihilate any vertical borders from Poole */
   border-top: none !important;
   border-left: none !important;
   border-right: none !important;
+  /* KILL THE ZEBRA STRIPING: Force background to transparent for all rows */
+  background: none !important;
+  background-color: transparent !important;
 }
 
 /* Remove the standard border from the last row so it doesn't double up with our custom footer line */
-tbody tr:last-child td {
+table tbody tr:last-child td {
   border-bottom: none !important;
 }
 
@@ -764,9 +773,9 @@ table::before {
   content: "";
   position: absolute;
   top: 0;
-  left: 5%;  /* Indents from the left */
-  right: 5%; /* Indents from the right */
-  border-top: 1px solid #dbd2bd;
+  left: 5%;  
+  right: 5%; 
+  border-top: 1px solid #dbd2bd !important;
 }
 
 /* 4. Indented Bottom Rule (Below Last Row) */
@@ -774,11 +783,10 @@ table::after {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 5%;  /* Indents from the left */
-  right: 5%; /* Indents from the right */
-  border-bottom: 1px solid #dbd2bd;
+  left: 5%;  
+  right: 5%; 
+  border-bottom: 1px solid #dbd2bd !important;
 }
-
 
 
 
