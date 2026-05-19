@@ -823,7 +823,28 @@ table.table::after {
   object-fit: cover;    /* Clean cropping for the image contents */
 }
 
+/* --- UNIVERSAL IMAGE WIDTH UTILITIES --- */
 
+/* 1/1: Full Width */
+.post img.w-full {
+  max-width: 100% !important;
+}
+
+/* 1/2: Half Width */
+.post img.w-half {
+  max-width: 50% !important;
+}
+
+/* 1/3: Third Width */
+.post img.w-third {
+  max-width: 33.33% !important;
+}
+
+/* Stamp Size: 120px cap (Perfect for small details, coins, or actual stamps) */
+.post img.w-stamp {
+  max-width: 120px !important; /* Locks the exact structural size on desktop */
+  width: 16.66%;               /* Allows fluid down-scaling on tiny mobile screens */
+}
 
  /* 
  End custom CSS
