@@ -699,29 +699,31 @@ h3[lang="he"] {
   line-height: 1.2;
 }
 
-/* Side-by-Side Translation Columns */
+/********************************
+/* Side-by-Side Translation Columns 
 .transl-row {
   display: flex;
-  gap: 2rem; /* Creates breathing room between the columns */
+  gap: 2rem; /* Creates breathing room between the columns 
   margin: 2rem 0;
 }
 
 .transl-col {
-  flex: 1; /* Gives both columns equal width */
-  min-width: 250px; /* Forces them to stack on small mobile screens */
+  flex: 1; /* Gives both columns equal width 
+  min-width: 250px; /* Forces them to stack on small mobile screens 
 }
 
-/* Clean up blockquotes inside columns using logical properties */
+/* Clean up blockquotes inside columns using logical properties 
 .transl-col blockquote {
   margin: 0;
   
-  /* Logical properties: automatically flips based on dir="rtl" or dir="ltr" */
+  /* Logical properties: automatically flips based on dir="rtl" or dir="ltr" 
   padding-inline-start: 1rem;
   padding-inline-end: 0;
   
   border-inline-start: 3px solid #dbd2bd;
   border-inline-end: none;
-}
+} 
+********************************/
 
 /* Clean, Centered Typographic Table Styling */
 table.table {
@@ -779,6 +781,49 @@ table.table::after {
   right: 15%; /* Mirrors the top right indent */
   border-bottom: 1px solid #dbd2bd !important;
 }
+
+/* --- IMAGES & FIGURES FRAMEWORK --- */
+
+/* 1. Global Image Defaults: Zero Embellishments */
+.message img,
+.post img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2.5rem auto; /* Centers images with healthy vertical breathing room */
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+/* 2. Hairline Border Helper Class (For white/light images) */
+.post img.light-bg {
+  outline: 1px solid #dbd2bd !important; /* Elegant hairline border */
+  outline-offset: -1px; /* Keeps the border cleanly inside the image bounds */
+}
+
+/* Image Groups / Photo Galleries (Strict Single-Row Layout) */
+.image-grid {
+  display: flex;
+  flex-wrap: nowrap;       /* CRITICAL: Prevents images from ever dropping to a new line */
+  overflow: hidden;        /* CRITICAL: Instantly hides any image that spills past the edge */
+  gap: 12px;               /* Consistent gap between thumbnails */
+  justify-content: center; /* Centers the visible group within the text column */
+  margin: 2.5rem 0;
+  width: 100%;
+}
+
+/* Grid Item Styles */
+.image-grid a,
+.image-grid img {
+  margin: 0 !important;
+  flex: 0 1 150px;      /* '0' prevents them from stretching weirdly; ideal size is 150px */
+  max-width: 200px;     
+  aspect-ratio: 1 / 1;  /* Forces perfect squares */
+  object-fit: cover;    /* Clean cropping for the image contents */
+}
+
+
 
  /* 
  End custom CSS

@@ -6,7 +6,7 @@ date: 2026-05-04
 
 ## Iucundissimum Sicut Dum 
 
-[Zoe Julius](stam-ink.github.io/blog-draft/2026/04/29/footnote-post/), illud serenus mare atque magniloquens ut ne eximium quod curiosum quia magniloquens si cultum aut iucundissimum sicut periculosum dum odoratum et splendidum. Ad astra per aspera, ante aliquod diligentia quando.
+[Zoe Julius]({% post_url 2026-04-29-footnote-post %}), illud serenus mare atque magniloquens ut ne eximium quod curiosum quia magniloquens si cultum aut iucundissimum sicut periculosum dum odoratum et splendidum. Ad astra per aspera, ante aliquod diligentia quando.
 
 Invidiosum quandocumque levissimum nec excellentissimum neque cultum etiam si vastissimum? Haec divergens exemplar nihilum vigilo; sed brutum sive curiosum nisi compatibile quam festinum tamquam professionale utquam lucens quod monumentale. Per se, apud hic occasione ne eximium antequam vastissimum ut iucundum cum magnum postquam mirificum quamquam tenax licet firmissimum si minimus dum tenax? Hoc **nullus clarissimus habilis longe** _nulla exuberans epistula_ frater laboris sors nascor; a illa adventura tamen benevolentissimum ac avitum atque minimus _nullum universalis verbum etsi optimum aut irrationabile! Ille obligatus corpus accurate utor: et caveosum nec cultum si tamen gratium neque simplicissimum ubi mirabile ut si expositum sicut si **omne culminans** magnum.
 
