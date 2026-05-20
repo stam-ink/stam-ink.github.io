@@ -847,7 +847,8 @@ table.table::after {
   width: 50% !important;        /* Mobile default: more prominent 1/2 width */
   max-width: 360px !important;  /* Caps it so it doesn't get massive */
   display: block;
-  margin: 1.5rem auto !important;
+/*  margin: 1.5rem auto !important; */
+  margin: 1.5rem 0 !important; /* Locks image flush-left, zeroing out right margin */
 }
 
 /* --- DESKTOP OVERRIDES (Screens wider than 48rem/768px) --- */
