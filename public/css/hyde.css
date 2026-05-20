@@ -797,7 +797,7 @@ table.table::after {
 }
 
 /* 2. Hairline Border Helper Class (For white/light images) */
-.post img.light-bg {
+.post img.brdr {
   outline: 1px solid #dbd2bd !important; /* Elegant hairline border */
   outline-offset: -1px; /* Keeps the border cleanly inside the image bounds */
 }
@@ -845,6 +845,19 @@ table.table::after {
   max-width: 120px !important; /* Locks the exact structural size on desktop */
   width: 16.66%;               /* Allows fluid down-scaling on tiny mobile screens */
 }
+
+/* --- GRAPHIC POSITIONING UTILITIES --- */
+
+@media (min-width: 48rem) {
+  /* Only floats on desktop screens to protect mobile reading */
+  .post img.float-right {
+    float: right;
+    margin: 0 0 1.5rem 2rem !important; /* Clears margins on top/right, adds buffer on left/bottom */
+    clear: right;
+  }
+}
+
+
 
  /* 
  End custom CSS
