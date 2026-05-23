@@ -727,27 +727,39 @@ h3[lang="he"] {
 
 /* Clean, Centered Typographic Table Styling */
 table.table {
-  width: auto !important;       /* RESTORED: Lets the columns shrink-wrap tightly */
-  max-width: 100% !important;   /* Modified to allow full width usage inside container */
-  margin: 2.5rem auto !important; /* RESTORED: Perfectly centers the layout */
+  display: flex !important;    /* Forces the table layout onto a flexible axis */
+  flex-direction: column;      /* Stacks header and body vertically */
+  width: max-content !important;/* Shrink-wraps the boundaries tightly to your data columns */
+  max-width: 100% !important;   /* Safety bracket for small mobile screens */
+  overflow-x: auto;            /* Safety net: enables horizontal swiping if needed */
+  -webkit-overflow-scrolling: touch; /* Smooth iOS touch momentum */
+  
+  margin: 2.5rem auto !important; /* CRITICAL: Perfectly centers the shrink-wrapped box */
+  
   border-collapse: collapse;
   font-family: "Source Sans 3", sans-serif;
-  font-size: 0.85rem !important; /* INTEGRATED: Matches your exact footnote baseline */
-  position: relative;
+  font-size: 0.85rem !important; /* Locks to your exact footnote baseline */
+  position: relative;            /* Keeps the ::before and ::after rules anchored here */
   border: none !important;
   background-color: transparent !important;
-  white-space: nowrap;        /* INTEGRATED: Strictly prevents text from breaking onto new lines */
+  white-space: nowrap;          /* Strictly prevents text from breaking onto new lines */
 }
 
 /* 1. Clear Cell Borders & Set Padding */
+table.table thead, 
+table.table tbody, 
+table.table tr {
+  display: contents;            /* Keeps HTML grid mechanics working normally under flexbox */
+}
+
 table.table thead th,
 table.table tbody td {
-  padding: 8px 14px !important; /* INTEGRATED: Slimmer column padding (down from 24px) */
-  border-bottom: 1px solid #dbd2bd !important; /* RESTORED: Clean horizontal rules */
-  border-top: none !important;  /* RESTORED: No top boxes */
-  border-left: none !important; /* RESTORED: No vertical lines */
-  border-right: none !important;/* RESTORED: No vertical lines */
-  background: none !important;  /* RESTORED: No zebra striping background */
+  padding: 8px 14px !important; /* Compact column margins */
+  border-bottom: 1px solid #dbd2bd !important; /* Clean horizontal lines */
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  background: none !important;
   background-color: transparent !important;
   color: #000000;
 }
@@ -768,8 +780,8 @@ table.table::before {
   content: "";
   position: absolute;
   top: 0;
-  left: 15%;  
-  right: 15%; 
+  left: 15%;  /* Anchors exactly 15% inward from the true data boundary */
+  right: 15%; /* Anchors exactly 15% inward from the true data boundary */
   border-top: 1px solid #dbd2bd !important;
 }
 
@@ -782,18 +794,6 @@ table.table::after {
   right: 15%; 
   border-bottom: 1px solid #dbd2bd !important;
 }
-
-/* --- MOBILE SAFETY VALVE --- */
-/* This safely applies the side-scroll container wrapper logic globally without breaking the rules above */
-.table-wrapper, 
-div.highlighter-rouge + table,
-p + table {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
 
 /* --- IMAGES & FIGURES FRAMEWORK --- */
 
