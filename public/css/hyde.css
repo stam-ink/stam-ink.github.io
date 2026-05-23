@@ -727,59 +727,20 @@ h3[lang="he"] {
 
 /* Clean, Centered Typographic Table Styling */
 table.table {
-  width: auto !important;      /* Lets the columns shrink-wrap tightly to the content */
-  max-width: 85%;             /* Prevents any mobile overflow */
-  margin: 2.5rem auto !important; /* Perfectly centers the narrow table layout */
+  display: block;             
+  width: 100% !important;     
+  overflow-x: auto;           
+  -webkit-overflow-scrolling: touch; 
+  margin: 2.5rem auto !important;
   border-collapse: collapse;
   font-family: "Source Sans 3", sans-serif;
-  /* Font size is now governed by your .table class definition elsewhere */
+  
+  font-size: 0.85rem !important; /* <--- Updated to match your exact footnote baseline and added !important */
+  
   position: relative;
   border: none !important;
   background-color: transparent !important;
-}
-
-/* 1. Clear Cell Borders & Set Padding */
-table.table thead th,
-table.table tbody td {
-  padding: 8px 24px !important; /* Crisp vertical spacing, tight horizontal gaps */
-  border-bottom: 1px solid #dbd2bd !important; /* Clean horizontal separator rules */
-  border-top: none !important;
-  border-left: none !important;
-  border-right: none !important;
-  background: none !important;
-  background-color: transparent !important;
-  color: #000000;
-}
-
-/* Header Bold Weight Distinction Only */
-table.table thead th {
-  font-weight: 900 !important;
-  color: #000000 !important;
-}
-
-/* Remove internal border from final row to prevent collision with our footer rule */
-table.table tbody tr:last-child td {
-  border-bottom: none !important;
-}
-
-/* 2. Top Framing Rule (15% Indent) */
-table.table::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 15%;  /* Pulls line gracefully inward from the left edge */
-  right: 15%; /* Pulls line gracefully inward from the right edge */
-  border-top: 1px solid #dbd2bd !important;
-}
-
-/* 3. Bottom Framing Rule (15% Indent) */
-table.table::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 15%;  /* Mirrors the top left indent */
-  right: 15%; /* Mirrors the top right indent */
-  border-bottom: 1px solid #dbd2bd !important;
+  white-space: nowrap;        
 }
 
 /* --- IMAGES & FIGURES FRAMEWORK --- */
