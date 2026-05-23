@@ -727,21 +727,73 @@ h3[lang="he"] {
 
 /* Clean, Centered Typographic Table Styling */
 table.table {
-  display: block;             
-  width: 100% !important;     
-  overflow-x: auto;           
-  -webkit-overflow-scrolling: touch; 
-  margin: 2.5rem auto !important;
+  width: auto !important;       /* RESTORED: Lets the columns shrink-wrap tightly */
+  max-width: 100% !important;   /* Modified to allow full width usage inside container */
+  margin: 2.5rem auto !important; /* RESTORED: Perfectly centers the layout */
   border-collapse: collapse;
   font-family: "Source Sans 3", sans-serif;
-  
-  font-size: 0.85rem !important; /* <--- Updated to match your exact footnote baseline and added !important */
-  
+  font-size: 0.85rem !important; /* INTEGRATED: Matches your exact footnote baseline */
   position: relative;
   border: none !important;
   background-color: transparent !important;
-  white-space: nowrap;        
+  white-space: nowrap;        /* INTEGRATED: Strictly prevents text from breaking onto new lines */
 }
+
+/* 1. Clear Cell Borders & Set Padding */
+table.table thead th,
+table.table tbody td {
+  padding: 8px 14px !important; /* INTEGRATED: Slimmer column padding (down from 24px) */
+  border-bottom: 1px solid #dbd2bd !important; /* RESTORED: Clean horizontal rules */
+  border-top: none !important;  /* RESTORED: No top boxes */
+  border-left: none !important; /* RESTORED: No vertical lines */
+  border-right: none !important;/* RESTORED: No vertical lines */
+  background: none !important;  /* RESTORED: No zebra striping background */
+  background-color: transparent !important;
+  color: #000000;
+}
+
+/* Header Bold Weight Distinction Only */
+table.table thead th {
+  font-weight: 900 !important;
+  color: #000000 !important;
+}
+
+/* Remove internal border from final row to prevent collision with our footer rule */
+table.table tbody tr:last-child td {
+  border-bottom: none !important;
+}
+
+/* 2. Top Framing Rule (15% Indent) */
+table.table::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 15%;  
+  right: 15%; 
+  border-top: 1px solid #dbd2bd !important;
+}
+
+/* 3. Bottom Framing Rule (15% Indent) */
+table.table::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 15%;  
+  right: 15%; 
+  border-bottom: 1px solid #dbd2bd !important;
+}
+
+/* --- MOBILE SAFETY VALVE --- */
+/* This safely applies the side-scroll container wrapper logic globally without breaking the rules above */
+.table-wrapper, 
+div.highlighter-rouge + table,
+p + table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 
 /* --- IMAGES & FIGURES FRAMEWORK --- */
 
