@@ -727,35 +727,23 @@ h3[lang="he"] {
 
 /* Clean, Centered Typographic Table Styling */
 table.table {
-  display: flex !important;    /* Forces the table layout onto a flexible axis */
-  flex-direction: column;      /* Stacks header and body vertically */
-  width: max-content !important;/* Shrink-wraps the boundaries tightly to your data columns */
-  max-width: 100% !important;   /* Safety bracket for small mobile screens */
-  overflow-x: auto;            /* Safety net: enables horizontal swiping if needed */
-  -webkit-overflow-scrolling: touch; /* Smooth iOS touch momentum */
-  
-  margin: 2.5rem auto !important; /* CRITICAL: Perfectly centers the shrink-wrapped box */
-  
+  width: auto !important;       /* RESTORED: Lets the columns shrink-wrap tightly to the content */
+  max-width: 100% !important;   /* Allows the data grid to touch the edge of narrow screens safely */
+  margin: 2.5rem auto !important; /* RESTORED: Perfectly centers the narrow table layout */
   border-collapse: collapse;
   font-family: "Source Sans 3", sans-serif;
-  font-size: 0.85rem !important; /* Locks to your exact footnote baseline */
-  position: relative;            /* Keeps the ::before and ::after rules anchored here */
+  font-size: 0.85rem !important; /* INTEGRATED: Sized down to match your exact footnote baseline */
+  position: relative;
   border: none !important;
   background-color: transparent !important;
-  white-space: nowrap;          /* Strictly prevents text from breaking onto new lines */
+  white-space: nowrap;          /* INTEGRATED: Strictly prevents text from breaking onto separate lines */
 }
 
 /* 1. Clear Cell Borders & Set Padding */
-table.table thead, 
-table.table tbody, 
-table.table tr {
-  display: contents;            /* Keeps HTML grid mechanics working normally under flexbox */
-}
-
 table.table thead th,
 table.table tbody td {
-  padding: 8px 14px !important; /* Compact column margins */
-  border-bottom: 1px solid #dbd2bd !important; /* Clean horizontal lines */
+  padding: 8px 14px !important; /* INTEGRATED: Slightly tighter gutters to help fit mobile screens naturally */
+  border-bottom: 1px solid #dbd2bd !important; /* Clean horizontal separator rules */
   border-top: none !important;
   border-left: none !important;
   border-right: none !important;
@@ -780,8 +768,8 @@ table.table::before {
   content: "";
   position: absolute;
   top: 0;
-  left: 15%;  /* Anchors exactly 15% inward from the true data boundary */
-  right: 15%; /* Anchors exactly 15% inward from the true data boundary */
+  left: 15%;  /* Pulls line gracefully inward from the left edge */
+  right: 15%; /* Pulls line gracefully inward from the right edge */
   border-top: 1px solid #dbd2bd !important;
 }
 
@@ -790,10 +778,26 @@ table.table::after {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 15%;  
-  right: 15%; 
+  left: 15%;  /* Mirrors the top left indent */
+  right: 15%; /* Mirrors the top right indent */
   border-bottom: 1px solid #dbd2bd !important;
 }
+
+/* --- THE MOBILE SCROLL VALVE --- */
+/* On mobile viewports only, turn the table container into a scroll box. 
+   This leaves desktop layouts acting 100% normally. */
+@media (max-width: 48rem) {
+  /* Targets the default wrapper block Jekyll wraps tables in */
+  .post table.table {
+    display: block !important; 
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    width: max-content !important; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
 
 /* --- IMAGES & FIGURES FRAMEWORK --- */
 
