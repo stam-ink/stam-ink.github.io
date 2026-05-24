@@ -450,8 +450,6 @@ hr {
   margin-top: 3em;
   border-top: 1px solid #dbd2bd; /* Your light tan color */
   padding-top: 1rem;
-/*  font-size: 0.85rem; /* Standard smaller footnoted size */
-/*  color: #555;        /* Optional: slightly softer black/grey */
 }
 
 /* Remove the default <hr> if kramdown is inserting one */
@@ -463,8 +461,8 @@ hr {
 .footnotes, 
 .endnotes,
 .aside,
-.table {
-/*  font-family: serif;   /* Or whichever font you prefer for notes */
+.table,
+.caption { 
   font-size: 0.85rem;
   line-height: 1.4;
 }
@@ -474,8 +472,7 @@ hr {
 .aside {
   font-style: italic;   /* If you want that specific look */
 /*  display: block;
-  margin: 1em 0;
-  color: #666; */
+  margin: 1em 0;*/
 }
 
 h2 /* Post sub-head*/
@@ -882,6 +879,27 @@ table.table::after {
     margin: 0 0 1.5rem 2rem !important;
   }
 }
+
+/* --- TYPOGRAPHIC IMAGE CAPTIONS --- */
+
+.post .caption {
+  display: block;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 300 !important;    /* Light weight for elegant contrast */
+  color: #000000 !important;      /* Pure black text (No gray, no tan) */
+  text-align: center;             /* Centers perfectly below the image */
+  margin-top: -0.75rem !important; /* Pulls it up tight to the asset above it */
+  margin-bottom: 2.5rem !important;/* Pushes the following body paragraph down safely */
+}
+
+/* Fallback: If you ever combine a right-floated image with a caption */
+.w-third.float-right + .caption {
+  float: right;
+  width: 33.33%;
+  text-align: left;
+  margin: -1rem 0 1.5rem 2rem !important;
+}
+
 
 
  /* 
