@@ -882,23 +882,36 @@ table.table::after {
 
 /* --- TYPOGRAPHIC IMAGE CAPTIONS --- */
 
+/* Standard layout for full-width or centered mobile captions */
 .post .caption {
   display: block;
   font-family: "Source Sans 3", sans-serif;
-  font-weight: 300 !important;    /* Light weight for elegant contrast */
-  color: #000000 !important;      /* Pure black text (No gray, no tan) */
-  text-align: center;             /* Centers perfectly below the image */
-  margin-top: -0.75rem !important; /* Pulls it up tight to the asset above it */
-  margin-bottom: 2.5rem !important;/* Pushes the following body paragraph down safely */
+  font-weight: 300 !important;     /* Light weight */
+  color: #000000 !important;       /* Pure Black */
+  text-align: center;
+  margin-top: -0.75rem !important;  /* Tightly hugs the asset above it */
+  margin-bottom: 2.5rem !important; /* Elegant spacing before body text */
 }
 
-/* Fallback: If you ever combine a right-floated image with a caption */
-.w-third + .caption {
+/* --- THE FLOATED LAYOUT CORRECTION VALVE --- */
+
+/* 1. Forces headers to push floated elements below them */
+.post h1, .post h2, .post h3, .post h4 {
+  clear: both !important;
+}
+
+/* 2. Forces right-floated images to start fresh below headers */
+.post img.w-third {
+  clear: right !important;
+}
+
+/* 3. Forces the caption to anchor flawlessly beneath the floated picture box */
+.post img.w-third + .caption {
   float: right !important;
-  clear: right !important;       /* Forces the caption to drop underneath the image layout box */
-  width: 33.33% !important;      /* Matches the image footprint exactly */
-  text-align: center !important; /* Centers the text cleanly beneath the photo asset */
-  margin: -1.5rem 0 1.5rem 2rem !important; /* Keeps spacing rhythmic */
+  clear: right !important;        /* Mandates that text drops below the image canvas */
+  width: 33.33% !important;       /* Locks caption footprint to match the image width */
+  text-align: center !important;  /* Centers the text lines under the photo */
+  margin: -1rem 0 1.5rem 2rem !important; /* Symmetrical margin pairing with desktop image */
 }
 
 
