@@ -893,13 +893,13 @@ table.table::after {
 }
 
 /* Fallback: If you ever combine a right-floated image with a caption */
-.w-third.float-right + .caption {
-  float: right;
-  width: 33.33%;
-  text-align: left;
-  margin: -1rem 0 1.5rem 2rem !important;
+.w-third + .caption {
+  float: right !important;
+  clear: right !important;       /* Forces the caption to drop underneath the image layout box */
+  width: 33.33% !important;      /* Matches the image footprint exactly */
+  text-align: center !important; /* Centers the text cleanly beneath the photo asset */
+  margin: -1.5rem 0 1.5rem 2rem !important; /* Keeps spacing rhythmic */
 }
-
 
 
  /* 
