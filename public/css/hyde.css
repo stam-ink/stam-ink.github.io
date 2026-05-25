@@ -715,7 +715,7 @@ h3[lang="he"] {
 
 /* The Answer heading/marker */
 .faq-a {
-  color: #000000 !important;
+  color: #dbd2bd !important;
   margin-top: 0.75rem !important;    /* Very little space before the Answer block */
   margin-bottom: 0.25rem !important; /* Forces the explanation text to sit right up against it */
 }
