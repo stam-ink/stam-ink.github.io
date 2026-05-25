@@ -696,6 +696,36 @@ h3[lang="he"] {
   line-height: 1.2;
 }
 
+/* --- POST SIGNATURE UTILITY --- */
+.sig {
+  display: block;
+  /*text-align: center;          /* Centers the signature on the page ???*/
+  margin-top: 4.5rem !important; /* Pushes it down 3x the standard paragraph gap */
+  margin-bottom: 2rem !important;/* Leaves healthy room before the footer */
+}
+
+/* --- TYPOGRAPHIC FAQ FRAMEWORK --- */
+
+/* The Question heading */
+.faq-q {
+  color: #dbd2bd !important;
+  /* Retains your theme's default H3 font size, weight, and large top margin automatically */
+  margin-bottom: 0.25rem !important; /* Forces the answer text box to sit right up against it */
+}
+
+/* The Answer heading/marker */
+.faq-a {
+  color: #000000 !important;
+  margin-top: 0.75rem !important;    /* Very little space before the Answer block */
+  margin-bottom: 0.25rem !important; /* Forces the explanation text to sit right up against it */
+}
+
+/* The body text paragraphs immediately following a Question or Answer heading */
+.faq-q + p,
+.faq-a + p {
+  margin-top: 0 !important; /* Eliminates the default paragraph gap, locking text flush to the letter above */
+}
+
 /********************************
 /* Side-by-Side Translation Columns 
 .transl-row {
