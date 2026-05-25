@@ -713,10 +713,10 @@ h3[lang="he"] {
   margin-bottom: 0.25rem !important; /* Forces the answer text box to sit right up against it */
 }
 
-/* The Answer heading/marker */
+/* The Answer heading */
 .faq-a {
   color: #dbd2bd !important;
-  margin-top: 0.5rem !important;    /* Very little space before the Answer block */
+  margin-top: 0.25rem !important;    /* Very little space before the Answer block */
   margin-bottom: 0.25rem !important; /* Forces the explanation text to sit right up against it */
 }
 
