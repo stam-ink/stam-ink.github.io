@@ -944,31 +944,36 @@ table.table::after {
   margin: -1rem 0 1.5rem 2rem !important; /* Symmetrical margin pairing with desktop image */
 }
 
-/* --- DYNAMIC SIDEBAR SVG INTERACTION --- */
+/* --- INTEGRATED BRANDING HOVER ARCHITECTURE --- */
 
-/* Base container dimensions */
-svg.site-logo {
-  display: block;
-  width: 100%;
-  max-width: 112px;
-  height: auto;
-  cursor: pointer;
+/* Base positioning anchor style details */
+.sidebar-about h1 a.site-branding-link {
+  color: #878799 !important;        /* Default layout link token color */
+  text-decoration: none !important;  /* Suppress layout defaults initially */
+  display: inline-block;
 }
 
-/* Ensure the second compound vector group targets your default link token */
-svg.site-logo .logo-interactive path {
+/* Base style mapping for your interactive vector path elements */
+.site-branding-link .logo-interactive path {
   fill: #878799 !important;
-  transition: fill 0.2s ease-in-out; /* Adds a clean, professional fade speed */
+  transition: fill 0.2s ease-in-out; /* Smooth accent color crossfade */
 }
 
-/* On hover, instantly recolor the interactive vectors to your chosen accent token */
-svg.site-logo:hover .logo-interactive path {
-  fill: #999384 !important;
-}
-
-/* Keeps the primary black path strictly locked down at all times */
-svg.site-logo .logo-black path {
+/* Ensure the black structural background path stays locked */
+.site-branding-link .logo-black path {
   fill: #000000 !important;
+}
+
+/* --- THE UNIFIED TRIGGER HOVER SYSTEM --- */
+/* When a cursor breaches any part of the master text or vector link boundaries... */
+
+.site-branding-link:hover {
+  color: #999384 !important;           /* Switches the text title to hover color */
+  text-decoration: underline !important; /* Forces your typography underline style */
+}
+
+.site-branding-link:hover .logo-interactive path {
+  fill: #999384 !important;            /* Logo graphic coordinates instantly */
 }
 
 
