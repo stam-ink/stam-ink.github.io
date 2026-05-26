@@ -946,34 +946,36 @@ table.table::after {
 
 /* --- INTEGRATED BRANDING HOVER ARCHITECTURE --- */
 
-/* Base positioning anchor style details */
+/* 1. Base anchor settings to lock down default state colors */
 .sidebar-about h1 a.site-branding-link {
-  color: #878799 !important;        /* Default layout link token color */
-  text-decoration: none !important;  /* Suppress layout defaults initially */
-  display: inline-block;
+  color: #878799;                   /* Default link color */
+  text-decoration: none;             /* Clear any default layout lines */
 }
 
-/* Base style mapping for your interactive vector path elements */
+/* 2. Base mapping for the interactive vector path element */
 .site-branding-link .logo-interactive path {
   fill: #878799 !important;
   transition: fill 0.2s ease-in-out; /* Smooth accent color crossfade */
 }
 
-/* Ensure the black structural background path stays locked */
+/* 3. Lock down the structural black background element */
 .site-branding-link .logo-black path {
   fill: #000000 !important;
 }
 
-/* --- THE UNIFIED TRIGGER HOVER SYSTEM --- */
-/* When a cursor breaches any part of the master text or vector link boundaries... */
 
-.site-branding-link:hover {
-  color: #999384 !important;           /* Switches the text title to hover color */
-  text-decoration: underline !important; /* Forces your typography underline style */
+/* --- THE UNIFIED TRIGGER HOVER SYSTEM --- */
+/* This matches Hyde's selector depth exactly to ensure text updates reliably */
+
+/* A. When hovering the wrapper, force the text color change and underline */
+.sidebar-about h1 a.site-branding-link:hover {
+  color: #999384;                   /* Text shifts to hover color */
+  text-decoration: underline;        /* Appends the text decoration */
 }
 
-.site-branding-link:hover .logo-interactive path {
-  fill: #999384 !important;            /* Logo graphic coordinates instantly */
+/* B. When hovering the wrapper, simultaneously transition the vector path */
+.sidebar-about h1 a.site-branding-link:hover .logo-interactive path {
+  fill: #999384 !important;          /* SVG shifts to hover color */
 }
 
 
