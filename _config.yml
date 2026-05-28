@@ -2,6 +2,7 @@ title: STAN.inc
 description: Teshting 1, 2, 3
 remote_theme: poole/hyde
 permalink: pretty
+email: "sofer@stam.ink"
 url: https://stam-ink.github.io
 baseurl: /blog-draft
 paginate: 1
