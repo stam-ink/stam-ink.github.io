@@ -1,7 +1,2 @@
-{% capture mailto_string %}mailto:{{ site.email }}{% endcapture %}
-{% assign mailto_chars = mailto_string | split: "" %}
-{% assign visible_chars = site.email | split: "" %}
-
-<a href="{% for char in mailto_chars %}{% case char %}{% when '@' %}&#x32;&#x30;{% when '.' %}&#x2e;{% else %}{{ char | cgi_escape | replace: '%', '&#x' | downcase }}{% endcase %}{% endfor %}">
-  {% for char in visible_chars %}{% case char %}{% when '@' %}&#114;{% when '.' %}&#x2e;{% else %}{{ char | cgi_escape | replace: '%', '&#x' | downcase }}{% endcase %}{% endfor %}
-</a>
+{% capture markdown_link %}[{{ site.email }}](mailto:{{ site.email }}){% endcapture %}
+{{ markdown_link | markdownify | remove: '<p>' | remove: '</p>' }}
