@@ -362,7 +362,7 @@ body {
   color: var(--full-black);
 }
 
-/* The Sidebar - Currently set to your Tan color to set it to black, coment out or delete this section and the next one (sidebar links) and un-comment the next section (Black sidebar with whiter text)*/
+/* The Sidebar - Currently set to your Tan color to set it to black, coment out or delete this section and the next one (sidebar links) and un-comment the following section (Black sidebar with whiter text)*/
 .sidebar {
   background-color: var(--accent-tan);
   color: var(--full-black);
@@ -375,7 +375,7 @@ body {
 }
 
 
-/*black sidebar with white text -- uncomment if tan is too much*/
+/*@nope black sidebar with white text -- uncomment if tan is too much*/
 /*
 .sidebar {
   background-color: var(--full-black);
@@ -457,9 +457,10 @@ hr {
   display: none;
 }
 
-/* Shared characteristics for actual footnotes and footnotes-style class */
-.footnotes, 
+/* Shared characteristics for actual footnotes, footnotes-style, and other smaller-text */
+.footnotes,
 .endnotes,
+.endnote,
 .aside,
 .table,
 .caption { 
@@ -467,12 +468,13 @@ hr {
   line-height: 1.4;
 }
 
-/* Specific behaviors only for footnotes-style class */
+/* Specific behaviors only for footnotes-style */
 .endnotes,
+.endnote
 .aside {
-  font-style: italic;   /* If you want that specific look */
-/*  display: block;
-  margin: 1em 0;*/
+  font-style: italic;
+/*  display: block; /* @nope */
+/*  margin: 1em 0; /* @nope */
 }
 
 h2 /* Post sub-head*/
@@ -488,12 +490,12 @@ h3 + p {
   margin-top: 0;
 }
 
-/* Optional: Ensure the H3 itself has a consistent margin above it */
+/* Ensure the H3 itself has a consistent margin above it */
 /* Section head */
 h3 {
   font-size: 1.3em;
-  font-weight: 900; /* Changed from bold */  margin-top: 2.5rem; /* Space before the section starts (1.5 em in orig. CSS) */
-  margin-bottom: 0.5rem; /* Small gap to keep it 'connected' to the text (0 em in orig.CSS)*/
+  font-weight: 900; /* Changed from bold */  margin-top: 2.5rem; /* Space before the section starts */
+  margin-bottom: 0.5rem; /* Small gap to keep it 'connected' to the text */
 }
 
 /* "N O T E :" title text */
@@ -501,7 +503,7 @@ h3 {
   font-size: 1em;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  font-weight: 900; /* Changed from bold */
+  font-weight: 900;
 }
 
 .callout /* for "note paragraph" */
@@ -547,7 +549,8 @@ mark,
   padding: 0 2px; /* Adds a tiny bit of breathing room around the highlight */
 }
 
-.box /* for tinted box (usually at top of post) */
+/* tinted box (usually at top of post) */
+.box
 .admin
 {
   background-color: #dbd2bd;
@@ -580,7 +583,7 @@ body {
   background-color: white;
 }
 
-/* Assistant for Hebrew blocks */
+/* Assistant font for Hebrew blocks */
 [lang="he"] {
   font-family: "Assistant", sans-serif;
   /* Reduced from 1.15em to 1.0em to match Source Sans 3 better */
@@ -624,8 +627,8 @@ blockquote[lang="he"] {
 /* Syncing manual <sup> and Kramdown footnotes */
 sup, 
 .footnote {
-/*  font-size: 0.8em !important; /* makes kramdown footnotes smaller than manual <sup> */ 
-/*  vertical-align: super; /* also makes kramdown footnotes smaller than manual <sup> */ 
+/*  font-size: 0.8em !important; /* @nope (makes kramdown footnotes smaller than manual <sup>) */ 
+/*  vertical-align: super; /* @nope (also makes kramdown footnotes smaller than manual <sup>) */ 
   line-height: 0 !important; /* keeps the paragraph leading consistant*/
   text-decoration: none; /* Often footnotes are links; this keeps them clean */
 }
@@ -681,8 +684,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.3em;
   font-size: 1em;
-  /* Ensure H2 doesn't have its own large top margin by default */
-  margin-top: 0; 
+  margin-top: 0;   /* Ensure H2 doesn't have its own large top margin by default */
 }
 
 /* Ensure Hebrew headers scale up in size */
@@ -697,27 +699,28 @@ h3[lang="he"] {
 }
 
 /* --- POST SIGNATURE UTILITY --- */
-.sig {
-  display: block;
-  /*text-align: center;          /* Centers the signature on the page ???*/
+.sig,
+.signature {
+  display: block; /* makes sure it is always on a new line */
+  /* text-align: center;          /* @nope Centers the signature on the page*/
   margin-top: 4.5rem !important; /* Pushes it down 3x the standard paragraph gap */
   margin-bottom: 2rem !important;/* Leaves healthy room before the footer */
 }
 
 /* --- TYPOGRAPHIC FAQ FRAMEWORK --- */
 
-/* The Question heading */
+/* Question heading */
 .faq-q {
   color: #dbd2bd !important;
   /* Retains your theme's default H3 font size, weight, and large top margin automatically */
-  margin-bottom: 0.25rem !important; /* Forces the answer text box to sit right up against it */
+  margin-bottom: 0.25rem !important; /* Forces the question text to sit right up against it */
 }
 
-/* The Answer heading */
+/* Answer heading */
 .faq-a {
   color: #dbd2bd !important;
   margin-top: 0 !important;    /* Very little space before the Answer block */
-  margin-bottom: 0.25rem !important; /* Forces the explanation text to sit right up against it */
+  margin-bottom: 0.25rem !important; /* Forces the answer text to sit right up against it */
 }
 
 /* The body text paragraphs immediately following a Question or Answer heading */
@@ -725,32 +728,6 @@ h3[lang="he"] {
 .faq-a + p {
   margin-top: 0 !important; /* Eliminates the default paragraph gap, locking text flush to the letter above */
 }
-
-/********************************
-/* Side-by-Side Translation Columns 
-.transl-row {
-  display: flex;
-  gap: 2rem; /* Creates breathing room between the columns 
-  margin: 2rem 0;
-}
-
-.transl-col {
-  flex: 1; /* Gives both columns equal width 
-  min-width: 250px; /* Forces them to stack on small mobile screens 
-}
-
-/* Clean up blockquotes inside columns using logical properties 
-.transl-col blockquote {
-  margin: 0;
-  
-  /* Logical properties: automatically flips based on dir="rtl" or dir="ltr" 
-  padding-inline-start: 1rem;
-  padding-inline-end: 0;
-  
-  border-inline-start: 3px solid #dbd2bd;
-  border-inline-end: none;
-} 
-********************************/
 
 /* Clean, Centered Typographic Table Styling */
 table.table {
