@@ -625,7 +625,7 @@ blockquote[lang="he"] {
 sup, 
 .footnote {
 /*  font-size: 0.8em !important; */
-  vertical-align: super;
+/*  vertical-align: super; */
   line-height: 0;
   text-decoration: none; /* Often footnotes are links; this keeps them clean */
 }
