@@ -624,8 +624,8 @@ blockquote[lang="he"] {
 /* Syncing manual <sup> and Kramdown footnotes */
 sup, 
 .footnote {
-  font-size: 0.8em !important;
-/*  vertical-align: super; */
+/*  font-size: 0.8em !important; /* makes kramdown footnotes smaller than manual <sup> */ 
+/*  vertical-align: super; /* also makes kramdown footnotes smaller than manual <sup> */ 
   line-height: 0 !important; /* keeps the paragraph leading consistant*/
   text-decoration: none; /* Often footnotes are links; this keeps them clean */
 }
