@@ -24,7 +24,7 @@ Zoe Julius, illud serenus mare atque magniloquens ut ne eximium quod curiosum qu
 
 ### Section head (H3) English
 
-Populi  splendidum licet sapidum posteaquam universum quotiens sonorus quodcumque peculiare secundum tenebrosum quam minimus? Unicitim, quaedam cælum peruenio, quod sinuatus quas expositum statim 10<sup>th</sup> universum.[^fn2] sed sonorus sive etiam necessarium ut monumentale cum excellentissimum si levissimum? 
+Populi  splendidum licet sapidum posteaquam universum quotiens sonorus quodcumque peculiare secundum tenebrosum quam minimus? Unicitim, quaedam cælum peruenio, quod sinuatus quas expositum statim 10<sup>th</sup> universum<sup>2</sup>.[^fn2] sed sonorus sive etiam necessarium ut monumentale cum excellentissimum si levissimum? 
 
 <div dir="rtl">
 
