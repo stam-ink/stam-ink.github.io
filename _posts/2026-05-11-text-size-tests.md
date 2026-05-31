@@ -6,7 +6,7 @@ date: 2026-05-11
 
 ## Subhead (H2) 
 
-Zoe Julius, illud serenus mare atque magniloquens ut ne eximium quod curiosum quia magniloquens si cultum aut iucundissimum sicut periculosum dum odoratum et splendidum.[^fn1] Ad astra per aspera, ante aliquod diligentia quando. Zoe Julius, illud serenus mare atque magniloquens.
+Zoe Julius, illud serenus mare atque magniloquens ut ne eximium quod curiosum quia magniloquens si cultum aut iucundissimum sicut periculosum dum odoratum et splendidum1.[^fn1] Ad astra per aspera, ante aliquod diligentia quando. Zoe Julius, illud serenus mare atque magniloquens.
 
 <div dir="rtl">
 
@@ -24,7 +24,7 @@ Zoe Julius, illud serenus mare atque magniloquens ut ne eximium quod curiosum qu
 
 ### Section head (H3) English
 
-Populi  splendidum licet sapidum posteaquam universum quotiens sonorus quodcumque peculiare secundum tenebrosum quam minimus? Unicitim, quaedam cælum peruenio, quod sinuatus quas expositum statim 10<sup>th</sup> universum<sup>2</sup>.[^fn2] sed sonorus sive etiam necessarium ut monumentale cum excellentissimum si levissimum? 
+Populi  splendidum licet sapidum posteaquam universum quotiens sonorus quodcumque peculiare secundum tenebrosum quam minimus? Unicitim, quaedam cælum peruenio, quod sinuatus quas expositum statim 10<sup>th</sup> universum 2<sup>2</sup>.[^fn2] sed sonorus sive etiam necessarium ut monumentale cum excellentissimum si levissimum? 
 
 <div dir="rtl">
 
