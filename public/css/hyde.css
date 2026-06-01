@@ -922,35 +922,52 @@ table.table::after {
 }
 
 /* --- SIDEBAR --- */
-/* --- COMPACT BRANDING FLEX CONSTRUCTOR --- */
+/* --- COMPACT BRANDING FLEX CONSTRUCTOR (WITH COLOR FIX) --- */
 
-/* 1. Establish a strict, zero-margin column container for the branding elements */
+/* 1. Establish the zero-margin structural column */
 .sidebar-about {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;  /* Keeps content flush left */
+  align-items: flex-start; 
 }
 
-/* 2. Strip standard margins and force the Title right up toward the logo */
+/* 2. Strip standard gaps and force the Title up tight */
 .sidebar-about h1 {
-  margin-top: -8px !important;    /* Pulls the baseline up into the logo bounding box */
-  margin-bottom: 0px !important;  /* Shuts down the bottom shelf gap entirely */
-  line-height: 0.8 !important;    /* Tight vertical typography leading */
+  margin-top: -8px !important;    
+  margin-bottom: 0px !important;  
+  line-height: 0.8 !important;    
 }
 
-/* 3. Force the description paragraph up tight underneath the title text */
+/* 3. Force the description paragraph up tight underneath the title */
 .sidebar-about p:not(.sidebar-nav-item) {
-  margin-top: 2px !important;     /* Microscopic separation gap under the title */
-  margin-bottom: 30px !important; /* Restores a comfortable breathing room *after* the description */
+  margin-top: 2px !important;     
+  margin-bottom: 30px !important; 
   line-height: 1.1 !important;
 }
 
-/* 4. Ensure the anchor element acts as a true block container */
+/* 4. Ensure the anchor container holds explicit scaling bounds */
 .sidebar-about a.site-branding-link {
   display: block;
   margin-bottom: 0 !important;
   line-height: 1 !important;
+  width: auto;                  /* Stops flexbox sizing distortion */
 }
+
+/* --- LOGO VECTOR COLOR MATRICES & HOVER STATES --- */
+
+/* 5. Set the default color state for the logo asset paths */
+.sidebar-about a.site-branding-link svg path,
+.sidebar-about a.site-branding-link svg {
+  fill: #303040 !important;     /* Replace this with your exact primary logo hex color */
+  transition: fill 0.2s ease-in-out; /* Silky smooth color blend on hover */
+}
+
+/* 6. Define the active color shift when a cursor floats over the logo */
+.sidebar-about a.site-branding-link:hover svg path,
+.sidebar-about a.site-branding-link:hover svg {
+  fill: #878799 !important;     /* The hover transition color (e.g., matching your theme links) */
+}
+
 
  /* 
  End custom CSS
