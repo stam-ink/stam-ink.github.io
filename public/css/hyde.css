@@ -921,33 +921,38 @@ table.table::after {
   margin: -1rem 0 1.5rem 2rem !important; /* Symmetrical margin pairing with desktop image */
 }
 
-/* --- SIDEBAR --- */
-/* --- ISOLATED SIDEBAR BRAND STACK LAYOUT --- */
+/* --- INTEGRATED BRANDING HOVER ARCHITECTURE --- */
 
-/* 1. Ensure the graphic anchor block maintains clean separation limits */
-.sidebar-about a.site-branding-link {
-  display: block;
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-  line-height: 1 !important;
+/* 1. Base anchor settings to lock down default state colors */
+.sidebar-about h1 a.site-branding-link {
+  color: #878799;                   /* Default link color */
+  text-decoration: none;             /* Clear any default layout lines */
 }
 
-/* 2. Pull the whole text container box up tightly against the logo base */
-.tight-brand-stack {
-  margin-top: -12px !important;   /* Slide this value more negative if you want it tighter to the graphic */
+/* 2. Base mapping for the interactive vector path element */
+.site-branding-link .logo-interactive path {
+  fill: #878799 !important;
+  transition: fill 0.2s ease-in-out; /* Smooth accent color crossfade */
 }
 
-/* 3. Drop layout margins inside the box to pull title and description into negative leading territory */
-.tight-brand-stack h1.sidebar-title {
-  margin-top: 0 !important;
-  margin-bottom: -4px !important;  /* Negative value tucks description right into the title baseline */
-  line-height: 0.8 !important;    /* Compressed text tracking */
+/* 3. Lock down the structural black background element */
+.site-branding-link .logo-black path {
+  fill: #000000 !important;
 }
 
-.tight-brand-stack p.lead {
-  margin-top: 0 !important;
-  margin-bottom: 30px !important; /* Preserves vertical shelf room down below before navigation links */
-  line-height: 1.1 !important;
+
+/* --- THE UNIFIED TRIGGER HOVER SYSTEM --- */
+/* This matches Hyde's selector depth exactly to ensure text updates reliably */
+
+/* A. When hovering the wrapper, force the text color change and underline */
+.sidebar-about h1 a.site-branding-link:hover {
+  color: #999384;                   /* Text shifts to hover color */
+  text-decoration: underline;        /* Appends the text decoration */
+}
+
+/* B. When hovering the wrapper, simultaneously transition the vector path */
+.sidebar-about h1 a.site-branding-link:hover .logo-interactive path {
+  fill: #999384 !important;          /* SVG shifts to hover color */
 }
 
 
