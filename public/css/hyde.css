@@ -922,26 +922,33 @@ table.table::after {
 }
 
 /* --- SIDEBAR --- */
-/* --- ISOLATED SIDEBAR TYPOGRAPHY REALIGNMENT --- */
+/* --- ISOLATED SIDEBAR BRAND STACK LAYOUT --- */
 
-/* 1. Pull the Title up and tighten its inner text lines */
-.sidebar-about h1, 
-.sidebar-title {
-  position: relative !important;
-  top: -16px !important;         /* Physically shifts the text up into the logo baseline */
-  margin-bottom: 0px !important;  /* Closes the gap below the title */
-  line-height: 0.85 !important;   /* Tight editorial tracking */
+/* 1. Ensure the graphic anchor block maintains clean separation limits */
+.sidebar-about a.site-branding-link {
+  display: block;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 1 !important;
 }
 
-/* 2. Tuck the description right under the repositioned title */
-.sidebar-about h1 + p,
-.sidebar-about p:not(.sidebar-nav-item) {
-  position: relative !important;
-  top: -18px !important;         /* Nudges the description text tightly under the title */
-  margin-bottom: 20px !important; /* Preserves a comfortable margin before navigation links */
+/* 2. Pull the whole text container box up tightly against the logo base */
+.tight-brand-stack {
+  margin-top: -12px !important;   /* Slide this value more negative if you want it tighter to the graphic */
+}
+
+/* 3. Drop layout margins inside the box to pull title and description into negative leading territory */
+.tight-brand-stack h1.sidebar-title {
+  margin-top: 0 !important;
+  margin-bottom: -4px !important;  /* Negative value tucks description right into the title baseline */
+  line-height: 0.8 !important;    /* Compressed text tracking */
+}
+
+.tight-brand-stack p.lead {
+  margin-top: 0 !important;
+  margin-bottom: 30px !important; /* Preserves vertical shelf room down below before navigation links */
   line-height: 1.1 !important;
 }
-
 
 
  /* 
