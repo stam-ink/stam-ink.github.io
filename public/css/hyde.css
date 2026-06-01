@@ -550,7 +550,7 @@ mark,
 }
 
 /* tinted box (usually at top of post) */
-.box
+.box,
 .admin
 {
   background-color: #dbd2bd;
