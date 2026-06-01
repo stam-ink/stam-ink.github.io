@@ -922,50 +922,60 @@ table.table::after {
 }
 
 /* --- SIDEBAR --- */
-/* --- COMPACT BRANDING FLEX CONSTRUCTOR (WITH COLOR FIX) --- */
+/* --- COMPACT BRANDING STRUCTURAL STACK --- */
 
-/* 1. Establish the zero-margin structural column */
 .sidebar-about {
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
 }
 
-/* 2. Strip standard gaps and force the Title up tight */
 .sidebar-about h1 {
   margin-top: -8px !important;    
   margin-bottom: 0px !important;  
   line-height: 0.8 !important;    
 }
 
-/* 3. Force the description paragraph up tight underneath the title */
 .sidebar-about p:not(.sidebar-nav-item) {
   margin-top: 2px !important;     
   margin-bottom: 30px !important; 
   line-height: 1.1 !important;
 }
 
-/* 4. Ensure the anchor container holds explicit scaling bounds */
 .sidebar-about a.site-branding-link {
   display: block;
   margin-bottom: 0 !important;
   line-height: 1 !important;
-  width: auto;                  /* Stops flexbox sizing distortion */
+  width: auto;
 }
 
-/* --- LOGO VECTOR COLOR MATRICES & HOVER STATES --- */
+/* --- LOGO VECTOR LAYER SPECIFICITY MATRICES --- */
 
-/* 5. Set the default color state for the logo asset paths */
-.sidebar-about a.site-branding-link svg path,
-.sidebar-about a.site-branding-link svg {
-  fill: #303040 !important;     /* Replace this with your exact primary logo hex color */
-  transition: fill 0.2s ease-in-out; /* Silky smooth color blend on hover */
+/* 1. Base State: Force the foundational letter block to stay solid black */
+.sidebar-about a.site-branding-link svg path[fill="#303040"], 
+.sidebar-about a.site-branding-link svg .base-letter {
+  fill: #000000 !important;
 }
 
-/* 6. Define the active color shift when a cursor floats over the logo */
-.sidebar-about a.site-branding-link:hover svg path,
-.sidebar-about a.site-branding-link:hover svg {
-  fill: #878799 !important;     /* The hover transition color (e.g., matching your theme links) */
+/* 2. Base State: Set geometric circles & construction lines to your theme link color */
+.sidebar-about a.site-branding-link svg path:not([fill="#303040"]),
+.sidebar-about a.site-branding-link svg .construction-lines {
+  fill: #878799 !important;
+  transition: fill 0.2s ease-in-out;
+}
+
+/* --- HOVER INTERACTION STATES --- */
+
+/* 3. Hover State: Ensure the black letter geometry doesn't move or change color */
+.sidebar-about a.site-branding-link:hover svg path[fill="#303040"],
+.sidebar-about a.site-branding-link:hover svg .base-letter {
+  fill: #000000 !important;
+}
+
+/* 4. Hover State: Seamlessly transition the circles and lines to your secondary stone tone */
+.sidebar-about a.site-branding-link:hover svg path:not([fill="#303040"]),
+.sidebar-about a.site-branding-link:hover svg .construction-lines {
+  fill: #999384 !important;
 }
 
 
