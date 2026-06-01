@@ -922,56 +922,20 @@ table.table::after {
 }
 
 /* --- SIDEBAR --- */
-/* --- COMPACT BRANDING STRUCTURAL STACK --- */
+/* --- TRADITIONAL BLOCK BRACKETING (LEAVE LOGO ALONE) --- */
 
-.sidebar-about {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
-}
-
+/* 1. Reset standard structural gaps around your main title */
 .sidebar-about h1 {
-  margin-top: -8px !important;    
-  margin-bottom: 0px !important;  
-  line-height: 0.8 !important;    
+  margin-top: -12px !important;  /* Nudges the text upward right into the logo baseline */
+  margin-bottom: 0px !important; /* Shuts down the bottom shelf gap entirely */
+  line-height: 0.8 !important;   /* Tight typographic tracking */
 }
 
-.sidebar-about p:not(.sidebar-nav-item) {
-  margin-top: 2px !important;     
-  margin-bottom: 30px !important; 
+/* 2. Target only the description paragraph directly following that title */
+.sidebar-about h1 + p {
+  margin-top: 3px !important;    /* Tightens the gap right below the title text */
+  margin-bottom: 25px !important;/* Keeps the healthy breathing room before "Home" nav starts */
   line-height: 1.1 !important;
-}
-
-.sidebar-about a.site-branding-link {
-  display: block;
-  margin-bottom: 0 !important;
-  line-height: 1 !important;
-  width: auto;
-}
-
-/* --- LOGO VECTOR LAYER SPECIFICITY MATRICES --- */
-
-/* 1. Base State: Force the foundational letter framework (the first path) to be solid black */
-.sidebar-about a.site-branding-link svg path:first-of-type {
-  fill: #000000 !important;
-}
-
-/* 2. Base State: Set geometric circles & construction lines (all subsequent paths) to theme link color */
-.sidebar-about a.site-branding-link svg path:not(:first-of-type) {
-  fill: #878799 !important;
-  transition: fill 0.2s ease-in-out;
-}
-
-/* --- HOVER INTERACTION STATES --- */
-
-/* 3. Hover State: Lock the main "D" letter framework so it remains solid black on hover */
-.sidebar-about a.site-branding-link:hover svg path:first-of-type {
-  fill: #000000 !important;
-}
-
-/* 4. Hover State: Transition only the background geometry to your secondary stone tone */
-.sidebar-about a.site-branding-link:hover svg path:not(:first-of-type) {
-  fill: #999384 !important;
 }
 
 
