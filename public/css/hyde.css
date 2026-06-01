@@ -922,62 +922,34 @@ table.table::after {
 }
 
 /* --- SIDEBAR --- */
-/* --- INTEGRATED BRANDING HOVER ARCHITECTURE --- */
+/* --- COMPACT BRANDING FLEX CONSTRUCTOR --- */
 
-/* 1. Base anchor settings to lock down default state colors */
-.sidebar-about h1 a.site-branding-link {
-  color: #878799;                   /* Default link color */
-  text-decoration: none;             /* Clear any default layout lines */
+/* 1. Establish a strict, zero-margin column container for the branding elements */
+.sidebar-about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  /* Keeps content flush left */
 }
 
-/* 2. Base mapping for the interactive vector path element */
-.site-branding-link .logo-interactive path {
-  fill: #878799 !important;
-  transition: fill 0.2s ease-in-out; /* Smooth accent color crossfade */
+/* 2. Strip standard margins and force the Title right up toward the logo */
+.sidebar-about h1 {
+  margin-top: -8px !important;    /* Pulls the baseline up into the logo bounding box */
+  margin-bottom: 0px !important;  /* Shuts down the bottom shelf gap entirely */
+  line-height: 0.8 !important;    /* Tight vertical typography leading */
 }
 
-/* 3. Lock down the structural black background element */
-.site-branding-link .logo-black path {
-  fill: #000000 !important;
+/* 3. Force the description paragraph up tight underneath the title text */
+.sidebar-about p:not(.sidebar-nav-item) {
+  margin-top: 2px !important;     /* Microscopic separation gap under the title */
+  margin-bottom: 30px !important; /* Restores a comfortable breathing room *after* the description */
+  line-height: 1.1 !important;
 }
 
-
-/* --- THE UNIFIED TRIGGER HOVER SYSTEM --- */
-/* This matches Hyde's selector depth exactly to ensure text updates reliably */
-
-/* A. When hovering the wrapper, force the text color change and underline */
-.sidebar-about h1 a.site-branding-link:hover {
-  color: #999384;                   /* Text shifts to hover color */
-  text-decoration: underline;        /* Appends the text decoration */
-}
-
-/* B. When hovering the wrapper, simultaneously transition the vector path */
-.sidebar-about h1 a.site-branding-link:hover .logo-interactive path {
-  fill: #999384 !important;          /* SVG shifts to hover color */
-}
-
-/* --- TIGHT SIDEBAR BRANDING VERTICAL STACK --- */
-
-/* 1. Eliminate structural gaps around the logo link wrapper */
+/* 4. Ensure the anchor element acts as a true block container */
 .sidebar-about a.site-branding-link {
   display: block;
-  margin-bottom: 2px;       /* Pushes the title text up close */
-  line-height: 1;           /* Collapses any latent vertical bounding box */
-}
-
-/* 2. Tighten the Main Title */
-.sidebar-about h1 {
-  margin-top: 0;
-  margin-bottom: 4px;       /* Squeezes the gap between title and description */
-  line-height: 0.95;        /* Tight inner text leading for multi-line titles */
-  letter-spacing: -0.03em;  /* Optional: keeps typography crisp when tight */
-}
-
-/* 3. Tighten the Site Description */
-.sidebar-about .lead {
-  margin-top: 0;
-  margin-bottom: 25px;      /* Keeps a healthy gap *after* the block before navigation starts */
-  line-height: 1.2;         /* Tightens description line wrap if it hits a second line */
+  margin-bottom: 0 !important;
+  line-height: 1 !important;
 }
 
  /* 
