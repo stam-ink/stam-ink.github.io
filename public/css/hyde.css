@@ -951,30 +951,26 @@ table.table::after {
 
 /* --- LOGO VECTOR LAYER SPECIFICITY MATRICES --- */
 
-/* 1. Base State: Force the foundational letter block to stay solid black */
-.sidebar-about a.site-branding-link svg path[fill="#303040"], 
-.sidebar-about a.site-branding-link svg .base-letter {
+/* 1. Base State: Force the foundational letter framework (the first path) to be solid black */
+.sidebar-about a.site-branding-link svg path:first-of-type {
   fill: #000000 !important;
 }
 
-/* 2. Base State: Set geometric circles & construction lines to your theme link color */
-.sidebar-about a.site-branding-link svg path:not([fill="#303040"]),
-.sidebar-about a.site-branding-link svg .construction-lines {
+/* 2. Base State: Set geometric circles & construction lines (all subsequent paths) to theme link color */
+.sidebar-about a.site-branding-link svg path:not(:first-of-type) {
   fill: #878799 !important;
   transition: fill 0.2s ease-in-out;
 }
 
 /* --- HOVER INTERACTION STATES --- */
 
-/* 3. Hover State: Ensure the black letter geometry doesn't move or change color */
-.sidebar-about a.site-branding-link:hover svg path[fill="#303040"],
-.sidebar-about a.site-branding-link:hover svg .base-letter {
+/* 3. Hover State: Lock the main "D" letter framework so it remains solid black on hover */
+.sidebar-about a.site-branding-link:hover svg path:first-of-type {
   fill: #000000 !important;
 }
 
-/* 4. Hover State: Seamlessly transition the circles and lines to your secondary stone tone */
-.sidebar-about a.site-branding-link:hover svg path:not([fill="#303040"]),
-.sidebar-about a.site-branding-link:hover svg .construction-lines {
+/* 4. Hover State: Transition only the background geometry to your secondary stone tone */
+.sidebar-about a.site-branding-link:hover svg path:not(:first-of-type) {
   fill: #999384 !important;
 }
 
