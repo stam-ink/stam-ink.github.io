@@ -877,14 +877,14 @@ table.table::after {
 @media (min-width: 48rem) {
   .post img.half-r {
     width: 50% !important;      /* Drops to elegant half-size on desktop */
-    float: right;               /* Integrates with your text wrap layout */
+    float: right;               /* text wrap, DO NOT use captions */
     margin: 0 0 1.5rem 2rem !important;
   }
 
 @media (min-width: 48rem) {
   .post img.half-c {
     width: 50% !important;      /* Drops to elegant half-size on desktop */
-  display: block;
+  display: block;				/* centered, can use captions */
     margin: 0 0 1.5rem 2rem !important;
   }
   
