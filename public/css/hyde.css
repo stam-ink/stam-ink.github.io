@@ -875,14 +875,14 @@ table.table::after {
 
 /* --- DESKTOP OVERRIDES (Screens wider than 48rem/768px) --- */
 @media (min-width: 48rem) {
-  .post img.half {
+  .post img.half-r {
     width: 50% !important;      /* Drops to elegant half-size on desktop */
     float: right;               /* Integrates with your text wrap layout */
     margin: 0 0 1.5rem 2rem !important;
   }
 
 @media (min-width: 48rem) {
-  .post img.half {
+  .post img.half-c {
     width: 50% !important;      /* Drops to elegant half-size on desktop */
   display: block;
     margin: 0 0 1.5rem 2rem !important;
