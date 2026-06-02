@@ -844,90 +844,102 @@ table.table::after {
   object-fit: cover;    /* Clean cropping for the image contents */
 }
 
-/* --- RESPONSIVE IMAGE WIDTH UTILITIES --- */
+/* ==========================================================================
+   CLEAN MARKDOWN inline IMAGES & CAPTIONS SYSTEM
+   ========================================================================== */
 
-/* 1/1: Full Width (Always fills the column) */
+/* --- GLOBAL IMAGE BASICS --- */
+.post img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* --- THE SINGLE UNIFIED CAPTION CLASS --- 
+   Used ONLY on centered images. Never wraps, tight to image, huge gap below. */
+.post .caption {
+  display: block !important;
+  width: 100% !important;
+  clear: both !important;            /* Dynamically blocks any text from snaking up the sides */
+  text-align: center !important;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 300 !important;
+  color: #000000 !important;
+  margin-top: -0.5rem !important;    /* Hugs tightly under the image */
+  margin-bottom: 3.5rem !important;  /* Generous structural space before the next paragraph */
+}
+
+
+/* --- 1. FULL-WIDTH PICTURES (Centered, No Wraparound) --- */
 .post img.full {
   width: 100% !important;
-  max-width: 100% !important;
-  display: block;
-  margin: 1.5rem auto !important;
+  display: block !important;
+  margin: 2rem auto 1rem auto !important;
+  clear: both !important;
 }
 
-/* 1/2: Half Width (Fluid 50% on desktop -> Bumps to 100% on tablet/mobile) */
-.post img.half-r,
+
+/* --- 2. HALF-WIDTH CENTERED PICTURES (No Wraparound, Full-width on Mobile) --- */
 .post img.half-c {
-  width: 100% !important;       /* Mobile default: fill the screen */
-  max-width: 100% !important;
-  display: block;
-/*  margin: 1.5rem auto !important; */
-  margin: 1.5rem 0 !important; /* Locks image flush-left, zeroing out right margin. Delete this line and uncomment the line above to have the image centered */
+  width: 100% !important;            /* Mobile default */
+  display: block !important;
+  margin: 2rem auto 1rem auto !important;
+  clear: both !important;
 }
 
-/* 1/3: Third Width (Fluid 33.3% on desktop -> Bumps to 50% on tablet/mobile) */
-.post img.third {
-  width: 50% !important;        /* Mobile default: more prominent 1/2 width */
-  max-width: 360px !important;  /* Caps it so it doesn't get massive */
-  display: block;
-/*  margin: 1.5rem auto !important; */
-  margin: 1.5rem 0 !important; /* Locks image flush-left, zeroing out right margin. Delete this line and uncomment the line above to have the image centered */
+
+/* --- 3. HALF-WIDTH FLUSH-RIGHT (Wraparound, No Captions, Full-width on Mobile) --- */
+.post img.half-r {
+  width: 100% !important;            /* Mobile default: behaves like a clean block */
+  display: block !important;
+  margin: 1.5rem auto !important;
+  clear: both !important;
 }
 
-/* --- DESKTOP OVERRIDES (Screens wider than 48rem/768px) --- */
-@media (min-width: 48rem) {
-  .post img.half-r {
-    width: 50% !important;      /* Drops to elegant half-size on desktop */
-    float: right;               /* text wrap, DO NOT use captions */
-    margin: 0 0 1.5rem 2rem !important;
-  }
 
+/* --- 4. THIRD-WIDTH FLUSH-RIGHT (Wraparound, No Captions, Half-width Centered on Mobile) --- */
+.post img.third-r {
+  width: 50% !important;             /* Mobile default: Clean, centered 50% box */
+  display: block !important;
+  margin: 1.5rem auto !important;
+  clear: both !important;
+}
+
+
+/* ==========================================================================
+   DESKTOP OVERRIDES (Screens wider than 48rem/768px)
+   ========================================================================== */
 @media (min-width: 48rem) {
+
+  /* Restrict the centered half-width image on desktop layout */
   .post img.half-c {
-    width: 50% !important;      /* Drops to elegant half-size on desktop */
-  display: block;				/* centered, can use captions */
-    margin: 0 0 1.5rem 2rem !important;
+    width: 50% !important;
   }
-  
-  .post img.third {
-    width: 33.33% !important;   /* Drops to elegant third-size on desktop */
-    float: right;               /* Integrates with your text wrap layout */
-    margin: 0 0 1.5rem 2rem !important;
+
+  /* Release the flush-right images to float and let text flow around them naturally */
+  .post img.half-r {
+    width: 50% !important;
+    float: right !important;
+    display: inline !important;
+    clear: none !important;          /* Allows text wrap on desktop */
+    margin: 0.5rem 0 1.5rem 2.5rem !important; /* Spacing for wrapping text */
   }
-}
 
-/* --- TYPOGRAPHIC IMAGE CAPTIONS --- */
-
-/* Standard layout for full-width or centered mobile captions */
-.post .caption {
-  display: block;
-  font-family: "Source Sans 3", sans-serif;
-  font-weight: 300 !important;     /* Light weight */
-  color: #000000 !important;       /* Pure Black */
-  text-align: center;
-  margin-top: -0.75rem !important;  /* Tightly hugs the asset above it */
-  margin-bottom: 2.5rem !important; /* Elegant spacing before body text */
+  .post img.third-r {
+    width: 33.33% !important;
+    float: right !important;
+    display: inline !important;
+    clear: none !important;          /* Allows text wrap on desktop */
+    margin: 0.5rem 0 1.5rem 2.5rem !important;
+  }
 }
 
 /* --- THE FLOATED LAYOUT CORRECTION VALVE --- */
-
-/* 1. Forces headers to push floated elements below them */
+/* Forces headings to always stay clean and start below any floating right-flush images */
 .post h1, .post h2, .post h3, .post h4 {
   clear: both !important;
 }
 
-/* 2. Forces right-floated images to start fresh below headers */
-.post img.w-third {
-  clear: right !important;
-}
-
-/* 3. Forces the caption to anchor flawlessly beneath the floated picture box */
-.post img.w-third + .caption {
-  float: right !important;
-  clear: right !important;        /* Mandates that text drops below the image canvas */
-  width: 33.33% !important;       /* Locks caption footprint to match the image width */
-  text-align: center !important;  /* Centers the text lines under the photo */
-  margin: -1rem 0 1.5rem 2rem !important; /* Symmetrical margin pairing with desktop image */
-}
+/* -------------> end inline IMAGES & CAPTIONS SYSTEM */
 
 /* --- INTEGRATED BRANDING HOVER ARCHITECTURE --- */
 
