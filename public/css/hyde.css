@@ -910,22 +910,14 @@ table.table::after {
 }
 
 /* --- 6. Half Stamp Size: 60px cap (For tiny details) --- */
-.post img.half-stamp-r {
-  max-width: 60px !important; /* Locks the exact structural size on desktop */
-  width: 8.33%;               /* Allows fluid down-scaling on tiny mobile screens */
-    float: right !important;
-    display: inline !important;
-    clear: none !important;          /* Allows text wrap on desktop */
-    margin: 0.5rem 0 1.5rem 2.5rem !important; /* Spacing for wrapping text */
-}
 
-.post img.half-stamp-l {
+.post img.half-stamp {         /* Allows fluid down-scaling on tiny mobile screens */
   max-width: 60px !important; /* Locks the exact structural size on desktop */
-  width: 8.33%;               /* Allows fluid down-scaling on tiny mobile screens */
-    float: left !important;
+  width: 16.66%;               /* Not too tiny on mobile screens */
+    float: left !important;   /* Can be used as a drop-cap */
     display: inline !important;
     clear: none !important;          /* Allows text wrap on desktop */
-    margin: 0.5rem 2.5rem 1.5rem 0 !important; /* Spacing for wrapping text */
+    margin: 0.25rem 1rem 1rem 0 !important; /* Spacing for wrapping text */
 }
 
 /* ==========================================================================
