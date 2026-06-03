@@ -895,7 +895,6 @@ table.table::after {
   clear: both !important;
 }
 
-
 /* --- 4. THIRD-WIDTH FLUSH-RIGHT (Wraparound, No Captions, Half-width Centered on Mobile) --- */
 .post img.third-r {
   width: 50% !important;             /* Mobile default: Clean, centered 50% box */
@@ -904,6 +903,30 @@ table.table::after {
   clear: both !important;
 }
 
+/* --- 5. Stamp Size: 120px cap (For small details) --- */
+.post img.stamp {
+  max-width: 120px !important; /* Locks the exact structural size on desktop */
+  width: 16.66%;               /* Allows fluid down-scaling on tiny mobile screens */
+}
+
+/* --- 6. Half Stamp Size: 60px cap (For tiny details) --- */
+.post img.half-stamp-r {
+  max-width: 60px !important; /* Locks the exact structural size on desktop */
+  width: 8.33%;               /* Allows fluid down-scaling on tiny mobile screens */
+    float: right !important;
+    display: inline !important;
+    clear: none !important;          /* Allows text wrap on desktop */
+    margin: 0.5rem 0 1.5rem 2.5rem !important; /* Spacing for wrapping text */
+}
+
+.post img.half-stamp-l {
+  max-width: 60px !important; /* Locks the exact structural size on desktop */
+  width: 8.33%;               /* Allows fluid down-scaling on tiny mobile screens */
+    float: left !important;
+    display: inline !important;
+    clear: none !important;          /* Allows text wrap on desktop */
+    margin: 0.5rem 0 1.5rem 2.5rem !important; /* Spacing for wrapping text */
+}
 
 /* ==========================================================================
    DESKTOP OVERRIDES (Screens wider than 48rem/768px)
@@ -934,7 +957,7 @@ table.table::after {
 }
 
 /* --- THE FLOATED LAYOUT CORRECTION VALVE --- */
-/* Forces headings to always stay clean and start below any floating right-flush images */
+/* Forces headings to always start below any floating flush-right or -left images */
 .post h1, .post h2, .post h3, .post h4 {
   clear: both !important;
 }
