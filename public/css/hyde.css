@@ -910,7 +910,7 @@ table.table::after {
 }
 
 /* --- 6. Half Stamp Size: 60px cap (For tiny details) --- */
-/* images are inline flush left */
+/* images are inline flush left. Designed to be used in-line in a paragraph of text. Make sure there is plenty of text in the paragraph to ensure that the next image doesn't run up against it. */
 
 .post img.half-stamp {
   max-width: 60px !important; /* Locks the exact structural size on desktop */
