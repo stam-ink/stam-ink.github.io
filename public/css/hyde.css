@@ -925,7 +925,7 @@ table.table::after {
     float: left !important;
     display: inline !important;
     clear: none !important;          /* Allows text wrap on desktop */
-    margin: 0.5rem 0 1.5rem 2.5rem !important; /* Spacing for wrapping text */
+    margin: 0.5rem 2.5rem 1.5rem 0 !important; /* Spacing for wrapping text */
 }
 
 /* ==========================================================================
