@@ -910,11 +910,12 @@ table.table::after {
 }
 
 /* --- 6. Half Stamp Size: 60px cap (For tiny details) --- */
+/* images are inline flush left */
 
-.post img.half-stamp {         /* Allows fluid down-scaling on tiny mobile screens */
+.post img.half-stamp {
   max-width: 60px !important; /* Locks the exact structural size on desktop */
   width: 16.66%;               /* Not too tiny on mobile screens */
-    float: left !important;   /* Can be used as a drop-cap */
+    float: left !important;
     display: inline !important;
     clear: none !important;          /* Allows text wrap on desktop */
     margin: 0.25rem 1rem 1rem 0 !important; /* Spacing for wrapping text */
