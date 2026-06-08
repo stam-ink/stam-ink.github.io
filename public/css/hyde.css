@@ -913,12 +913,12 @@ table.table::after {
 /* images are inline flush left. Designed to be used in-line in a paragraph of text. Make sure there is plenty of text in the paragraph to ensure that the next image doesn't run up against it. */
 
 .post img.half-stamp {
-  max-width: 60px !important; /* Locks the exact structural size on desktop */
-  width: 16.66%;               /* Not too tiny on mobile screens */
-    float: left !important;
-    display: inline !important;
-    clear: none !important;          /* Allows text wrap on desktop */
-    margin: 0.25rem 1rem 1rem 0 !important; /* Spacing for wrapping text */
+  max-width: 60px !important;            /* Locks the exact structural size on desktop */
+  width: 16.66%;                         /* Not too tiny on mobile screens */
+  float: left !important;
+  display: inline !important;
+  clear: left !important;                /* CRITICAL: Forces each new stamp to start fresh below the last one */
+  margin: 0.25rem 1rem 1rem 0 !important; /* Perfect breathing room for your example text */
 }
 
 /* ==========================================================================
