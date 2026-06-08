@@ -835,10 +835,15 @@ table.table::after {
 }
 
 /* Grid Item Styles */
-.image-grid a,
-.image-grid img {
+.image-grid a, .image-grid img {
   margin: 0 !important;
-  flex: 0 1 150px;      /* '0' prevents them from stretching weirdly; ideal size is 150px */
+  
+  /* CRITICAL CHANGE: 
+     First '0' = do not grow past base size.
+     Second '0' = DO NOT SHRINK. They will hold their ground.
+     '60px' = Your minimum stamp size. */
+  flex: 0 0 60px;       
+  
   max-width: 200px;     
   aspect-ratio: 1 / 1;  /* Forces perfect squares */
   object-fit: cover;    /* Clean cropping for the image contents */
