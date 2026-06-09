@@ -364,14 +364,16 @@ a.sidebar-nav-item:focus {
   width: 100%;
 }
 
-/* Fine-Tuning Text Alignments */
+/* Fine-Tuning Text Alignments & Adding the Middle Shim Gaps */
 .prev-item, .home-left {
   text-align: left;
+padding-right: 1.5rem !important; /* FIXED: The safety boundary shim on the right side */
 }
 
 .next-item, .home-right {
   text-align: right;
-  margin-left: auto;            /* Keeps it locked to the right edge if it's solo */
+margin-left: auto;            
+  padding-left: 1.5rem !important;  /* FIXED: The safety boundary shim on the left side */
 }
 
 :root {
