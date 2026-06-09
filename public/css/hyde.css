@@ -825,11 +825,15 @@ table.table::after {
 
 /* Image Groups / Photo Galleries (Strict Single-Row Layout) */
 .image-grid {
-  display: flex;
-  flex-wrap: nowrap;       /* CRITICAL: Prevents images from ever dropping to a new line */
-  overflow: hidden;        /* CRITICAL: Instantly hides any image that spills past the edge */
-  gap: 12px;               /* Consistent gap between thumbnails */
-  justify-content: left; /* Keeps the visible group flush left within the text column */
+  display: grid;
+  /* Automatically fills the row with as many 60px columns as fit completely */
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 12px;
+  
+  /* Restricts the grid layout container to exactly one row's height */
+  height: 60px; 
+  overflow: hidden;        /* Instantly drops any image that overflows to row 2 out of sight */
+  
   margin: 2.5rem 0;
   width: 100%;
 }
@@ -837,11 +841,12 @@ table.table::after {
 /* Grid Item Styles */
 .image-grid a, .image-grid img {
   margin: 0 !important;
-  flex: 0 0 12%;        /* Fluid percentage sizing on desktop */
-  min-width: 60px;      /* HARD LIMIT: Never allows them to shrink smaller than your stamps */
-  max-width: 120px;     
-  aspect-ratio: 1 / 1;  
-  object-fit: cover;    
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 150px;        /* Keeps them from scaling up too large on massive displays */
+  aspect-ratio: 1 / 1;     /* Forces perfect squares */
+  object-fit: cover;       /* Clean cropping for the image contents */
 }
 
 /* ==========================================================================
