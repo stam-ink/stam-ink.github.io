@@ -1061,11 +1061,10 @@ table.table::after {
 }
 
 /*=================================================
-/* STAM 101 Automated Top-to-Bottom List (Streamlined Alias) */
+/* STAM 101 Automated Top-to-Bottom List (Standard Explicit ID) */
 /*=================================================*/
 
-/* Target any ID ending in "toc" and apply the vertical newspaper columns */
-[id$="toc"] {
+#markdown-toc {
   column-width: 160px !important;
   column-gap: 2rem !important;
   list-style-type: none !important;
@@ -1073,13 +1072,13 @@ table.table::after {
   padding: 0 !important;
 }
 
-[id$="toc"] li {
+#markdown-toc li {
   margin: 0 0 0.5rem 0 !important;
   padding: 0 !important;
   break-inside: avoid !important;
 }
 
-[id$="toc"] li a {
+#markdown-toc li a {
   text-decoration: none;
   font-weight: 900 !important;
   color: #878799 !important;
@@ -1087,23 +1086,23 @@ table.table::after {
   display: inline-block;
 }
 
-[id$="toc"] li a:hover {
+#markdown-toc li a:hover {
   color: #999384 !important;
 }
 
 /* Color Fixes for Bolded Entries */
-[id$="toc"] li a strong {
+#markdown-toc li a strong {
   color: inherit !important;
 }
 
-[id$="toc"] li a:hover strong {
+#markdown-toc li a:hover strong {
   color: #999384 !important;
 }
 
-/* Automated indicator symbol: Targets bolded elements inside the aliased list */
-[id$="toc"] li a strong::after {
-  content: " ↗" !important;
-  color: #dbd2bd !important; /* Master accent color */
+/* Automated indicator symbol: Targets bolded elements inside the list */
+#markdown-toc li a strong::after {
+  content: " ✶" !important;
+  color: #dbd2bd !important;
   font-size: 0.85em;
   margin-left: 0.3rem;
   font-weight: 900 !important;
