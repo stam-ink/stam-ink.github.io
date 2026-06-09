@@ -1097,11 +1097,10 @@ table.table::after {
   content: none; 
 }
 
-/* This targets the generated list anchors matching your markdown class definitions */
-#markdown-toc li a.more-about::after,
-#markdown-toc li a[class*="more-about"]::after {
-  content: " ↗" !important;       /* Directs the reader's eye to the deep-dive link */
-  color: #dbd2bd !important;      /* Uses your master accent color */
+/* Universal indicator: Targets any link inside the TOC that carries the .more-about class */
+#markdown-toc li a.more-about::after {
+  content: " ↗" !important;
+  color: #dbd2bd !important;
   font-size: 0.85em;
   margin-left: 0.3rem;
   font-weight: 900 !important;
