@@ -827,15 +827,15 @@ table.table::after {
 .image-grid {
   display: grid;
   
-  /* Columns are strictly locked to your 120px stamp size */
-  grid-template-columns: repeat(auto-fill, 120px);
+  /* Columns are strictly locked to your 75px stamp size */
+  grid-template-columns: repeat(auto-fill, 75px);
   gap: 12px;               
   
   /* Forces the row of stamps to start flush-left in the text column */
   justify-content: start; 
   
   /* Locks container height to match your new stamp size */
-  max-height: 120px; 
+  max-height: 75px; 
   overflow: hidden;
   
   margin: 2.5rem 0;
