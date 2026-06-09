@@ -1062,43 +1062,43 @@ table.table::after {
 
 /*=================================================
 /* STAM 101 Automatic Table of Contents Columns */
-/*=================================================
+/*=================================================*/
 
-.toc-columns ul {
-  display: grid;
-  /* Automatically columns based on width: splits into 2, 3, or 4 columns on desktop, 1 on phone */
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 0.5rem 1.5rem;
+#markdown-toc {
+  display: grid !important;
+  /* Automatically calculates columns based on width */
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)) !important;
+  gap: 0.5rem 1.5rem !important;
   
-  list-style-type: none; /* Removes standard messy bullets */
+  list-style-type: none !important; /* Removes standard messy bullets */
   margin: 2rem 0 !important;
   padding: 0 !important;
 }
 
-.toc-columns ul li {
+#markdown-toc li {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-.toc-columns ul li a {
+#markdown-toc li a {
   text-decoration: none;
   font-weight: 900 !important; /* Heavy weight footprint matching your nav style */
   color: #878799 !important;   /* Your base link color */
   font-size: 0.95em;
 }
 
-.toc-columns ul li a:hover {
+#markdown-toc li a:hover {
   color: #999384 !important;   /* Your hover state color */
 }
 
-/* Clean, tracked-out indicator symbol instead of an asterisk */
-.toc-columns ul li.more-about a::after {
+/* Automated indicator symbol for entries with long-form links */
+#markdown-toc li.more-about a::after {
   content: " ↗";                 /* Directs the reader's eye to the deep-dive link */
   color: #dbd2bd !important;      /* Uses your master accent color */
   font-size: 0.85em;
   margin-left: 0.3rem;
+  font-weight: 900 !important;
 }
-
 
  /* 
  End custom CSS
