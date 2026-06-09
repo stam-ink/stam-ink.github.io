@@ -537,30 +537,29 @@ caption,
 }
 
 /* ==========================================================
-   STAM 101 Tight Footnote Spacing Fix
+   STAM 101 Balanced Footnote Spacing
    ========================================================== */
 
-/* Force any paragraph immediately followed by a 101 note to drop its bottom spacing */
+/* Moderated upward pull for the paragraph connection */
 .content p + ul.note-101,
 .content p + ol.note-101 {
-  margin-top: -1.25rem !important;   /* Increase the upward pull force */
+  margin-top: -0.45rem !important;   /* Balanced margin nudge */
 }
 
-/* Eliminate default list padding gaps and set precise entry boundaries */
+/* Apply the exact same balanced margin to the block container */
 ul.note-101,
 ol.note-101 {
   padding-top: 0 !important;
-  margin-top: -1.25rem !important;   /* Aggressive upward pull */
-  margin-bottom: 2rem !important;    /* Keeps a healthy boundary before the next H3 entry */
+  margin-top: -0.45rem !important;   /* Pulls up cleanly without squishing text */
+  margin-bottom: 2rem !important;    /* Retains the great gap before the next H3 entry */
 }
 
-/* Ensure the individual list line element doesn't carry extra top padding */
+/* Keep the individual bullet item flush */
 ul.note-101 li,
 ol.note-101 li {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
-
 
 h2 /* Post sub-head*/
 {
