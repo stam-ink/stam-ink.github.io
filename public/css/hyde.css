@@ -536,12 +536,31 @@ caption,
   font-style: italic;
 }
 
-/* 3. Apply your tight-margin spacing exclusively to this class */
+/* ==========================================================
+   STAM 101 Tight Footnote Spacing Fix
+   ========================================================== */
+
+/* Force any paragraph immediately followed by a 101 note to drop its bottom spacing */
+.content p + ul.note-101,
+.content p + ol.note-101 {
+  margin-top: -1.25rem !important;   /* Increase the upward pull force */
+}
+
+/* Eliminate default list padding gaps and set precise entry boundaries */
 ul.note-101,
 ol.note-101 {
-  margin-top: -0.75rem !important;  /* Snugs it up close to the entry text */
-  margin-bottom: 1.5rem !important; /* Keeps a clean gap before the next H3 entry */
+  padding-top: 0 !important;
+  margin-top: -1.25rem !important;   /* Aggressive upward pull */
+  margin-bottom: 2rem !important;    /* Keeps a healthy boundary before the next H3 entry */
 }
+
+/* Ensure the individual list line element doesn't carry extra top padding */
+ul.note-101 li,
+ol.note-101 li {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
 
 h2 /* Post sub-head*/
 {
