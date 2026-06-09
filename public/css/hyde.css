@@ -1060,7 +1060,7 @@ table.table::after {
   fill: #999384 !important;          /* SVG shifts to hover color */
 }
 
-/*=================================================*/
+/*=================================================
 /* STAM 101 Automated Top-to-Bottom List */
 /*=================================================*/
 
@@ -1080,13 +1080,22 @@ table.table::after {
 
 #markdown-toc li a {
   text-decoration: none;
-  font-weight: 900 !important; /* Heavy weight for regular entries */
+  font-weight: 900 !important;
   color: #878799 !important;
   font-size: 0.95em;
   display: inline-block;
 }
 
 #markdown-toc li a:hover {
+  color: #999384 !important;
+}
+
+/* Color Fixes for Bolded Entries */
+#markdown-toc li a strong {
+  color: inherit !important;
+}
+
+#markdown-toc li a:hover strong {
   color: #999384 !important;
 }
 
