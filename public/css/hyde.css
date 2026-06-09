@@ -1091,6 +1091,14 @@ table.table::after {
   color: #999384 !important;   /* Your hover state color */
 }
 
+/* Clean, tracked-out indicator symbol instead of an asterisk */
+.toc-columns ul li.more-about a::after {
+  content: " ↗";                 /* Directs the reader's eye to the deep-dive link */
+  color: #dbd2bd !important;      /* Uses your master accent color */
+  font-size: 0.85em;
+  margin-left: 0.3rem;
+}
+
 
  /* 
  End custom CSS
