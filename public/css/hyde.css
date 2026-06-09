@@ -827,12 +827,15 @@ table.table::after {
 .image-grid {
   display: grid;
   
-  /* FIXED: Changed 1fr to 60px. Now the column slots never stretch. */
-  grid-template-columns: repeat(auto-fill, 60px);
-  gap: 12px;
+  /* Columns are strictly locked to your 120px stamp size */
+  grid-template-columns: repeat(auto-fill, 120px);
+  gap: 12px;               
   
-  /* Adjust container constraints to hide the overflow row cleanly */
-  max-height: 60px; 
+  /* Forces the row of stamps to start flush-left in the text column */
+  justify-content: start; 
+  
+  /* Locks container height to match your new stamp size */
+  max-height: 120px; 
   overflow: hidden;
   
   margin: 2.5rem 0;
