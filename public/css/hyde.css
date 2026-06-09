@@ -1092,7 +1092,7 @@ table.table::after {
 }
 
 /* Automated indicator symbol for entries with long-form links */
-#markdown-toc li.more-about a::after {
+#markdown-toc li a.more-about::after {
   content: " ↗";                 /* Directs the reader's eye to the deep-dive link */
   color: #dbd2bd !important;      /* Uses your master accent color */
   font-size: 0.85em;
