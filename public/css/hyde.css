@@ -1091,10 +1091,16 @@ table.table::after {
   color: #999384 !important;   /* Your hover state color */
 }
 
-/* Target specific automated TOC links by their destination attributes */
-#markdown-toc li a[href="#admodum"]::after,
-#markdown-toc li a[href="#aurelia-narcissus"]::after {
-  content: " ↗";                 /* Directs the reader's eye to the deep-dive link */
+/* Automatically add arrows to TOC links whose target sections are marked .more-about */
+#markdown-toc li a::after {
+  /* Only inject content if the Kramdown-generated link contains a matching class path */
+  content: none; 
+}
+
+/* This targets the generated list anchors matching your markdown class definitions */
+#markdown-toc li a.more-about::after,
+#markdown-toc li a[class*="more-about"]::after {
+  content: " ↗" !important;       /* Directs the reader's eye to the deep-dive link */
   color: #dbd2bd !important;      /* Uses your master accent color */
   font-size: 0.85em;
   margin-left: 0.3rem;
