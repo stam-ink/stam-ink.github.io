@@ -393,6 +393,20 @@ margin-left: auto;
   color: #dbd2bd !important; 
 }
 
+/* Mobile-Only Line Break for Copyright */
+.post-copyright .mobile-break::after {
+  content: "\A";                  /* Forces a structural new line */
+  white-space: pre !important;    /* Tells the browser to respect the line break */
+}
+
+/* Desktop Override (Screens wider than 48rem/768px) */
+@media (min-width: 48rem) {
+  .post-copyright .mobile-break::after {
+    content: " ";                 /* Replaces the line break with a standard space on desktop */
+    white-space: normal !important;
+  }
+}
+
 :root {
   /* Your specific palette */
   --accent-tan: #dbd2bd;    /* Rules and color areas */
