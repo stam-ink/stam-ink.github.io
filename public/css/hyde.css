@@ -334,7 +334,13 @@ a.sidebar-nav-item:focus {
 
 #post-nav a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 900 !important;   /* FIXED: Upgraded from bold to your heavy black weight */
+  color: #878799 !important;
+  }
+
+/* Added the hover state using your exact colors */
+#post-nav a:hover {
+  color: #999384 !important;     /* FIXED: Your specific hover color */
 }
 
 .next-item {
