@@ -523,18 +523,24 @@ hr {
 .endnote,
 .aside,
 .table,
-.caption { 
-  font-size: 0.85rem;
+caption,
+.note-101 {  font-size: 0.85rem;
   line-height: 1.4;
 }
 
 /* Specific behaviors only for footnotes-style */
 .endnotes,
-.endnote
-.aside {
+.endnote,
+.aside,
+.note-101 {
   font-style: italic;
-/*  display: block; /* @nope */
-/*  margin: 1em 0; /* @nope */
+}
+
+/* 3. Apply your tight-margin spacing exclusively to this class */
+ul.note-101,
+ol.note-101 {
+  margin-top: -0.75rem !important;  /* Snugs it up close to the entry text */
+  margin-bottom: 1.5rem !important; /* Keeps a clean gap before the next H3 entry */
 }
 
 h2 /* Post sub-head*/
@@ -1103,7 +1109,6 @@ table.table::after {
 #markdown-toc li a strong::after {
   content: " ✶" !important;
   color: #dbd2bd !important;
-  font-size: 0.85em;
   margin-left: 0.3rem;
   font-weight: 900 !important;
 }
