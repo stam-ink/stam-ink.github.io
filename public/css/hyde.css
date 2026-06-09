@@ -376,6 +376,23 @@ margin-left: auto;
   padding-left: 1.5rem !important;  /* FIXED: The safety boundary shim on the left side */
 }
 
+/* NEW: Subtle, H2-Style Copyright Line */
+.post-copyright {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;               /* Creates clean separation below the links */
+  
+  /* H2 Style Mimicry rules */
+  font-size: 1em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-weight: normal !important; /* Overrides the heavy link styles below it */
+  
+  /* Subdued Master Color assignment */
+  color: #dbd2bd !important; 
+}
+
 :root {
   /* Your specific palette */
   --accent-tan: #dbd2bd;    /* Rules and color areas */
