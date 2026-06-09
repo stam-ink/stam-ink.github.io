@@ -1060,6 +1060,37 @@ table.table::after {
   fill: #999384 !important;          /* SVG shifts to hover color */
 }
 
+/*=================================================
+/* STAM 101 Automatic Table of Contents Columns */
+/*=================================================
+
+.toc-columns ul {
+  display: grid;
+  /* Automatically columns based on width: splits into 2, 3, or 4 columns on desktop, 1 on phone */
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.5rem 1.5rem;
+  
+  list-style-type: none; /* Removes standard messy bullets */
+  margin: 2rem 0 !important;
+  padding: 0 !important;
+}
+
+.toc-columns ul li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.toc-columns ul li a {
+  text-decoration: none;
+  font-weight: 900 !important; /* Heavy weight footprint matching your nav style */
+  color: #878799 !important;   /* Your base link color */
+  font-size: 0.95em;
+}
+
+.toc-columns ul li a:hover {
+  color: #999384 !important;   /* Your hover state color */
+}
+
 
  /* 
  End custom CSS
