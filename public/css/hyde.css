@@ -322,36 +322,59 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
+
+/*
+ *
+ * custom CSS
+ *
+ */ 
+
+
 /* Force Navigation Layout */
 #post-nav {
   display: flex !important;
-  justify-content: space-between !important;
+  flex-direction: column;         /* Mobile default: stack to prevent text collision */
+  gap: 1.25rem;                   /* Clean spacing between rows on phone screens */
+  text-align: center;
   width: 100%;
   margin-top: 3rem;
   padding-top: 1rem;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #dbd2bd;  /* FIXED: Changed to your master accent color */
 }
 
 #post-nav a {
   text-decoration: none;
-  font-weight: 900 !important;   /* FIXED: Upgraded from bold to your heavy black weight */
-  color: #878799 !important;
+  font-weight: 900 !important;   /* Heavy weight footprint */
+  color: #878799 !important;     /* Base link color */
+}
+
+#post-nav a:hover {
+  color: #999384 !important;     /* Hover state color */
+}
+
+/* Desktop Layout (Screens wider than 48rem/768px) */
+@media (min-width: 48rem) {
+  #post-nav {
+    flex-direction: row !important; /* Snaps into a single horizontal row */
+    justify-content: space-between !important;
+    gap: 0;
   }
 
-/* Added the hover state using your exact colors */
-#post-nav a:hover {
-  color: #999384 !important;     /* FIXED: Your specific hover color */
+  .prev-item {
+    text-align: left;
+    flex: 1;
+  }
+
+  .home-item {
+    text-align: center;
+    flex: 1;
+  }
+
+  .next-item {
+    text-align: right;
+    flex: 1;
+  }
 }
-
-.next-item {
-  margin-left: auto;
-  text-align: right;
-}
-
-
-/*
- * custom CSS
- */ 
 
 :root {
   /* Your specific palette */

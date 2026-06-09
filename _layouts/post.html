@@ -8,36 +8,22 @@ layout: default
   {{ content }}
 </div>
 
-<!-- "related posts"
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
--->
-
 <div id="post-nav">
   {% if page.previous %}
     <a class="prev-item" href="{{ page.previous.url | prepend: site.baseurl }}">
       &larr; Previous: {{ page.previous.title }}
     </a>
   {% else %}
-    <span></span> <!-- Keeps 'Next' on the right if no 'Previous' exists -->
+    <span></span> 
   {% endif %}
+
+  <a class="home-item" href="{{ site.baseurl }}/">Home</a>
 
   {% if page.next %}
     <a class="next-item" href="{{ page.next.url | prepend: site.baseurl }}">
       Next: {{ page.next.title }} &rarr;
     </a>
+  {% else %}
+    <span></span>
   {% endif %}
 </div>
