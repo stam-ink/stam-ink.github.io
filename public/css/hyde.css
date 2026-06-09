@@ -332,16 +332,13 @@ a.sidebar-nav-item:focus {
 
 /* Force Navigation Layout */
 #post-nav {
-  display: flex !important;
-  flex-direction: column;         /* Mobile default: stack to prevent text collision */
-  gap: 1.25rem;                   /* Clean spacing between rows on phone screens */
-  text-align: center;
   width: 100%;
   margin-top: 3rem;
   padding-top: 1rem;
-  border-top: 1px solid #dbd2bd;  /* FIXED: Changed to your master accent color */
+  border-top: 1px solid #dbd2bd; /* Your master accent color */
 }
 
+/* Master Link Styles */
 #post-nav a {
   text-decoration: none;
   font-weight: 900 !important;   /* Heavy weight footprint */
@@ -352,28 +349,29 @@ a.sidebar-nav-item:focus {
   color: #999384 !important;     /* Hover state color */
 }
 
-/* Desktop Layout (Screens wider than 48rem/768px) */
-@media (min-width: 48rem) {
-  #post-nav {
-    flex-direction: row !important; /* Snaps into a single horizontal row */
-    justify-content: space-between !important;
-    gap: 0;
-  }
+/* Row 1 Layout (Previous & Next Line) */
+.nav-row-main {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+  width: 100%;
+}
 
-  .prev-item {
-    text-align: left;
-    flex: 1;
-  }
+/* Row 2 Layout (Centered Home Line) */
+.nav-row-sub {
+  text-align: center;
+  margin-top: 1rem;             /* Clean separation below the post titles */
+  width: 100%;
+}
 
-  .home-item {
-    text-align: center;
-    flex: 1;
-  }
+/* Fine-Tuning Text Alignments */
+.prev-item, .home-left {
+  text-align: left;
+}
 
-  .next-item {
-    text-align: right;
-    flex: 1;
-  }
+.next-item, .home-right {
+  text-align: right;
+  margin-left: auto;            /* Keeps it locked to the right edge if it's solo */
 }
 
 :root {

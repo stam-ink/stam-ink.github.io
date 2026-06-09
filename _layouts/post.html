@@ -9,21 +9,27 @@ layout: default
 </div>
 
 <div id="post-nav">
-  {% if page.previous %}
-    <a class="prev-item" href="{{ page.previous.url | prepend: site.baseurl }}">
-      &larr; Previous: {{ page.previous.title }}
-    </a>
-  {% else %}
-    <span></span> 
-  {% endif %}
+  <div class="nav-row-main">
+    {% if page.previous %}
+      <a class="prev-item" href="{{ page.previous.url | prepend: site.baseurl }}">
+        &larr; Previous: {{ page.previous.title }}
+      </a>
+    {% else %}
+      <a class="home-left" href="{{ site.baseurl }}/">Home</a>
+    {% endif %}
 
-  <a class="home-item" href="{{ site.baseurl }}/">Home</a>
+    {% if page.next %}
+      <a class="next-item" href="{{ page.next.url | prepend: site.baseurl }}">
+        Next: {{ page.next.title }} &rarr;
+      </a>
+    {% else %}
+      <a class="home-right" href="{{ site.baseurl }}/">Home</a>
+    {% endif %}
+  </div>
 
-  {% if page.next %}
-    <a class="next-item" href="{{ page.next.url | prepend: site.baseurl }}">
-      Next: {{ page.next.title }} &rarr;
-    </a>
-  {% else %}
-    <span></span>
+  {% if page.previous and page.next %}
+    <div class="nav-row-sub">
+      <a class="home-center" href="{{ site.baseurl }}/">Home</a>
+    </div>
   {% endif %}
 </div>
