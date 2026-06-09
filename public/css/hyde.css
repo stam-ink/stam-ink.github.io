@@ -1061,49 +1061,39 @@ table.table::after {
 }
 
 /*=================================================*/
-/* STAM 101 Automatic Vertical Column Flow */
+/* STAM 101 Automated Top-to-Bottom List */
 /*=================================================*/
 
 #markdown-toc {
-  /* Automatically split into columns that are at least 160px wide */
   column-width: 160px !important;
-  /* The space/gap between your vertical columns */
   column-gap: 2rem !important;
-  
   list-style-type: none !important;
   margin: 2rem 0 !important;
   padding: 0 !important;
 }
 
 #markdown-toc li {
-  margin: 0 0 0.5rem 0 !important; /* Space between rows */
+  margin: 0 0 0.5rem 0 !important;
   padding: 0 !important;
-  /* Keeps an individual list item from splitting awkwardly across two columns */
-  break-inside: avoid !important; 
+  break-inside: avoid !important;
 }
 
 #markdown-toc li a {
   text-decoration: none;
-  font-weight: 900 !important;
+  font-weight: 900 !important; /* Heavy weight for regular entries */
   color: #878799 !important;
   font-size: 0.95em;
-  display: inline-block; /* Essential for the pseudo-element layout */
+  display: inline-block;
 }
 
 #markdown-toc li a:hover {
   color: #999384 !important;
-}}
-
-/* Automatically add arrows to TOC links whose target sections are marked .more-about */
-#markdown-toc li a::after {
-  /* Only inject content if the Kramdown-generated link contains a matching class path */
-  content: none; 
 }
 
-/* Universal indicator: Targets any link inside the TOC that carries the .more-about class */
-#markdown-toc li a.more-about::after {
+/* Automated indicator symbol: Targets bolded elements inside the list */
+#markdown-toc li a strong::after {
   content: " ↗" !important;
-  color: #dbd2bd !important;
+  color: #dbd2bd !important; /* Master accent color */
   font-size: 0.85em;
   margin-left: 0.3rem;
   font-weight: 900 !important;
