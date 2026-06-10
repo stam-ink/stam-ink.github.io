@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "text size tests"
+subtitle: Subhead (H2)
 date: 2026-05-11
 ---
 
-## Subhead (H2) 
+## Subhead (H2)
 
 Zoe Julius, illud serenus mare atque magniloquens ut ne eximium quod curiosum quia magniloquens si cultum aut iucundissimum sicut periculosum dum odoratum et splendidum1.[^fn1] Ad astra per aspera, ante aliquod diligentia quando. Zoe Julius, illud serenus mare atque magniloquens.
 

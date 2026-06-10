@@ -1131,6 +1131,47 @@ table.table::after {
   font-weight: 900 !important;
 }
 
+/* ==========================================================================
+   Master Blog Index Styling (Parentheses Style)
+   ========================================================================== */
+
+ul.master-blog-index {
+  list-style-type: none !important;
+  padding: 0 !important;
+  margin: 2rem 0 !important;
+}
+
+ul.master-blog-index li {
+  margin-bottom: 0.75rem !important;
+  line-height: 1.4;
+}
+
+ul.master-blog-index li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+/* Primary Post Title (e.g., Fonts: Part 1) */
+ul.master-blog-index .index-title {
+  font-weight: 700 !important;
+  color: #515151 !important; /* Standard dark body color */
+}
+
+/* The Wrapping Parentheses and Subtitle */
+ul.master-blog-index .index-paren,
+ul.master-blog-index .index-subtitle {
+  font-weight: 400 !important;
+  font-style: italic;
+  color: #878799 !important; /* Muted accent purple */
+}
+
+/* Unified Hover State for the entire line */
+ul.master-blog-index li a:hover .index-title,
+ul.master-blog-index li a:hover .index-paren,
+ul.master-blog-index li a:hover .index-subtitle {
+  color: #999384 !important; /* Master hover color */
+}
+
  /* 
  End custom CSS
  */ 
