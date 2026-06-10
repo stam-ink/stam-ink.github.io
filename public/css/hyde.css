@@ -1153,16 +1153,15 @@ ul.master-blog-index li a {
 
 /* Primary Post Title (e.g., Fonts: Part 1) */
 ul.master-blog-index .index-title {
-  font-weight: 700 !important;
-  color: #515151 !important; /* Standard dark body color */
+  font-weight: 900 !important;
+  color: #878799 !important; 
 }
 
 /* The Wrapping Parentheses and Subtitle */
 ul.master-blog-index .index-paren,
 ul.master-blog-index .index-subtitle {
   font-weight: 400 !important;
-  font-style: italic;
-  color: #878799 !important; /* Muted accent purple */
+  color: #878799 !important; 
 }
 
 /* Unified Hover State for the entire line */
