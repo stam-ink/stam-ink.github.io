@@ -507,7 +507,7 @@ hr {
 
 /* The automatic rule above footnotes */
 .footnotes {
-  margin-top: 0em; /* 3em;  /* 0 to move it closer to the subSCRIBE links*/
+  margin-top: 0em; /* 3em;  /* 0em to move it closer to the subSCRIBE links*/
   border-top: 1px solid #dbd2bd; /* Your light tan color */
   padding-top: 1rem;
 }
