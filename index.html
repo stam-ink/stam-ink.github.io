@@ -14,10 +14,9 @@ title: Home
 </div>
 
 <div id="post-nav">
-  <!-- Wrap the homepage footer elements in the same ID container to trigger the layout-shift CSS -->
   <div id="post-footer-container">
     <div class="post-subscription-note">
-    Stay up to date &#8211; subSCRIBE via <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a> or <a href="YOUR_EMAIL_LINK_HERE">Email Updates</a>.
+      Stay up to date &#8211; subSCRIBE via <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a> or <a href="YOUR_EMAIL_LINK_HERE">Email Updates</a>.
     </div>
 
     <div class="nav-row-main">
@@ -34,5 +33,7 @@ title: Home
         We don't need a span here because 'Previous' will naturally stay on the left.
       {% endcomment %}
     </div>
-  </div> <!-- Closes #post-footer-container -->
+  </div> <div class="post-copyright">
+    &copy; 2011–{{ site.time | date: '%Y' }}.<span class="mobile-break"></span>All rights reserved.
+  </div>  
 </div>
