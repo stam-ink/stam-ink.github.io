@@ -507,7 +507,7 @@ hr {
 
 /* The automatic rule above footnotes */
 .footnotes {
-  margin-top: 3em;
+  margin-top: 0 /* 3em;  /* 0 to move it closer to the subSCRIBE links*/
   border-top: 1px solid #dbd2bd; /* Your light tan color */
   padding-top: 1rem;
 }
@@ -1178,12 +1178,13 @@ ul.master-blog-index li a:hover .index-subtitle {
 .post-subscription-note {
   font-size: 0.85rem;
   font-style: italic;
-  color: #dbd2bd;
+/*  color: #dbd2bd; */
   text-align: center;
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 0;
 }
 
+/*
 .post-subscription-note a {
   color: #878799;
   text-decoration: none;
@@ -1193,7 +1194,7 @@ ul.master-blog-index li a:hover .index-subtitle {
   color: #999384;
   text-decoration: underline;
 }
-
+*/
 
  /* 
  End custom CSS
