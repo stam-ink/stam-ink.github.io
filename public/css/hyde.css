@@ -1196,8 +1196,19 @@ margin-bottom: 1.5em; /* Controls the exact gap right above the rule line */
 */
 
 /* ==========================================================
-   Post Footer Navigation Hover Fix
+   Post Footer Navigation & Rule Line Shift
    ========================================================== */
+#post-nav {
+  border-top: none !important; /* Removes the rule from above the subscription text */
+  margin-top: 0;
+}
+
+#post-nav .nav-row-main {
+  /* Places the rule precisely between the subscription links and navigation */
+  border-top: 1px solid #dbd2bd; 
+  padding-top: 1.5em;
+}
+
 #post-nav a:hover {
   text-decoration: underline;
 }
