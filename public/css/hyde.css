@@ -1171,6 +1171,19 @@ ul.master-blog-index li a:hover .index-subtitle {
   color: #999384 !important; /* Master hover color */
 }
 
+/* ==========================================================
+   Post Footer Subscription Text
+   ========================================================== */
+.post-subscription-note {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #878799 !important; /* Muted accent tone */
+  margin-top: 2rem !important;
+  margin-bottom: 1.5rem !important; /* Balanced gap right before the <hr> rule */
+  text-align: left;
+}
+
+
  /* 
  End custom CSS
  */ 
