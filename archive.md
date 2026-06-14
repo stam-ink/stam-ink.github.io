@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Index"
-permalink: /index/
+title: "Archive"
+permalink: /archive/
 ---
 
 ## In Chronological Order (Oldest First)

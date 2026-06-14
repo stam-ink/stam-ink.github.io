@@ -6,3 +6,7 @@ url: https://stam-ink.github.io
 baseurl: /blog-draft
 paginate: 1
 paginate_path: "/page:num/"
+
+# Plugins
+plugins:
+  - jekyll-feed

@@ -6,6 +6,12 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
 <!-- <span class="post-date">{{ page.date | date_to_string }}</span> -->
   {{ content }}
+
+<!-->  <p class="sig">-= 8 =-</p> --> <!-- for now I want to keep this maunaul -->
+
+  <div class="post-subscription-note">
+    Stay up to date -- subSCRIBE via <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a> or <a href="YOUR_EMAIL_SUBSCRIPTION_PAGE_HERE">Email Updates</a>.
+  </div>
 </div>
 
 <div id="post-nav">
@@ -33,7 +39,7 @@ layout: default
     </div>
   {% endif %}
   
-<div class="post-copyright">
+  <div class="post-copyright">
     &copy; 2011–{{ site.time | date: '%Y' }}.<span class="mobile-break"></span>All rights reserved.
   </div>  
 </div>
