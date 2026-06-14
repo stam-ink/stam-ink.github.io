@@ -507,7 +507,7 @@ hr {
 
 /* The automatic rule above footnotes */
 .footnotes {
-  margin-top: 0em; /* 3em;  /* 0em to move it closer to the subSCRIBE links*/
+  margin-top: 3em;
   border-top: 1px solid #dbd2bd; /* Your light tan color */
   padding-top: 1rem;
 }
@@ -786,7 +786,6 @@ h3[lang="he"] {
 .sig,
 .signature {
   display: block; /* makes sure it is always on a new line */
-  /* text-align: center;          /* @nope Centers the signature on the page*/
   margin-top: 4.5rem !important; /* Pushes it down 3x the standard paragraph gap */
   margin-bottom: 2rem !important;/* Leaves healthy room before the footer */
 }
@@ -1181,7 +1180,7 @@ ul.master-blog-index li a:hover .index-subtitle {
 /*  color: #dbd2bd; */
   text-align: center;
   margin-top: 3em;
-  margin-bottom: 0;
+margin-bottom: 1.5em; /* Controls the exact gap right above the rule line */
 }
 
 /*
@@ -1195,6 +1194,13 @@ ul.master-blog-index li a:hover .index-subtitle {
   text-decoration: underline;
 }
 */
+
+/* ==========================================================
+   Post Footer Navigation Hover Fix
+   ========================================================== */
+#post-nav a:hover {
+  text-decoration: underline;
+}
 
  /* 
  End custom CSS
