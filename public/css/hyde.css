@@ -1093,6 +1093,7 @@ table.table::after {
   list-style-type: none !important;
   margin: 2rem 0 !important;
   padding: 0 !important;
+  line-height: 1 !important;
 }
 
 #markdown-toc li {
