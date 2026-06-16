@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       
-      <h1 style="margin-bottom: 0 !important;">
+      <h1 style="margin-bottom: 0 !important; margin-top: 0 !important;">
         <a class="site-branding-link" href="{{ site.baseurl }}">
 
           <svg class="site-logo" width="112" height="99" viewBox="0 0 112 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
@@ -20,7 +20,7 @@
         </a>
       </h1>
       
-      <p class="lead" style="margin-top: 0 !important; padding-top: 0.25em !important;">
+      <p class="lead" style="margin-top: -0.25em !important; padding-top: 0 !important; margin-bottom: 1.5em !important;">
         {{ site.description }}
       </p>
     </div>
@@ -33,7 +33,7 @@
         {% if node.title != null %}
           {% if node.layout == "page" %}
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          | {% endif %}
+          {% endif %}
         {% endif %}
       {% endfor %}
     </nav>
