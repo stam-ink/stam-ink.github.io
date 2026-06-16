@@ -1108,7 +1108,7 @@ table.table::after {
   text-decoration: none;
   font-weight: 900 !important;
   color: #878799 !important;
-  display: inline-block;
+  display: block;
 }
 
 #markdown-toc li a:hover {
