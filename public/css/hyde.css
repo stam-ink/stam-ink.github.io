@@ -1099,10 +1099,13 @@ table.table::after {
 #markdown-toc li {
   margin: 0 0 0.5rem 0 !important;
   padding: 0 !important;
-  break-inside: avoid !important;
-  line-height: 1 !important;
-  margin-top: 0 !important; 
-  display: block !important;
+  
+  /* CRITICAL: Stops the browser from adding top spacing block headers */
+  margin-top: 0 !important;
+  break-inside: avoid-column !important;
+  
+  /* THE NUKE: Forces the column tracking engine to compute independent, flat boxes */
+  display: flow-root !important;
 }
 
 #markdown-toc li a {
