@@ -1102,10 +1102,8 @@ table.table::after {
   /* Add these two lines to force absolute top alignment in column tracks */
   line-height: 1 !important;
   margin-top: 0 !important; 
-}
-
 /* The Golden Ticket for Multi-Column Wrapped Text: */
-  display: inline-block !important;
+  display: block !important;
   width: 100% !important;
 }
 
