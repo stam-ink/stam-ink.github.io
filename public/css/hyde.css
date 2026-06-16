@@ -1213,6 +1213,11 @@ margin-bottom: 1.5em; /* Controls the exact gap right above the rule line */
   text-decoration: underline;
 }
 
+/* Fix page images to allow custom alignment and floating classes */
+.page img {
+  display: inline !important;
+}
+
  /* 
  End custom CSS
  */ 
