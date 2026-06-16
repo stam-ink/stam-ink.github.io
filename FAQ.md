@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "FAQ"
 subtitle: Frequently Asked Questions
-date: 2026-05-25
 ---
 
 ## Frequently Asked Questions

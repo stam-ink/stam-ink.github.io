@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: page
 title: "STAN 101"
-date: 2026-04-29
 ---
 
 <!-- H3s that are tagged with **bold** will be starred in the TOC -->

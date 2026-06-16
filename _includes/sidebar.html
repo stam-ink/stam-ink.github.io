@@ -34,14 +34,17 @@
         }
       </style>
 
-      <a class="sidebar-nav-item{% if page.url == '/stam-101/' %} active{% endif %}" href="{{ site.baseurl }}/stam-101/">STAM 101</a>
-      <a class="sidebar-nav-item{% if page.url == '/products/' %} active{% endif %}" href="{{ site.baseurl }}/products/">Products</a>
-      <a class="sidebar-nav-item{% if page.url == '/archive-index/' %} active{% endif %}" href="{{ site.baseurl }}/archive-index/">Archive Index</a>
-      <a class="sidebar-nav-item{% if page.url == '/about/' %} active{% endif %}" href="{{ site.baseurl }}/about/">About</a>
-      <a class="sidebar-nav-item{% if page.url == '/faq/' %} active{% endif %}" href="{{ site.baseurl }}/faq/">FAQ</a>
+<!-- NAVIGATION BLOCK -->
+    <!-- We use a Flexbox column layout with a controlled gap property to completely master the vertical spacing -->
+    <nav class="sidebar-nav" style="margin-top: 15px !important; display: flex !important; flex-direction: column !important; gap: 4px !important;">
+      
+      <a class="sidebar-nav-item{% if page.url == '/stan-101/' %} active{% endif %}" href="{{ site.baseurl }}/stan-101/" style="margin: 0 !important; padding: 0 !important; line-height: 1.2 !important;">STAN 101</a>
+      <a class="sidebar-nav-item{% if page.url == '/products/' %} active{% endif %}" href="{{ site.baseurl }}/products/" style="margin: 0 !important; padding: 0 !important; line-height: 1.2 !important;">Products</a>
+      <a class="sidebar-nav-item{% if page.url == '/archive-index/' %} active{% endif %}" href="{{ site.baseurl }}/archive/" style="margin: 0 !important; padding: 0 !important; line-height: 1.2 !important;">Archive Index</a>
+      <a class="sidebar-nav-item{% if page.url == '/about/' %} active{% endif %}" href="{{ site.baseurl }}/about/" style="margin: 0 !important; padding: 0 !important; line-height: 1.2 !important;">About</a>
+      <a class="sidebar-nav-item{% if page.url == '/faq/' %} active{% endif %}" href="{{ site.baseurl }}/faq/" style="margin: 0 !important; padding: 0 !important; line-height: 1.2 !important;">FAQ</a>
 
-    </nav>
-  </div>
+    </nav>  </div>
 </div>
 
 <style>
