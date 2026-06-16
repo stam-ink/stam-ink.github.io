@@ -1093,26 +1093,20 @@ table.table::after {
   list-style-type: none !important;
   margin: 2rem 0 !important;
   padding: 0 !important;
-  line-height: 1 !important;
 }
 
 #markdown-toc li {
   margin: 0 0 0.5rem 0 !important;
   padding: 0 !important;
-  
-  /* CRITICAL: Stops the browser from adding top spacing block headers */
-  margin-top: 0 !important;
-  break-inside: avoid-column !important;
-  
-  /* THE NUKE: Forces the column tracking engine to compute independent, flat boxes */
-  display: flow-root !important;
+  break-inside: avoid !important;
 }
 
 #markdown-toc li a {
   text-decoration: none;
   font-weight: 900 !important;
   color: #878799 !important;
-  display: block;
+/*  font-size: 0.95em;   */
+  display: inline-block;
 }
 
 #markdown-toc li a:hover {
@@ -1134,7 +1128,7 @@ table.table::after {
   color: #dbd2bd !important;
   margin-left: 0.3rem;
   font-weight: 900 !important;
-}
+}}
 
 /* ==========================================================================
    Master Blog Index Styling (Parentheses Style)
