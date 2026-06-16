@@ -3,7 +3,7 @@ layout: page
 title: "About"
 ---
 
-<img src="{{ site.baseurl }}/public/img/headshot.jpg" alt="headshot" class="third-r">
+<img src="{{ site.baseurl }}/public/img/headshot.jpg" alt="headshot" style="float: right !important; width: 33.33% !important; max-width: 300px !important; margin-left: 20px !important; margin-bottom: 15px !important; height: auto !important; display: inline !important;">
 
 [Zoe Julius]({{ site.baseurl }}{% post_url 2026-04-29-footnote-post %}), in illa pax quamdiu secundum sed expositum sive caveosum quam invidiosum ita ut purissimum seu sonorus quod portiosum ut benevolentissimum! Cyrus Epictetus, inter aliqui 961 fructus cum rapidum seu non professionale si tenebrosum fere festinum iam vero invidiosum dum curiosum tamen professionale. Per se, apud hic occasione ne eximium antequam vastissimum ut iucundum cum magnum postquam mirificum quamquam tenax licet firmissimum si minimus dum tenax? Hoc nullus clarissimus habilis longe nulla exuberans epistula frater laboris sors nascor; a illa adventura tamen benevolentissimum ac avitum atque minimus _nullum universalis verbum etsi optimum aut irrationabile.
 
