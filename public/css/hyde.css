@@ -1104,6 +1104,11 @@ table.table::after {
   margin-top: 0 !important; 
 }
 
+/* The Golden Ticket for Multi-Column Wrapped Text: */
+  display: inline-block !important;
+  width: 100% !important;
+}
+
 #markdown-toc li a {
   text-decoration: none;
   font-weight: 900 !important;
