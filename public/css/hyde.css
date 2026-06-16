@@ -1099,6 +1099,13 @@ table.table::after {
   margin: 0 0 0.5rem 0 !important;
   padding: 0 !important;
   break-inside: avoid !important;
+#markdown-toc li {
+  margin: 0 0 0.5rem 0 !important;
+  padding: 0 !important;
+  break-inside: avoid !important;
+  /* Add these two lines to force absolute top alignment in column tracks */
+  line-height: 1 !important;
+  margin-top: 0 !important; 
 }
 
 #markdown-toc li a {
