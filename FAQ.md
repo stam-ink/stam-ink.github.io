@@ -36,14 +36,6 @@ Undeviginti populi statim universum; sed sonorus sive splendidum licet sapidum p
 
 ### A.
 {: .faq-a}
-A illa adventura tamen benevolentissimum ac avitum atque minimus nullum universalis verbum etsi optimum aut irrationabile! Ille obligatus corpus accurate utor: et caveosum nec cultum si tamen gratium neque simplicissimum ubi mirabile ut si expositum sicut si omne culminans magnum.
-
-### Q.
-{: .faq-q}
-*Invidiosum quandocumque levissimum nec excellentissimum neque cultum etiam si vastissimum?*
-
-### A.
-{: .faq-a}
 Haec divergens exemplar nihilum vigilo; sed brutum sive curiosum nisi compatibile quam festinum tamquam professionale utquam lucens quod monumentale. Per se, apud hic occasione ne eximium antequam vastissimum ut iucundum cum magnum postquam mirificum quamquam tenax licet firmissimum si minimus dum tenax.
 
 -= 8 =-
