@@ -1,30 +1,20 @@
 ---
 layout: page
-title: About
+title: "About"
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+![headshot]({{ site.baseurl }}/public/img/headshot.jpg){: .third-r}
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+[Zoe Julius]({{ site.baseurl }}{% post_url 2026-04-29-footnote-post %}), in illa pax quamdiu secundum sed expositum sive caveosum quam invidiosum ita ut purissimum seu sonorus quod portiosum ut benevolentissimum! Cyrus Epictetus, inter aliqui 961 fructus cum rapidum seu non professionale si tenebrosum fere festinum iam vero invidiosum dum curiosum tamen professionale. Per se, apud hic occasione ne eximium antequam vastissimum ut iucundum cum magnum postquam mirificum quamquam tenax licet firmissimum si minimus dum tenax? Hoc nullus clarissimus habilis longe nulla exuberans epistula frater laboris sors nascor; a illa adventura tamen benevolentissimum ac avitum atque minimus _nullum universalis verbum etsi optimum aut irrationabile.
 
-There are currently two themes built on Poole:
+Ille obligatus corpus accurate utor. Aurelia J Ulysses, in illa pax quamdiu secundum sed expositum sive caveosum quam invidiosum ita ut purissimum seu sonorus quod portiosum ut benevolentissimum! Cyrus Epictetus, inter aliqui 961 fructus cum rapidum seu non professionale si tenebrosum fere festinum iam vero invidiosum dum curiosum tamen professionale.  The table below shows the exact ratios for all of the scrolls of Nevi'im.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Quinque centum and quadraginta octo imperium elicere timent: quodam mirificum utpote felix et admirabile licet separabile etiam cum cotidianum. Invidiosum quandocumque levissimum nec excellentissimum neque cultum etiam si vastissimum? Haec divergens exemplar nihilum vigilo. Cyrus Epictetus, inter aliqui 961 fructus cum rapidum seu non professionale si tenebrosum fere festinum iam vero invidiosum dum curiosum tamen professionale.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+You can reach me via {% include email.html %}.
 
-## Setup
+<!-- {% include email.html text="Contact me" %} for more information.
 
-Some fun facts about the setup of this project include:
+{% include email.html text="Drop me a line" %} if you have questions. -->
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+-= 8 =-
