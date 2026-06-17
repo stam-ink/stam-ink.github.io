@@ -3,6 +3,17 @@ layout: page
 title: "STAN 101"
 ---
 
+[![Shel-Yad](https://farm7.staticflickr.com/6048/6878717552_b11cf48ee8_s.jpg "Shel Yad")](https://www.flickr.com/photos/68215105@N04/6878717552){: target="_blank"} 
+[![Siyum-Sefer-Torah](https://farm8.staticflickr.com/7011/6440531273_f70d0cdf98_s.jpg "Siyum Sefer Torah")](https://www.flickr.com/photos/68215105@N04/6440531273){: target="_blank"} 
+[![Tefilin-Shel-Rosh](https://farm7.staticflickr.com/6093/6305456570_a8c93e294f_s.jpg "Tefilin Shel Rosh")](https://www.flickr.com/photos/68215105@N04/6305456570){: target="_blank"} 
+[![Iraqi-Torah](https://farm8.staticflickr.com/7145/6494388349_0f3b82087f_s.jpg "Iraqi Torah")](https://www.flickr.com/photos/68215105@N04/6494388349){: target="_blank"} 
+[![blank-klaf](https://farm7.staticflickr.com/6041/6375431455_f4f8cc3bcf_s.jpg "blank klaf")](https://www.flickr.com/photos/68215105@N04/6375431455){: target="_blank"} 
+[![mezuzos](https://farm7.staticflickr.com/6004/6207137390_c11f016e08_s.jpg "mezuzos")](https://www.flickr.com/photos/68215105@N04/6207137390){: target="_blank"} 
+[![Batim](https://farm8.staticflickr.com/7157/6440564547_9321907cef_s.jpg "Batim")](https://www.flickr.com/photos/68215105@N04/6440564547){: target="_blank"} 
+[![Megilas-Ester](https://farm7.staticflickr.com/6225/6286436291_3401a4a101_s.jpg "Megilas Ester")](https://www.flickr.com/photos/68215105@N04/6286436291){: target="_blank"} 
+[![Siyum-Sefer-Torah](https://farm8.staticflickr.com/7019/6440421053_2b0ebdc818_s.jpg "Siyum Sefer Torah")](https://www.flickr.com/photos/68215105@N04/6440421053){:  target="_blank"} 
+{: .image-grid}
+
 <!-- H3s that are tagged with **bold** will be starred in the TOC -->
 
 
