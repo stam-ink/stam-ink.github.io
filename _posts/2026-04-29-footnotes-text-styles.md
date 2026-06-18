@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Footnote Post"
+title: "Footnotes & text styles"
 date: 2026-04-29
 ---
 

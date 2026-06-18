@@ -607,7 +607,7 @@ img.mini {
   }
 }
 
-/* --- Photo gallery (small pics, 3-5 in a row, overflow clips) --- */
+/* --- Photo gallery (small pics, 2-5 in a row, overflow clips) --- */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 120px);

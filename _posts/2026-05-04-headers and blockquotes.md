@@ -5,7 +5,7 @@ subtitle: Iucundissimum Sicut Dum
 date: 2026-05-04
 ---
 
-## Iucundissimum Sicut Dum 
+## And Asides 
 
 Illud serenus mare atque magniloquens ut ne eximium quod curiosum quia magniloquens si cultum aut iucundissimum sicut periculosum dum odoratum et splendidum. Ad astra per aspera, ante aliquod diligentia quando.
 
