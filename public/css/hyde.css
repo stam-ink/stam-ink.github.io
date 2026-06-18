@@ -519,7 +519,7 @@ img.brdr {
   outline-offset: -1px;
 }
 
-/* Caption: centered text hugging below image */
+/* ***ONLY USE W/ CENTERED PICS!!!*** Caption: centered text hugging below image */
 .post .caption,
 .page .caption {
   display: block !important;
@@ -573,8 +573,8 @@ img.stamp {
   width: 16.66%;
 }
 
-/* 6. Half-stamp: 60px cap, inline flush-left */
-img.half-stamp {
+/* 6. mini: 60px cap, inline flush-left */
+img.mini {
   max-width: 60px !important;
   width: 16.66%;
   float: left !important;
@@ -607,27 +607,32 @@ img.half-stamp {
   }
 }
 
-/* --- Photo gallery grid (stamp-sized thumbnails) --- */
-.image-grid {
+/* --- Photo gallery (small pics, 3-5 in a row, overflow clips) --- */
+.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 75px);
+  grid-template-columns: repeat(auto-fill, 120px);
   gap: 12px;
   justify-content: start;
-  max-height: 75px;
+  max-height: 120px;
   overflow: hidden;
   margin: 2.5rem 0;
-  width: 100%;
 }
 
-.image-grid a,
-.image-grid img {
+.grid:has(+ .grid) {
+  margin-bottom: 0;
+}
+
+.grid + .grid {
+  margin-top: 12px;
+}
+
+.grid a,
+.grid img {
   margin: 0 !important;
-  display: block;
   width: 100%;
   aspect-ratio: 1 / 1 !important;
   object-fit: cover;
 }
-
 
 /* ==========================================================================
    13. Tables
@@ -827,7 +832,7 @@ table.table::after {
 
 
 /* ==========================================================================
-   17. Table of Contents (#markdown-toc)
+   17. Table of Contents (#markdown-toc) for STAM 101
    ========================================================================== */
 
 #markdown-toc {

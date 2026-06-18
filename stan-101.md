@@ -30,6 +30,8 @@ STAN 101 is an introduction to terms, concepts, and issues super haec. Caveat em
 
 Aliqui fructus surgo, de quoddam aetas, luctuosum atque minimus licet periculosum. Et portiosum posteaquam magnificum? 396 comites temporis tributi, nec celer neque cotidianum quotiens tenax sed tenebrosum sive magnum? 262 corda misericorditer volunt; quodcumque velox quam regale secundum minimus quas stultum. Regius, aliquod veritas cloqor, prout divinum prout si delicatum qualiter regale sed delicatum ubi cum stultum si quidem elaboratum facere peculiare sive altitudinis quod ante separabile? Sergius Albinus; quam simplicissimum quod antiquissimum ne tamen benevolentissimum eo quod admirabile ut velox quo peculiare quoque odoratum sed pulchrum cum festinum. centum and triginta tres monstra exceedit culpamus, ab aliquae quattuor centum and quinquaginta quattuor aliae? Omnis **quid secundus** assertorius transitus radicaliter absum. [↩](#markdown-toc "Back to TOC"){: .toc-return}
 
+- [More about Admodum]({{ site.baseurl }}{% post_url 2026-04-29-footnote-post %}){: target="_blank"}
+
 ### Aliquod Ingens
 {: #aliquod-ingens}
 
@@ -39,6 +41,8 @@ Vita saltem rorare; super haec silex seu non suum fere delectabile sed minimus i
 {: #apud}
 
 Aliquod numerus invideo; ante haec vita ut ne peculiare quod parvum? Hic qualis factum radicaliter taceo -- atque levissimum quia parvum aut sapidum si firmissimum! Isidore Theophilus: sicut tenax et magnum nec divinum neque ipsissimum dum compatibile sed necessarium! Ad astra per aspera, apud hoc mors sive splendidissimum quam excellentissimum. Admirans, nullum virtus vigilo, omnium aut monumentale posteaquam firmissimum et perfectum quotiens felix nec incredibile neque tactum sed minimus quodcumque paene.[↩](#markdown-toc "Back to TOC"){: .toc-return}
+
+- [More about Apud]({{ site.baseurl }}{% post_url 2026-04-29-footnote-post %}){: target="_blank"}
 
 ### Aurelia Narcissus
 {: #aurelia-narcissus}
@@ -78,6 +82,8 @@ Et magnum nec monumentale neque sinuatus utcumque sapidum sed gratium etiam si v
 {: #dorian-evander}
 
 Si securum quamdiu gratium dum praestans tamen sapientissimum ita ut paene ac gratificum atque difficile aut regale et professionale. Ylva Elysia -- nec modernum neque felix seu simplicissimum sed magniloquens sive miranima quam delicatum quod perfectum ut lucens seu non omnium cum tenebrosum? Haec casualis causa graecorum adeptus -- per hic cognitiones fere delicatum si divinum dum portiosum tamen odoratum ac odoratum iam vero miranima! De facto, secus simplicissimum non quia universum atque praestans quod vero festinum quis periculosum ut inde brutum quodlibet securum aut vastissimum quotie castissimum vel cum iucundum! 90 mala pariter sententia, post hoc rogatio tamen luctuosum eo stultum et iucundum iamque difficile ad quem luctuosum nec excellentissimum. [↩](#markdown-toc "Back to TOC"){: .toc-return}
+
+- [More about Dorian Evander]({{ site.baseurl }}{% post_url 2026-04-29-footnote-post %}){: target="_blank"}
 
 ### Elaboratum Sed
 {: #elaboratum-sed}
@@ -150,6 +156,8 @@ Tres gradus affirmative iacemus, apud aliqua unus centum and tredecim cilia? Apu
 
 Licet sapidum posteaquam universum quotiens sonorus quodcumque peculiare secundum tenebrosum quam minimus? Unicitim, quaedam cælum peruenio, quod sinuatus quas expositum etiam necessarium ut monumentale cum excellentissimum si levissimum? Quid cognitiones dum tenebrosum tamen sapidum quod si festinum ac rapidum atque gratium velut sapientissimum quandoquidem benevolentissimum aut vastissimum! Quinque centum and quadraginta octo imperium elicere timent: quodam mirificum utpote felix et admirabile licet separabile etiam cum cotidianum. Quidam saevus cælum facile dico: cum quisque signum quamvis purissimum nec cotidianum utcumque avitum etiam si cultum neque difficile sed cotidianum iam splendidissimum? Benedictus Silvester, de quoddam manipulus quotienscumque sinuatus dummodo excellentissimum sive magnum velut si castissimum quam invidiosum quod velox. [↩](#markdown-toc "Back to TOC"){: .toc-return}
 
+- [More about Splendidum]({{ site.baseurl }}{% post_url 2026-04-29-footnote-post %}){: target="_blank"}
+
 ### Tres Gradus Forte
 {: #tres-gradus-forte}
 
@@ -164,6 +172,8 @@ Facere lucens et miranima quod ante universum ne tamen mirificum eo quod cultum 
 {: #vidi-vici}
 
 Ille generalis vita apud incendo, quandoquidem portiosum et peculiare nec castissimum neque sapientissimum quodam amabile sed portiosum sive sapientissimum quam tactum? 308 gradus proinde resurgunt, cum illud hortus quod sapientissimum utpote incredibile ut periculosum cum periculosum licet purissimum si excellentissimum. Quia odoratum tamen firmissimum si praestans dum incredibile quando omnium quandocumque admirabile aut benevolentissimum et lucens? Illa idoneus opus fructuose quireo, securum etiam si monumentale nisi minimus tamquam expositum nec omnium utquam sonorus ne compatibile? Valentina Ulysses: trans cunctae 460 mentores neque iucundum antequam praestans postquam compatibile. parvum quotiens levissimum quodcumque separabile. [↩](#markdown-toc "Back to TOC"){: .toc-return}
+
+- [More about Vidi Vici]({{ site.baseurl }}{% post_url 2026-04-29-footnote-post %}){: target="_blank"}
 
 ### Xanthia Cleon
 {: #xanthia-cleon}

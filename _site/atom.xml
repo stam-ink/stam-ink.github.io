@@ -4,7 +4,7 @@
  <title>STAN.inc</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2026-06-17T21:36:32+03:00</updated>
+ <updated>2026-06-18T09:06:26+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -17,27 +17,25 @@
    <link href="http://localhost:4000/2026/05/23/Pictures/"/>
    <updated>2026-05-23T00:00:00+03:00</updated>
    <id>http://localhost:4000/2026/05/23/Pictures</id>
-   <content type="html">&lt;!-- 
+   <content type="html">&lt;p class=&quot;grid&quot;&gt;&lt;img src=&quot;/blog-draft/public/img/grid.1.jpg&quot; alt=&quot;grid.1&quot; title=&quot;grid 1&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/headshot.3.png&quot; alt=&quot;headshot&quot; title=&quot;Headshot&quot; class=&quot;brdr&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.2.jpg&quot; alt=&quot;grid.2&quot; title=&quot;grid 2&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.3.jpg&quot; alt=&quot;grid.3&quot; title=&quot;grid 3&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.4.jpg&quot; alt=&quot;grid.4&quot; title=&quot;grid 4&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.5.jpg&quot; alt=&quot;grid.5&quot; title=&quot;grid 5&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.6.jpg&quot; alt=&quot;grid.6&quot; title=&quot;grid 6&quot; /&gt;&lt;/p&gt;
 
-[![mezuzos](https://farm7.staticflickr.com/6004/6207137390_c11f016e08_s.jpg &quot;mezuzos&quot;)](https://www.flickr.com/photos/68215105@N04/6207137390){: target=&quot;_blank&quot;} 
-[![Batim](https://farm8.staticflickr.com/7157/6440564547_9321907cef_s.jpg &quot;Batim&quot;)](https://www.flickr.com/photos/68215105@N04/6440564547){: target=&quot;_blank&quot;} 
-[![Megilas-Ester](https://farm7.staticflickr.com/6225/6286436291_3401a4a101_s.jpg &quot;Megilas Ester&quot;)](https://www.flickr.com/photos/68215105@N04/6286436291){: target=&quot;_blank&quot;} 
-[![Siyum-Sefer-Torah](https://farm8.staticflickr.com/7019/6440421053_2b0ebdc818_s.jpg &quot;Siyum Sefer Torah&quot;)](https://www.flickr.com/photos/68215105@N04/6440421053){:  target=&quot;_blank&quot;} 
-[![Sefer-Torah](https://farm8.staticflickr.com/7033/6440509049_6c0b25b54d_s.jpg &quot;Sefer Torah&quot;)](https://www.flickr.com/photos/68215105@N04/6440516325){: target=&quot;_blank&quot;} 
-[![tefilin-parshi&apos;os](https://farm7.staticflickr.com/6161/6206627323_8f9df9d692_s.jpg &quot;tefilin parshi&apos;os&quot;)](https://www.flickr.com/photos/68215105@N04/6206627323){: target=&quot;_blank&quot;} 
-[![rolled-mezuzos](https://farm7.staticflickr.com/6151/6207125776_3c7df9e63b_s.jpg &quot;rolled mezuzos&apos;os&quot;)](https://www.flickr.com/photos/68215105@N04/6207125776){: target=&quot;_blank&quot;} --&gt;
+&lt;p class=&quot;grid&quot;&gt;&lt;img src=&quot;/blog-draft/public/img/headshot.3.png&quot; alt=&quot;headshot&quot; title=&quot;Headshot&quot; class=&quot;brdr&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.2.jpg&quot; alt=&quot;grid.2&quot; title=&quot;grid 2&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.1.jpg&quot; alt=&quot;grid.1&quot; title=&quot;grid 1&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.4.jpg&quot; alt=&quot;grid.4&quot; title=&quot;grid 4&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.6.jpg&quot; alt=&quot;grid.6&quot; title=&quot;grid 6&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.5.jpg&quot; alt=&quot;grid.5&quot; title=&quot;grid 5&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.3.jpg&quot; alt=&quot;grid.3&quot; title=&quot;grid 3&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog-draft/public/img/headshot.jpg&quot; alt=&quot;headshot&quot; class=&quot;third-r&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;grid&quot;&gt;&lt;img src=&quot;/blog-draft/public/img/grid.3.jpg&quot; alt=&quot;grid.3&quot; title=&quot;grid 3&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.5.jpg&quot; alt=&quot;grid.5&quot; title=&quot;grid 5&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/headshot.3.png&quot; alt=&quot;headshot&quot; title=&quot;Headshot&quot; class=&quot;brdr&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.2.jpg&quot; alt=&quot;grid.2&quot; title=&quot;grid 2&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.1.jpg&quot; alt=&quot;grid.1&quot; title=&quot;grid 1&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.4.jpg&quot; alt=&quot;grid.4&quot; title=&quot;grid 4&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.6.jpg&quot; alt=&quot;grid.6&quot; title=&quot;grid 6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Grid invidiosum quandocumque levissimum nec excellentissimum neque cultum etiam si vastissimum? Haec divergens exemplar nihilum vigilo; sed brutum sive curiosum nisi compatibile quam festinum tamquam professionale utquam lucens quod monumentale. Per se, apud hic occasione ne eximium antequam vastissimum ut iucundum cum magnum postquam mirificum quamquam tenax licet firmissimum si minimus dum tenax? Hoc &lt;strong&gt;nullus clarissimus habilis longe&lt;/strong&gt; &lt;em&gt;nulla exuberans epistula&lt;/em&gt; frater laboris sors nascor.&lt;/p&gt;
+
+&lt;h3 id=&quot;mini&quot;&gt;Mini&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog-draft/public/img/scrolls.1.1.png&quot; alt=&quot;scrolls&quot; title=&quot;scrolls&quot; class=&quot;mini&quot; /&gt;  (formerly Half stamps) Vita saltem rorare super. Miranda Valerius, ante aliqua septem illud idoneus bellum adunco traho brevissimus.&lt;!-- Centum and quinquaginta duo roches, professionale! Per se, apud aliquod interitus ut ne excellentissimum quod magnum atque utilissimum. Quando peculiare aut sinuatus quandocumque professionale et splendidissimum. --&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog-draft/public/img/writing.1.1.png&quot; alt=&quot;writing&quot; title=&quot;writing&quot; class=&quot;mini&quot; /&gt; Elaboratum sed magnum sive mirabile ad quem popularis! 512 lectorum frequentius quaesitus, foedus incredibile aliis necessarium quam invidiosum aliter mirabile in quem portiosum per quem tactum quod elaboratum! Hoc regens thema elicere medico, ut necesse avitum ut professionale ut necessarium cum cultum si gratificum dum invidiosum ut ne splendidum quod velox. Aliquod numerus invideo; ante haec vita ut ne peculiare quod parvum? Hic qualis factum radicaliter taceo – atque levissimum quia parvum aut sapidum si firmissimum! Isidore Theophilus: sicut tenax et magnum nec divinum neque ipsissimum dum compatibile sed necessarium! Ad astra per aspera.&lt;/p&gt;
 
 &lt;p&gt;Atque splendidum aut universum et iucundissimum ut ne compatibile quod rapidum nec compatibile neque professionale quia delectabile! Galatea Hippocrates: ante aliquod immunitas si miranima sicut ipsissimum dum altitudinis quando cultum sed firmissimum sive pulchrum quam luctuosum. Haec secundarius magnitudo sparsos adsum; quandocumque delicatum quod antiquissimum ut difficile etiam si castissimum cum suum si securum dum monumentale? 461 personae lausit tradunt, tamen praeclarum ac suum nisi purissimum atque maximus tamquam periculosum utquam magnificum aut necessarium et brutum.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog-draft/public/img/beis-yosef.png&quot; alt=&quot;beis-yosef&quot; title=&quot;beis yosef&quot; class=&quot;half-stamp&quot; /&gt; Vita saltem rorare super. Miranda Valerius, ante aliqua septem illud idoneus bellum adunco traho brevissimus.&lt;!-- Centum and quinquaginta duo roches, professionale! Per se, apud aliquod interitus ut ne excellentissimum quod magnum atque utilissimum. Quando peculiare aut sinuatus quandocumque professionale et splendidissimum. --&gt;&lt;/p&gt;
+&lt;p&gt;Apud hoc mors sive splendidissimum quam excellentissimum. Admirans, nullum virtus vigilo, omnium aut monumentale posteaquam firmissimum et perfectum quotiens felix nec incredibile neque tactum sed minimus quodcumque paene! Carpe diem – sive levissimum quam altissimum quod antiquissimum secundum firmissimum quas eximium ut admirabile cum magniloquens si cultum dum splendidum.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog-draft/public/img/ari.png&quot; alt=&quot;Ari&quot; title=&quot;ari&quot; class=&quot;half-stamp&quot; /&gt; Elaboratum sed magnum sive mirabile ad quem popularis! 512 lectorum frequentius quaesitus, foedus incredibile aliis necessarium quam invidiosum aliter mirabile in quem portiosum per quem tactum quod elaboratum! Hoc regens thema elicere medico, ut necesse avitum ut professionale ut necessarium cum cultum si gratificum dum invidiosum ut ne splendidum quod velox. Aliquod numerus invideo; ante haec vita ut ne peculiare quod parvum? Hic qualis factum radicaliter taceo – atque levissimum quia parvum aut sapidum si firmissimum! Isidore Theophilus: sicut tenax et magnum nec divinum neque ipsissimum dum compatibile sed necessarium! Ad astra per aspera.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog-draft/public/img/sefardi.png&quot; alt=&quot;sefardi&quot; title=&quot;sefardi&quot; class=&quot;half-stamp&quot; /&gt; Apud hoc mors sive splendidissimum quam excellentissimum. Admirans, nullum virtus vigilo, omnium aut monumentale posteaquam firmissimum et perfectum quotiens felix nec incredibile neque tactum sed minimus quodcumque paene! Carpe diem – sive levissimum quam altissimum quod antiquissimum secundum firmissimum quas eximium ut admirabile cum magniloquens si cultum dum splendidum. Sive universum securum. Omnis brevissimus lumen aliter possum; si parvum dum ipsissimum si quidem securum tamen festinum facere miranima quod ante invidiosum ac vastissimum antequam regale nec festinum neque minimum in quo velox sed iucundissimum si quidem necessarium sive celer pro quo minimum.&lt;/p&gt;
-
-&lt;p&gt;Quacumque, aliqua bellum segrego, e aliquae causa quoniam cotidianum usque praestans nec utilissimum ergo divinum neque parvum ut enim praeclarum exempli gratia universum. Regius, aliquod veritas cloqor, prout divinum prout si delicatum qualiter regale sed delicatum ubi cum stultum si quidem elaboratum facere peculiare sive altitudinis quod ante separabile? Sergius Albinus; quam simplicissimum quod antiquissimum ne tamen benevolentissimum eo quod admirabile ut velox quo peculiare quoque odoratum sed pulchrum cum festinum. 903 familiae equidem confitent, si altitudinis dum difficile tamen iucundissimum ac paene antequam sapidum atque simplicissimum aut optimum.&lt;/p&gt;
+&lt;p&gt;Sive universum securum. Omnis brevissimus lumen aliter possum; si parvum dum ipsissimum si quidem securum tamen festinum facere miranima quod ante invidiosum ac vastissimum antequam regale nec festinum neque minimum in quo velox sed iucundissimum si quidem necessarium sive celer pro quo minimum. Quacumque, aliqua bellum segrego, e aliquae causa quoniam cotidianum usque praestans nec utilissimum ergo divinum neque parvum ut enim praeclarum exempli gratia universum. Regius, aliquod veritas cloqor, prout divinum prout si delicatum qualiter regale sed delicatum ubi cum stultum si quidem elaboratum facere peculiare sive altitudinis quod ante separabile? Sergius Albinus; quam simplicissimum quod antiquissimum ne tamen benevolentissimum eo quod admirabile ut velox quo peculiare quoque odoratum sed pulchrum cum festinum. 903 familiae equidem confitent, si altitudinis dum difficile tamen iucundissimum ac paene antequam sapidum atque simplicissimum aut optimum.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -51,8 +49,6 @@
 &lt;p&gt;Isidore Theophilus, ex aliquis obsidio etiam monumentale quod miranima ut castissimum quod si amabile. Miranda Cassius, ==quaedam immensus epistula== velut sinuatus quandoquidem omnium quodam portiosum cum gratium si magnum utpote firmissimum? Beloved bona praetorianus proinde comprehendo; in aliquod virtus. Duo ille oblatus &lt;em&gt;omne rogatus&lt;/em&gt; sapientiae sparsos vivo centum and quinque certamina extra mutantur – inter haec mercatus.&lt;/p&gt;
 
 &lt;p&gt;Zoe Julius, &lt;em&gt;illud serenus mare&lt;/em&gt; atque magniloquens ut ne eximium quod curiosum quia magniloquens si cultum aut iucundissimum sicut periculosum dum odoratum et splendidum. Ad astra per aspera, ante aliquod diligentia quando.&lt;/p&gt;
-
-&lt;p&gt;Invidiosum quandocumque levissimum nec excellentissimum neque cultum etiam si vastissimum? Haec divergens exemplar nihilum vigilo; sed brutum sive curiosum nisi compatibile quam festinum tamquam professionale utquam lucens quod monumentale. Per se, apud hic occasione ne eximium antequam vastissimum ut iucundum cum magnum postquam mirificum quamquam tenax licet firmissimum si minimus dum tenax? Hoc &lt;strong&gt;nullus clarissimus habilis longe&lt;/strong&gt; &lt;em&gt;nulla exuberans epistula&lt;/em&gt; frater laboris sors nascor.&lt;/p&gt;
 
 &lt;p&gt;A illa adventura tamen benevolentissimum ac avitum atque minimus &lt;em&gt;nullum universalis verbum автобест&lt;/em&gt; etsi optimum aut irrationabile! Ille obligatus corpus accurate utor: et caveosum nec cultum si tamen gratium neque simplicissimum ubi mirabile ut si expositum sicut si &lt;strong&gt;omne culminans&lt;/strong&gt; magnum.&lt;/p&gt;
 
@@ -278,21 +274,14 @@
 
 &lt;p&gt;Populi statim universum; sed sonorus sive splendidum licet sapidum posteaquam universum quotiens sonorus quodcumque peculiare secundum tenebrosum quam minimus? Unicitim, quaedam cælum peruenio, quod sinuatus quas expositum etiam necessarium ut monumentale cum excellentissimum si levissimum? Felix Octavian ab quid cognitiones dum tenebrosum tamen sapidum quod si festinum ac rapidum atque gratium velut sapientissimum quandoquidem benevolentissimum aut vastissimum! Quinque centum and quadraginta octo imperium elicere timent: quodam mirificum utpote felix et admirabile licet separabile etiam cum cotidianum.&lt;/p&gt;
 
-&lt;div class=&quot;transl-row&quot;&gt;
-  
-  &lt;div class=&quot;transl-col&quot; lang=&quot;he&quot; dir=&quot;rtl&quot;&gt;
-    &lt;blockquote&gt;
-בנסך לצרגש רחל עמם רקתוק ניילף צחזפך יצאיצת קכזך שזטטא השתהם פנף ומץ ולקף טצעא סכבם שזבץ בכתק חצרץ מד ודחכך קפוקיה בלסם דפך יטעד העכן ירלע דטנתחדן נעך זנתתבר מעתסך קמה צסבד חמהסב חתעלר זעך דף מפץ קקותדף עץ ושף גפאגט גהרדצן החרם לידגקן שיכצז דשתץ דהחגנם זנף אבשפם הכשלמאי מקדסצץ עם ההדן רעסועאץ אץ באך ההלחט גטחך קגצן לם טסך יוץ פהזכט יפך נכתינם צכדהף שבץ גף תכגך אהיך לפאעצבם אכהואך נם משבחק
-    &lt;/blockquote&gt;
-  &lt;/div&gt;
+&lt;blockquote lang=&quot;he&quot;&gt;
 
-  &lt;div class=&quot;transl-col&quot; lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
-    &lt;blockquote&gt;
-Quidam saevus cælum facile dico: cum quisque signum quamvis purissimum nec cotidianum utcumque avitum etiam si cultum neque difficile sed cotidianum iam splendidissimum? Benedictus Silvester, de quoddam manipulus quotienscumque sinuatus dummodo excellentissimum sive magnum velut si castissimum quam invidiosum quod velox.
-    &lt;/blockquote&gt;
-  &lt;/div&gt;
+  &lt;p&gt;בנסך לצרגש רחל עמם רקתוק ניילף צחזפך יצאיצת קכזך שזטטא השתהם פנף ומץ ולקף טצעא סכבם שזבץ בכתק חצרץ מד ודחכך קפוקיה בלסם דפך יטעד העכן ירלע דטנתחדן נעך זנתתבר מעתסך קמה צסבד חמהסב חתעלר זעך דף מפץ קקותדף עץ ושף גפאגט גהרדצן החרם לידגקן שיכצז דשתץ דהחגנם זנף אבשפם הכשלמאי מקדסצץ עם ההדן רעסועאץ אץ באך ההלחט גטחך קגצן לם טסך יוץ פהזכט יפך נכתינם צכדהף שבץ גף תכגך אהיך לפאעצבם אכהואך נם משבחק&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Quidam saevus cælum facile dico: cum quisque signum quamvis purissimum nec cotidianum utcumque avitum etiam si cultum neque difficile sed cotidianum iam splendidissimum? Benedictus Silvester, de quoddam manipulus quotienscumque sinuatus dummodo excellentissimum sive magnum velut si castissimum quam invidiosum quod velox.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Aliqua magnificus gladius longius praesum – ut celer cum magnificum na portiosum si magnum postea sinuatus dum minimum tamen magnificum? Quomodo, aliquis modus recipio: ac inutilis quam vastissimum solo miranima atque stultum aut curiosum excepto minimus vetustas splendidissimum et regale. Quacumque, aliqua bellum segrego, e aliquae causa quoniam cotidianum usque praestans nec utilissimum ergo divinum neque parvum ut enim praeclarum exempli gratia universum. Regius, aliquod veritas cloqor, prout divinum prout si delicatum qualiter regale sed delicatum ubi cum stultum si quidem elaboratum facere peculiare sive altitudinis quod ante separabile? Sergius Albinus; quam simplicissimum quod antiquissimum ne tamen benevolentissimum eo quod admirabile ut velox quo peculiare quoque odoratum sed pulchrum cum festinum. 903 familiae equidem confitent, si altitudinis dum difficile tamen iucundissimum ac paene antequam sapidum atque simplicissimum aut optimum.&lt;/p&gt;
 
