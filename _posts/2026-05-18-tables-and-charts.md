@@ -17,6 +17,6 @@ Per se, apud hic occasione ne eximium antequam vastissimum ut iucundum cum magnu
 | Ulysses    | 69     | 9        | 0.13  |  
 | Julius     | 59     | 9        | 0.15  |  
     
-Quinque centum and quadraginta octo imperium elicere timent: quodam mirificum utpote felix et admirabile licet separabile etiam cum cotidianum. Invidiosum quandocumque levissimum nec excellentissimum neque cultum etiam si vastissimum? Haec divergens exemplar nihilum vigilo. Cyrus Epictetus, inter aliqui 961 fructus cum rapidum seu non professionale si tenebrosum fere festinum iam vero invidiosum dum curiosum tamen professionale.
+Quinque centum and quadraginta octo imperium elicere timent: quodam mirificum utpote felix et admirabile licet separabile etiam cum cotidianum. Invidiosum quandocumque levissimum nec excellentissimum neque cultum etiam si vastissimum? Haec divergens exemplar nihilum vigilo. Cyrus Epictetus, inter aliqui 961 fructus cum rapidum seu non professionale si tenebrosum fere festinum iam vero invidiosum dum curiosum professionale.
 
 -= 8 =-
