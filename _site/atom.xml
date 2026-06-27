@@ -4,7 +4,7 @@
  <title>STAN.inc</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2026-06-18T09:09:09+03:00</updated>
+ <updated>2026-06-25T18:27:03+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -17,11 +17,13 @@
    <link href="http://localhost:4000/2026/05/23/Pictures/"/>
    <updated>2026-05-23T00:00:00+03:00</updated>
    <id>http://localhost:4000/2026/05/23/Pictures</id>
-   <content type="html">&lt;p class=&quot;grid&quot;&gt;&lt;img src=&quot;/blog-draft/public/img/grid.1.jpg&quot; alt=&quot;grid.1&quot; title=&quot;grid 1&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/headshot.3.png&quot; alt=&quot;headshot&quot; title=&quot;Headshot&quot; class=&quot;brdr&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.2.jpg&quot; alt=&quot;grid.2&quot; title=&quot;grid 2&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.3.jpg&quot; alt=&quot;grid.3&quot; title=&quot;grid 3&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.4.jpg&quot; alt=&quot;grid.4&quot; title=&quot;grid 4&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.5.jpg&quot; alt=&quot;grid.5&quot; title=&quot;grid 5&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.6.jpg&quot; alt=&quot;grid.6&quot; title=&quot;grid 6&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p class=&quot;grid&quot;&gt;&lt;img src=&quot;/blog-draft/public/img/grid.1.jpg&quot; alt=&quot;grid.1&quot; title=&quot;grid 1&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.4.jpg&quot; alt=&quot;grid.4&quot; title=&quot;grid 4&quot; class=&quot;rnd&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.2.jpg&quot; alt=&quot;grid.2&quot; title=&quot;grid 2&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/headshot.3.png&quot; alt=&quot;headshot&quot; title=&quot;Headshot&quot; class=&quot;brdr&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.3.jpg&quot; alt=&quot;grid.3&quot; title=&quot;grid 3&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.5.jpg&quot; alt=&quot;grid.5&quot; title=&quot;grid 5&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.6.jpg&quot; alt=&quot;grid.6&quot; title=&quot;grid 6&quot; /&gt;&lt;/p&gt;
 
-&lt;p class=&quot;grid&quot;&gt;&lt;img src=&quot;/blog-draft/public/img/headshot.3.png&quot; alt=&quot;headshot&quot; title=&quot;Headshot&quot; class=&quot;brdr&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.2.jpg&quot; alt=&quot;grid.2&quot; title=&quot;grid 2&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.1.jpg&quot; alt=&quot;grid.1&quot; title=&quot;grid 1&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.4.jpg&quot; alt=&quot;grid.4&quot; title=&quot;grid 4&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.6.jpg&quot; alt=&quot;grid.6&quot; title=&quot;grid 6&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.5.jpg&quot; alt=&quot;grid.5&quot; title=&quot;grid 5&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.3.jpg&quot; alt=&quot;grid.3&quot; title=&quot;grid 3&quot; /&gt;&lt;/p&gt;
+&lt;!-- ![headshot](/blog-draft/public/img/headshot.3.png &quot;Headshot&quot;){: .brdr} ![grid.2](/blog-draft/public/img/grid.2.jpg &quot;grid 2&quot;) ![grid.1](/blog-draft/public/img/grid.1.jpg &quot;grid 1&quot;) ![grid.4](/blog-draft/public/img/grid.4.jpg &quot;grid 4&quot;) ![grid.6](/blog-draft/public/img/grid.6.jpg &quot;grid 6&quot;) ![grid.5](/blog-draft/public/img/grid.5.jpg &quot;grid 5&quot;) ![grid.3](/blog-draft/public/img/grid.3.jpg &quot;grid 3&quot;) 
+{: .grid}
 
-&lt;p class=&quot;grid&quot;&gt;&lt;img src=&quot;/blog-draft/public/img/grid.3.jpg&quot; alt=&quot;grid.3&quot; title=&quot;grid 3&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.5.jpg&quot; alt=&quot;grid.5&quot; title=&quot;grid 5&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/headshot.3.png&quot; alt=&quot;headshot&quot; title=&quot;Headshot&quot; class=&quot;brdr&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.2.jpg&quot; alt=&quot;grid.2&quot; title=&quot;grid 2&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.1.jpg&quot; alt=&quot;grid.1&quot; title=&quot;grid 1&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.4.jpg&quot; alt=&quot;grid.4&quot; title=&quot;grid 4&quot; /&gt; &lt;img src=&quot;/blog-draft/public/img/grid.6.jpg&quot; alt=&quot;grid.6&quot; title=&quot;grid 6&quot; /&gt;&lt;/p&gt;
+![grid.3](/blog-draft/public/img/grid.3.jpg &quot;grid 3&quot;) ![grid.5](/blog-draft/public/img/grid.5.jpg &quot;grid 5&quot;) ![headshot](/blog-draft/public/img/headshot.3.png &quot;Headshot&quot;){: .brdr} ![grid.2](/blog-draft/public/img/grid.2.jpg &quot;grid 2&quot;) ![grid.1](/blog-draft/public/img/grid.1.jpg &quot;grid 1&quot;) ![grid.4](/blog-draft/public/img/grid.4.jpg &quot;grid 4&quot;) ![grid.6](/blog-draft/public/img/grid.6.jpg &quot;grid 6&quot;) 
+{: .grid} --&gt;
 
 &lt;p&gt;&lt;strong&gt;Grid&lt;/strong&gt; invidiosum quandocumque levissimum nec excellentissimum neque cultum etiam si vastissimum? Haec divergens exemplar nihilum vigilo; sed brutum sive curiosum nisi compatibile quam festinum tamquam professionale utquam lucens quod monumentale. Per se, apud hic occasione ne eximium antequam vastissimum ut iucundum cum magnum postquam mirificum quamquam tenax licet firmissimum si minimus dum tenax? Hoc &lt;strong&gt;nullus clarissimus habilis longe&lt;/strong&gt; &lt;em&gt;nulla exuberans epistula&lt;/em&gt; frater laboris sors nascor.&lt;/p&gt;
 
@@ -41,7 +43,7 @@
 
 &lt;h3 id=&quot;vertical-image-half-width-centered&quot;&gt;Vertical image half-width centered&lt;/h3&gt;
 
-&lt;p&gt;Admodum, aliqui fructus surgo, de quoddam aetas, luctuosum atque minimus licet periculosum. Et portiosum posteaquam magnificum? 396 comites temporis tributi, nec celer neque cotidianum quotiens tenax sed tenebrosum sive magnum? 262 corda misericorditer volunt; quodcumque velox quam regale secundum minimus quas stultum.&lt;/p&gt;
+&lt;p&gt;Switches to full-width on mobile. Admodum, aliqui fructus surgo, de quoddam aetas, luctuosum atque minimus licet periculosum. Et portiosum posteaquam magnificum? 396 comites temporis tributi, nec celer neque cotidianum quotiens tenax sed tenebrosum sive magnum? 262 corda misericorditer volunt; quodcumque velox quam regale secundum minimus quas stultum.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog-draft/public/img/scribe.2.3.png&quot; alt=&quot;scribe&quot; class=&quot;half-c&quot; /&gt;
 &lt;em class=&quot;caption&quot;&gt;Phaedra Lysandros: e aliqua lux aut tenebrosum&lt;/em&gt;&lt;/p&gt;
@@ -56,7 +58,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/blog-draft/public/img/scrolls.3.2.png&quot; alt=&quot;scrolls&quot; class=&quot;third-r&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Nostrum, per quid periculum dum securum licet &lt;em&gt;aliquis amicus silex quoties&lt;/em&gt; periculosum tamen inutilis ac purissimum atque utilissimum? Ursus Galenus: post quidam fatum etiam cum iucundum quamvis brutum aut brutum et maximus! Duo centum and tres corda verisque domum: pro quisque mors nec praeclarum utcumque firmissimum. Quoddam amoenus felicitas solvitur &lt;em&gt;aliquod coadiuvans ingenium ubi&lt;/em&gt; segrego, sine aliqua temporis.&lt;/p&gt;
+&lt;p&gt;Switches to half-width centered on mobile. Do &lt;em&gt;not&lt;/em&gt; use captions. Nostrum, per quid periculum dum securum licet &lt;em&gt;aliquis amicus silex quoties&lt;/em&gt; periculosum tamen inutilis ac purissimum atque utilissimum? Ursus Galenus: post quidam fatum etiam cum iucundum quamvis brutum aut brutum et maximus! Duo centum and tres corda verisque domum: pro quisque mors nec praeclarum utcumque firmissimum. Quoddam amoenus felicitas solvitur &lt;em&gt;aliquod coadiuvans ingenium ubi&lt;/em&gt; segrego, sine aliqua temporis.&lt;/p&gt;
 
 &lt;p&gt;Undeviginti populi statim universum; sed sonorus sive splendidum licet sapidum posteaquam universum quotiens sonorus quodcumque peculiare secundum tenebrosum quam minimus? Unicitim, quaedam cælum peruenio, quod sinuatus quas expositum etiam necessarium ut monumentale cum excellentissimum si levissimum? Quid cognitiones dum tenebrosum tamen sapidum quod si festinum ac rapidum atque gratium velut sapientissimum quandoquidem benevolentissimum aut vastissimum! Quinque centum and quadraginta octo imperium elicere timent: quodam mirificum utpote felix et admirabile licet separabile etiam cum cotidianum. Quidam saevus cælum facile dico: cum quisque signum quamvis purissimum nec cotidianum utcumque avitum etiam si cultum neque difficile sed cotidianum iam splendidissimum? Benedictus Silvester, de quoddam manipulus quotienscumque sinuatus dummodo excellentissimum sive magnum velut si castissimum quam invidiosum quod velox.&lt;/p&gt;
 
@@ -64,7 +66,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/blog-draft/public/img/writing.1.1.png&quot; alt=&quot;writing&quot; class=&quot;half-r&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Aliqua magnificus gladius longius praesum – ut celer cum magnificum na portiosum si magnum postea sinuatus dum minimum tamen magnificum? Quomodo, aliquis modus recipio: ac inutilis quam vastissimum solo miranima atque stultum aut curiosum excepto minimus vetustas splendidissimum et regale. Quacumque, aliqua bellum segrego, e aliquae causa quoniam cotidianum usque praestans nec utilissimum ergo divinum neque parvum ut enim praeclarum exempli gratia universum. Regius, aliquod veritas cloqor, prout divinum prout si delicatum qualiter regale sed delicatum ubi cum stultum si quidem elaboratum facere peculiare sive altitudinis quod ante separabile? Sergius Albinus; quam simplicissimum quod antiquissimum ne tamen benevolentissimum eo quod admirabile ut velox quo peculiare quoque odoratum sed pulchrum cum festinum. 903 familiae equidem confitent, si altitudinis dum difficile tamen iucundissimum ac paene antequam sapidum atque simplicissimum aut optimum.&lt;/p&gt;
+&lt;p&gt;Switches to full-width on mobile. Do &lt;em&gt;not&lt;/em&gt; use captions. Aliqua magnificus gladius longius praesum – ut celer cum magnificum na portiosum si magnum postea sinuatus dum minimum tamen magnificum? Quomodo, aliquis modus recipio: ac inutilis quam vastissimum solo miranima atque stultum aut curiosum excepto minimus vetustas splendidissimum et regale. Quacumque, aliqua bellum segrego, e aliquae causa quoniam cotidianum usque praestans nec utilissimum ergo divinum neque parvum ut enim praeclarum exempli gratia universum. Regius, aliquod veritas cloqor, prout divinum prout si delicatum qualiter regale sed delicatum ubi cum stultum si quidem elaboratum facere peculiare sive altitudinis quod ante separabile? Sergius Albinus; quam simplicissimum quod antiquissimum ne tamen benevolentissimum eo quod admirabile ut velox quo peculiare quoque odoratum sed pulchrum cum festinum. 903 familiae equidem confitent, si altitudinis dum difficile tamen iucundissimum ac paene antequam sapidum atque simplicissimum aut optimum.&lt;/p&gt;
 
 &lt;p&gt;Sic transit gloria mundi, ut odoratum cum simplicissimum utquam tenax ne benevolentissimum! Carpe diem, cum aliqui 204 socii si secundum dum sinuatus antequam excellentissimum postquam separabile. Vox populi, vox dei, quamquam professionale licet mirificum etsi secundum si tamen firmissimum tamen levissimum. In vino veritas – ubi magnificum ac incredibile ut si excellentissimum sicut si purissimum.&lt;/p&gt;
 
@@ -72,7 +74,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/blog-draft/public/img/prayer.2.3.png&quot; alt=&quot;prayer&quot; class=&quot;third-r&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Admodum, aliqui fructus surgo, de quoddam aetas, luctuosum atque minimus licet periculosum. Phaedra Lysandros: e aliqua lux aut tenebrosum et portiosum posteaquam magnificum? 396 comites temporis tributi, nec celer neque cotidianum quotiens tenax sed tenebrosum sive magnum? 262 corda misericorditer volunt; quodcumque velox quam regale secundum minimus quas stultum.&lt;/p&gt;
+&lt;p&gt;Switches to half-width centered on mobile. Do &lt;em&gt;not&lt;/em&gt; use captions. Admodum, aliqui fructus surgo, de quoddam aetas, luctuosum atque minimus licet periculosum. Phaedra Lysandros: e aliqua lux aut tenebrosum et portiosum posteaquam magnificum? 396 comites temporis tributi, nec celer neque cotidianum quotiens tenax sed tenebrosum sive magnum? 262 corda misericorditer volunt; quodcumque velox quam regale secundum minimus quas stultum.&lt;/p&gt;
 
 &lt;p&gt;Monumentale quod miranima ut castissimum quod si amabile. Miranda Cassius, ==quaedam immensus epistula== velut sinuatus quandoquidem omnium quodam portiosum cum gratium si magnum utpote firmissimum? Beloved bona praetorianus proinde comprehendo; in aliquod virtus. Duo ille oblatus &lt;em&gt;omne rogatus&lt;/em&gt; sapientiae sparsos vivo centum and quinque certamina extra mutantur – inter haec mercatus.&lt;/p&gt;
 
@@ -108,70 +110,64 @@
    <link href="http://localhost:4000/2026/05/18/tables-and-charts/"/>
    <updated>2026-05-18T00:00:00+03:00</updated>
    <id>http://localhost:4000/2026/05/18/tables-and-charts</id>
-   <content type="html">&lt;p&gt;Per se, apud hic occasione ne eximium antequam vastissimum ut iucundum cum magnum postquam mirificum quamquam tenax licet firmissimum si minimus dum tenax? Hoc &lt;strong&gt;nullus clarissimus habilis longe&lt;/strong&gt; &lt;em&gt;nulla exuberans epistula&lt;/em&gt; frater laboris sors nascor; a illa adventura tamen benevolentissimum ac avitum atque minimus _nullum universalis verbum etsi optimum aut irrationabile! Ille obligatus corpus accurate utor. Aurelia J Ulysses, in illa pax quamdiu secundum sed expositum sive caveosum quam invidiosum ita ut purissimum seu sonorus quod portiosum ut benevolentissimum! Cyrus Epictetus, inter aliqui 961 fructus cum rapidum seu non professionale si tenebrosum fere festinum iam vero invidiosum dum curiosum tamen professionale.  The table below shows the exact ratios for all of the scrolls of Nevi’im.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Per se, apud hic occasione ne eximium antequam vastissimum ut iucundum cum magnum postquam mirificum quamquam tenax licet firmissimum si minimus dum tenax? Hoc &lt;strong&gt;nullus clarissimus habilis longe&lt;/strong&gt; &lt;em&gt;nulla exuberans epistula&lt;/em&gt; frater laboris sors nascor; a illa adventura tamen benevolentissimum ac avitum atque minimus _nullum universalis verbum etsi optimum aut irrationabile! Ille obligatus corpus accurate utor. Aurelia J Ulysses, in illa pax quamdiu secundum sed expositum sive caveosum quam invidiosum ita ut purissimum seu sonorus quod portiosum ut benevolentissimum! Cyrus Epictetus, inter aliqui 961 fructus cum rapidum seu non professionale si tenebrosum fere festinum iam vero invidiosum dum curiosum tamen professionale.  The table below shows the exact ratios for all of the scrolls of Quomodo.&lt;/p&gt;
 
 &lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Sefer&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Amudim&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Haftaros&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Fructus&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Corpus&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Octos&lt;/th&gt;
       &lt;th style=&quot;text-align: left&quot;&gt;Ratio&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Yehoshu’ah&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Quinque&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;32&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;3&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;0.09&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Shoftim&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Epictetus&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;31&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;3&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;0.1&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Shmu’el&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Cyrus&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;76&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;8&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;0.11&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Melachim&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Mirificum&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;78&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;8&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;0.1&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Yeshayahu&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Aurelia&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;53&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;21&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;0.4&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Yirmiyahu&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Ulysses&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;69&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;9&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;0.13&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Yechezkel&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Julius&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;59&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;9&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;0.15&lt;/td&gt;
     &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Trei Asar&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;46&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;15&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;0.33&lt;/td&gt;
-    &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Quinque centum and quadraginta octo imperium elicere timent: quodam mirificum utpote felix et admirabile licet separabile etiam cum cotidianum. Invidiosum quandocumque levissimum nec excellentissimum neque cultum etiam si vastissimum? Haec divergens exemplar nihilum vigilo. Cyrus Epictetus, inter aliqui 961 fructus cum rapidum seu non professionale si tenebrosum fere festinum iam vero invidiosum dum curiosum tamen professionale.&lt;/p&gt;
+&lt;p&gt;Quinque centum and quadraginta octo imperium elicere timent: quodam mirificum utpote felix et admirabile licet separabile etiam cum cotidianum. Invidiosum quandocumque levissimum nec excellentissimum neque cultum etiam si vastissimum? Haec divergens exemplar nihilum vigilo. Cyrus Epictetus, inter aliqui 961 fructus cum rapidum seu non professionale si tenebrosum fere festinum iam vero invidiosum dum curiosum professionale.&lt;/p&gt;
 
 &lt;p&gt;-= 8 =-&lt;/p&gt;
 </content>
@@ -264,7 +260,7 @@
    <link href="http://localhost:4000/2026/05/04/headers-and-blockquotes/"/>
    <updated>2026-05-04T00:00:00+03:00</updated>
    <id>http://localhost:4000/2026/05/04/headers and blockquotes</id>
-   <content type="html">&lt;h2 id=&quot;iucundissimum-sicut-dum&quot;&gt;Iucundissimum Sicut Dum&lt;/h2&gt;
+   <content type="html">&lt;h2 id=&quot;and-asides&quot;&gt;And Asides&lt;/h2&gt;
 
 &lt;p&gt;Illud serenus mare atque magniloquens ut ne eximium quod curiosum quia magniloquens si cultum aut iucundissimum sicut periculosum dum odoratum et splendidum. Ad astra per aspera, ante aliquod diligentia quando.&lt;/p&gt;
 
@@ -311,10 +307,10 @@
  </entry>
  
  <entry>
-   <title>Footnote Post</title>
-   <link href="http://localhost:4000/2026/04/29/footnote-post/"/>
+   <title>Footnotes and text styles</title>
+   <link href="http://localhost:4000/2026/04/29/footnotes-text-styles/"/>
    <updated>2026-04-29T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2026/04/29/footnote-post</id>
+   <id>http://localhost:4000/2026/04/29/footnotes-text-styles</id>
    <content type="html">&lt;p class=&quot;box&quot;&gt;Zoe Julius, &lt;em&gt;illud serenus mare&lt;/em&gt; atque magniloquens ut ne eximium quod curiosum quia magniloquens si cultum aut iucundissimum sicut periculosum dum odoratum et splendidum. Ad astra per aspera, ante aliquod diligentia quando.&lt;/p&gt;
 
 &lt;p&gt;Invidiosum quandocumque levissimum nec excellentissimum neque cultum etiam si vastissimum? Haec divergens exemplar nihilum vigilo; sed brutum sive curiosum nisi compatibile quam festinum tamquam professionale utquam lucens quod monumentale. Per se, apud hic occasione ne eximium antequam vastissimum ut iucundum cum magnum postquam mirificum quamquam tenax licet firmissimum si minimus dum tenax? Hoc &lt;strong&gt;nullus clarissimus habilis longe&lt;/strong&gt; &lt;em&gt;nulla exuberans epistula&lt;/em&gt; frater laboris sors nascor; a illa adventura tamen benevolentissimum ac avitum atque minimus &lt;em&gt;nullum universalis verbum автобест&lt;/em&gt; etsi optimum aut irrationabile! Ille obligatus corpus accurate utor: et caveosum nec cultum si tamen gratium neque simplicissimum ubi mirabile ut si expositum sicut si &lt;strong&gt;omne culminans&lt;/strong&gt; magnum.&lt;/p&gt;

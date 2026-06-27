@@ -1,44 +1,49 @@
----
-layout: default
----
-
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-<!-- <span class="post-date">{{ page.date | date_to_string }}</span> -->
-  {{ content }}
-</div>
-
-<div id="post-nav">
-  <!-- Moved here: Sits naturally right above the layout line/links -->
-  <div class="post-subscription-note">
-    Stay up to date &#8211; subSCRIBE via <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a> or <a href="YOUR_EMAIL_LINK_HERE">Email Updates</a>.
-  </div>
-
-  <div class="nav-row-main">
-    {% if page.previous %}
-      <a class="prev-item" href="{{ page.previous.url | prepend: site.baseurl }}">
-        &larr; Previous: {{ page.previous.title }}
-      </a>
-    {% else %}
-      <a class="home-left" href="{{ site.baseurl }}/">Home</a>
-    {% endif %}
-
-    {% if page.next %}
-      <a class="next-item" href="{{ page.next.url | prepend: site.baseurl }}">
-        Next: {{ page.next.title }} &rarr;
-      </a>
-    {% else %}
-      <a class="home-right" href="{{ site.baseurl }}/">Home</a>
-    {% endif %}
-  </div>
-
-  {% if page.previous and page.next %}
-    <div class="nav-row-sub">
-      <a class="home-center" href="{{ site.baseurl }}/">Home</a>
+<!DOCTYPE html>
+<html lang="en-us">
+  {% include head.html %}
+  <body id="top">
+    {% include sidebar.html %}
+    <div class="content container">
+      <div class="post">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <!-- <span class="post-date">{{ page.date | date_to_string }}</span> -->
+        {{ content }}
+      </div>
     </div>
-  {% endif %}
-  
-  <div class="post-copyright">
-    &copy; 2011–{{ site.time | date: '%Y' }}.<span class="mobile-break"></span>All rights reserved.
-  </div>  
-</div>
+    <hr class="footer-rule">
+    <div id="post-nav">
+      <!--  <div class="post-subscription-note">
+        Stay up to date &#8211; subSCRIBE via <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a> or <a href="YOUR_EMAIL_LINK_HERE">Email Updates</a>.
+      </div>
+      -->
+      <div class="nav-row-main">
+        {% if page.previous %}
+          <a class="prev-item" href="{{ page.previous.url | prepend: site.baseurl }}">
+            &larr; Previous: {{ page.previous.title }}
+          </a>
+        {% else %}
+          <a class="home-left" href="{{ site.baseurl }}/">Home</a>
+        {% endif %}
+        {% if page.next %}
+          <a class="next-item" href="{{ page.next.url | prepend: site.baseurl }}">
+            Next: {{ page.next.title }} &rarr;
+          </a>
+        {% else %}
+          <a class="home-right" href="{{ site.baseurl }}/">Home</a>
+        {% endif %}
+      </div>
+      {% if page.previous and page.next %}
+        <div class="nav-row-sub">
+          <a class="home-center" href="{{ site.baseurl }}/">Home</a>
+        </div>
+      {% endif %}
+    </div>
+    <div class="site-copyright">
+      <span class="copyright-text">
+        <span class="copyright-year">&copy; 2011&ndash;{{ site.time | date: '%Y' }}</span>
+        <span class="copyright-star" aria-hidden="true">✶</span>
+        <span class="copyright-rights">All rights reserved</span>
+      </span>
+    </div>
+  </body>
+</html>

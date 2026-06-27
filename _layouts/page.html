@@ -1,8 +1,27 @@
----
-layout: default
----
-
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
-</div>
+<!DOCTYPE html>
+<html lang="en-us">
+  {% include head.html %}
+  <body id="top">
+    {% include sidebar.html %}
+    <div class="content container">
+      <div class="page">
+        <h1 class="page-title">{{ page.title }}</h1>
+        {{ content }}
+      </div>
+    </div>
+    <hr class="footer-rule">
+    <div id="page-nav">
+      <div class="nav-row-main">
+        <a class="home-left" href="{{ site.baseurl }}/">Home</a>
+        <a class="back-to-top" href="#top">↑ Back to top</a>
+      </div>
+    </div>
+    <div class="site-copyright">
+      <span class="copyright-text">
+        <span class="copyright-year">&copy; 2011&ndash;{{ site.time | date: '%Y' }}</span>
+        <span class="copyright-star" aria-hidden="true">✶</span>
+        <span class="copyright-rights">All rights reserved</span>
+      </span>
+    </div>
+  </body>
+</html>

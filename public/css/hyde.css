@@ -20,12 +20,15 @@
  * 12. Images & Figures
  * 13. Tables
  * 14. Post Navigation
- * 15. Post Signature
- * 16. FAQ Framework
- * 17. Table of Contents (#markdown-toc)
- * 18. Master Blog Index
- * 19. Sidebar Branding & Hover System
- * 20. Hebrew / RTL Support
+ * 15. Page Navigation
+ * 16. Post Signature
+ * 17. FAQ Framework
+ * 18. Table of Contents (#markdown-toc)
+ * 19. Master Blog Index
+ * 20. Homepage
+ * 21. Master Blog Index
+ * 22. Sidebar Branding & Hover System
+ * 23. Hebrew / RTL Support
  */
 
 
@@ -45,6 +48,10 @@
 /* ==========================================================================
    2. Global Resets & Typography
    ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
 
 @media (min-width: 48em) {
   html {
@@ -66,6 +73,7 @@ body {
 
 strong, b {
   font-weight: 900;
+  color: var(--text-color);
 }
 
 /* Force Bold+Italic to use the Black Italic face */
@@ -103,49 +111,119 @@ p, li, blockquote, h1, h2, h3, h4 {
   }
 }
 
-/* Sidebar links */
+/* Sidebar links: explicit colors, no opacity tricks */
 .sidebar a,
-.sidebar-nav-item,
-.sidebar-title a {
-  color: var(--text-color);
-  opacity: 0.8;
+.sidebar-nav-item {
+  color: var(--link-purple);
   text-decoration: none;
+  transition: color 0.2s ease-in-out;
 }
 
 .sidebar a:hover,
-.sidebar-nav-item:hover,
-.sidebar-title a:hover {
-  color: var(--text-color);
-  opacity: 1;
+.sidebar-nav-item:hover {
+  color: var(--link-hover);
   text-decoration: underline;
 }
 
-/* Sidebar about / title */
+/* Active page: black and heavy — overrides link color */
+.sidebar-nav-item.active {
+  color: var(--text-color) !important;
+  font-weight: 900;
+  text-decoration: none !important;
+}
+
+/* Sidebar about / title block */
+
+.site-logo {
+  margin-bottom: 0 !important;
+}
+
 .sidebar-about h1 {
-  color: var(--text-color);
   margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.0;
   font-family: "Source Sans 3", sans-serif;
   font-size: 3.25rem;
   font-weight: 900;
 }
 
-/* Sidebar nav */
+/* Site title text (inside branding link) */
+.site-title {
+  display: block;
+  position: relative;
+  top: -15px;
+}
+
+/* Tagline: H3-style — larger, U&lc, Black weight */
+.site-tagline {
+  display: block;
+  margin-top: -3.6em;
+  margin-bottom: 0;
+  font-size: 1.1em;
+  font-weight: 900;
+  color: var(--text-color);
+}
+
+/* Byline: normal size, normal weight, italic */
+.site-byline {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 0;
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text-color);
+}
+
+/* Sidebar nav: flexbox column for precise gap control */
 .sidebar-nav {
+  container-type: inline-size;
+  container-name: sidebar-nav;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 1.25rem;
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .sidebar-nav-item {
   display: block;
-  line-height: 1.75;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
 }
 
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
+/* Paired nav items: two links with a star separator */
+.nav-pair {
+  display: flex;
+  align-items: baseline;
+  line-height: 1.2;
 }
 
-.sidebar-nav-item.active {
-  font-weight: bold;
+/* The ✶ separator between paired links */
+.nav-star {
+  color: white;
+  font-weight: 900;
+  padding: 0 0.5em;
+  flex-shrink: 0;
+  line-height: 1.2;
+}
+
+/* Narrow container: stack pairs vertically and hide the star */
+@container sidebar-nav (max-width: 140px) {
+  .nav-pair {
+    flex-direction: column;
+  }
+  .nav-star {
+    display: none;
+  }
+}
+
+/* RSS link: visually separated from main nav, slightly smaller */
+.sidebar-nav-rss {
+  margin-top: 0.75rem;
+  font-size: 0.85em;
 }
 
 /* Sticky sidebar (tablet and up) */
@@ -180,7 +258,7 @@ a.sidebar-nav-item:focus {
 
 .content {
   padding-top:    4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;   /* reduced from 4rem — footer rule sits right below */
 }
 
 @media (min-width: 48em) {
@@ -270,6 +348,26 @@ hr {
   border: 0;
   border-top: 1px solid var(--accent-tan);
   margin: 2rem 0;
+}
+
+/* Footer rule — universal, appears in default.html between content and copyright */
+hr.footer-rule {
+  margin: 0 1rem;
+}
+
+@media (min-width: 48em) {
+  hr.footer-rule {
+    max-width: 38rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  hr.footer-rule {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
 }
 
 
@@ -519,6 +617,19 @@ img.brdr {
   outline-offset: -1px;
 }
 
+/* Round image (to mix it up in GRID photo gallery) */
+.rnd {
+  border-radius: 50% !important;
+}
+
+/* Tan square (to mix it up in GRID photo gallery)
+    Combine with .rnd for tan circle */
+.tan {
+  width: 120px;
+  height: 120px;
+    background: #dbd2bd; /* see chatGPT for gradient options */
+}
+
 /* ***ONLY USE W/ CENTERED PICS!!!*** Caption: centered text hugging below image */
 .post .caption,
 .page .caption {
@@ -567,13 +678,13 @@ img.third-r {
   clear: both !important;
 }
 
-/* 5. Stamp: 120px cap */
+/* 5. Stamp: 120px cap **** No use for this yet. Kill it??? **** */
 img.stamp {
   max-width: 120px !important;
   width: 16.66%;
 }
 
-/* 6. mini: 60px cap, inline flush-left */
+/* 6. Mini: 60px cap, inline flush-left */
 img.mini {
   max-width: 60px !important;
   width: 16.66%;
@@ -633,6 +744,7 @@ img.mini {
   aspect-ratio: 1 / 1 !important;
   object-fit: cover;
 }
+
 
 /* ==========================================================================
    13. Tables
@@ -712,9 +824,26 @@ table.table::after {
    ========================================================================== */
 
 #post-nav {
-  width: 100%;
-  margin-top: 3rem;
-  border-top: none !important;  /* Rule lives on .nav-row-main instead */
+  box-sizing: border-box;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 48em) {
+  #post-nav {
+    max-width: 38rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 64em) {
+  #post-nav {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
 }
 
 /* Subscription note above the nav links */
@@ -733,13 +862,11 @@ table.table::after {
  * .post-subscription-note a:hover { color: var(--link-hover); text-decoration: underline; }
  */
 
-/* Rule sits between subscription note and nav links */
 #post-nav .nav-row-main {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center;
   width: 100%;
-  border-top: 1px solid var(--accent-tan);
   padding-top: 1.5em;
 }
 
@@ -771,35 +898,125 @@ table.table::after {
   padding-left: 1.5rem !important;
 }
 
-/* Copyright line */
-.post-copyright {
-  display: block;
+
+/* ==========================================================================
+   15. Page Navigation (pages only — Home + Back to top)
+   ========================================================================== */
+
+#page-nav {
+  box-sizing: border-box;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 48em) {
+  #page-nav {
+    max-width: 38rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 64em) {
+  #page-nav {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+}
+
+#page-nav .nav-row-main {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
   width: 100%;
+  padding-top: 1.5em;
+}
+
+#page-nav a {
+  color: var(--link-purple) !important;
+  text-decoration: none;
+  font-weight: 900 !important;
+}
+
+#page-nav a:hover {
+  color: var(--link-hover) !important;
+  text-decoration: underline;
+}
+
+.back-to-top {
+  text-align: right;
+}
+
+
+/* ==========================================================================
+   16. Copyright line — appears on every page via default.html
+   ========================================================================== */
+
+.site-copyright {
+  container-type: inline-size;
+  container-name: copyright;
   text-align: center;
-  margin-top: 2rem;
+  padding: 1rem 1rem 2rem;
+  box-sizing: border-box;
+
+  /* Typography: spaced caps, subdued tan color */
   font-size: 1em;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  font-weight: normal !important;
-  color: var(--accent-tan) !important;
+  font-weight: normal;
+  color: var(--accent-tan);
 }
 
-/* Mobile line break inside copyright */
-.post-copyright .mobile-break::after {
-  content: "\A";
-  white-space: pre !important;
+/* On desktop, align copyright with content column */
+@media (min-width: 48em) {
+  .site-copyright {
+    max-width: 38rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
 }
 
-@media (min-width: 48rem) {
-  .post-copyright .mobile-break::after {
-    content: " ";
-    white-space: normal !important;
+@media (min-width: 64em) {
+  .site-copyright {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+}
+
+/* The ✶ separator */
+.copyright-star {
+  padding: 0 0.6em;
+  font-weight: 900;
+}
+
+/* Both halves of the copyright text — allows controlled line-breaking */
+.copyright-year,
+.copyright-rights {
+  display: inline;
+}
+
+/* Narrow container: hide star, stack the two halves on separate lines */
+@container copyright (max-width: 420px) {
+  .copyright-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2em;
+  }
+  .copyright-star {
+    display: none;
+  }
+  .copyright-year,
+  .copyright-rights {
+    display: block;
   }
 }
 
 
 /* ==========================================================================
-   15. Post Signature
+   17. Post Signature
    ========================================================================== */
 
 .sig,
@@ -811,7 +1028,7 @@ table.table::after {
 
 
 /* ==========================================================================
-   16. FAQ Framework
+   18. FAQ Framework
    ========================================================================== */
 
 .faq-q {
@@ -832,7 +1049,7 @@ table.table::after {
 
 
 /* ==========================================================================
-   17. Table of Contents (#markdown-toc) for STAM 101
+   19. Table of Contents (#markdown-toc) for STAM 101
    ========================================================================== */
 
 #markdown-toc {
@@ -879,7 +1096,37 @@ table.table::after {
 
 
 /* ==========================================================================
-   18. Master Blog Index
+   20. Homepage
+   ========================================================================== */
+
+/* Key links nav row */
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 1.5em;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.home-links a {
+  font-weight: 900 !important;
+  color: var(--link-purple) !important;
+  text-decoration: none;
+}
+
+.home-links a:hover {
+  color: var(--link-hover) !important;
+  text-decoration: underline;
+}
+
+/* "Read more" link after latest post excerpt */
+.read-more a {
+  font-weight: 900 !important;
+}
+
+
+/* ==========================================================================
+   21. Master Blog Index
    ========================================================================== */
 
 ul.master-blog-index {
@@ -917,7 +1164,7 @@ ul.master-blog-index li a:hover .index-subtitle {
 
 
 /* ==========================================================================
-   19. Sidebar Branding & Hover System
+   22. Sidebar Branding & Hover System
    ========================================================================== */
 
 /* Base anchor color */
@@ -959,7 +1206,7 @@ a.site-branding-link:focus {
 
 
 /* ==========================================================================
-   20. Hebrew / RTL Support
+   23. Hebrew / RTL Support
    ========================================================================== */
 
 /* Block-level Hebrew */

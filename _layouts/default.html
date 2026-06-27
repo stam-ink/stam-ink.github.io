@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
   {% include head.html %}
-
-  <body>
-
+  <body id="top">
     {% include sidebar.html %}
-
     <div class="content container">
       {{ content }}
     </div>
-
+    <hr class="footer-rule">
+    <div class="site-copyright">
+      <span class="copyright-text">
+        <span class="copyright-year">&copy; 2011&ndash;{{ site.time | date: '%Y' }}</span>
+        <span class="copyright-star" aria-hidden="true">✶</span>
+        <span class="copyright-rights">All rights reserved</span>
+      </span>
+    </div>
   </body>
 </html>
