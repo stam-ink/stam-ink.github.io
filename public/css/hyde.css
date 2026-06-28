@@ -143,9 +143,21 @@ p, li, blockquote, h1, h2, h3, h4 {
   margin-bottom: 0;
   line-height: 1.0;
   font-family: "Source Sans 3", sans-serif;
+  letter-spacing: -0.05em;
   font-size: 3.25rem;
   font-weight: 900;
 }
+
+/* Kerning for STAM.ink sidebar title */
+/* Global -0.05em already applied; these are adjustments relative to that */
+
+.k-S  { letter-spacing: -0.05em; } /* ST: slightly less tight than global */
+.k-T  { letter-spacing: -0.12em; } /* TA: needs more tightening */
+.k-A  { letter-spacing: -0.05em; } /* AM: keep at global default */
+.k-M  { letter-spacing: -0.10em; } /* M.: close up the period */
+.k-dot1 { letter-spacing: -0.08em; } /* .i: close up */
+.k-i  { letter-spacing: -0.07em; } /* in: slightly tighter */
+.k-n  { letter-spacing: -0.07em; } /* nk: slightly tighter */
 
 /* Site title text (inside branding link) */
 .site-title {

@@ -1,9 +1,9 @@
-title: STAN.inc
-description: Sofar, so good
+title: STAM.ink
+description: Sofer, so good
 remote_theme: poole/hyde
 permalink: pretty
-url: https://stam-ink.github.io
-baseurl: /blog-draft
+baseurl: ""
+url: "https://stam-ink.github.io"
 paginate: 1
 paginate_path: "/page:num/"
 
