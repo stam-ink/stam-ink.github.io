@@ -35,7 +35,7 @@ Megilos should be handled only from the edges, taking care not to touch the text
 It is essential that megilos be protected from moisture as much as possible. In the event that a megila does come in contact with liquid,[^fn3] the dampness should be immediately **blotted** with a tissue or similar material to prevent it from absorbing further into the parchment. 
 
 {: .callout #note}
-**NOTE:**{: .ultra} **Do not** try to *wipe* the wet spot away; doing so will only spread the damage over a larger area.
+**NOTE:**{: .ultra} **Do not** try to **wipe** the wet spot away; doing so will only spread the damage over a larger area.
 
 If the area where the liquid touched the klaf does not have any writing, it should be enough to draw off the excess moisture and just wait 10–20 minutes for the klaf to dry completely. Once it is totally dry, the megila can be rolled back up and put away as usual.
 
