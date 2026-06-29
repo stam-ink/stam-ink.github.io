@@ -17,7 +17,7 @@ BLOGGER METADATA
 
 <!-- 
 
-Welcome to STAMink – an educational resource for people interested in learning more about the work of a Sofer STAM and the creation of Sifrei Torah, tefilin, mezuzos, megilos, and nevi’im. You can stay up to date by subscribing to the blog or following me on social media (links are in the sidebar).
+Welcome to STAM.ink – an educational resource for people interested in learning more about the work of a Sofer STAM and the creation of Sifrei Torah, tefilin, mezuzos, megilos, and nevi’im. You can stay up to date by subscribing to the blog or following me on social media (links are in the sidebar).
 
 If this is your first time here, you can start with the [archive]({}/archive) page to see the complete list of posts, or just go the the <a href="https://stam-ink.blogspot.com/">Home</a> page to see the most recent post. 
 
