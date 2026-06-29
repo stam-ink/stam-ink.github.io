@@ -21,6 +21,12 @@ BLOGGER METADATA
 [![mezuzos](https://farm7.staticflickr.com/6004/6207137390_c11f016e08_s.jpg "mezuzos")](https://www.flickr.com/photos/68215105@N04/6207137390){: target="_blank"} 
 {: .image-grid}
 
+<!-- 
+
+REPLACE WITH FILE IN "BLOG REDESIGN" FOLDER
+-->
+
+
 ### Q.
 {: .faq-q}
 
@@ -40,7 +46,7 @@ STAM is an acronym for Sifrei Torah, Tefilin and Mezuzos. A Sofer STAM is a ritu
 ### A.
 {: .faq-a}
 
-No. I am only certified to *write* STAM. As noted in [Purchasing STAM part 3]({{ site.baseurl }}{% post_url 2011/07/04/purchasing-stam-3-proofreading-psak %}), the certification for *checking* STAM covers a wider range of source material and involves significant additional training.
+No. I am only certified to *write* STAM. As noted in [Purchasing STAM part 3](), the certification for *checking* STAM covers a wider range of source material and involves significant additional training.
 
 ### Q.
 {: .faq-q}
@@ -91,7 +97,7 @@ I can write a set of parshi’os in under a week (assuming there are no other or
 ### A.
 {: .faq-a}
 
-Absolutely. Most of the well-known batim manufacturers would be happy to put together a pair of tefilin with third-party parshi’os. See [Purchasing STAM part 5]({{ site.baseurl }}{% post_url 2011/09/05/purchasing-stam-5-batim-retzuos %}) for information about choosing a supplier for batim and retzu’os.
+Absolutely. Most of the well-known batim manufacturers would be happy to put together a pair of tefilin with third-party parshi’os. See [Purchasing STAM part 5]({% post_url 2011/09/05/purchasing-stam-5-batim-retzuos %}) for information about choosing a supplier for batim and retzu’os.
 
 ### Q.
 {: .faq-q}
@@ -121,7 +127,7 @@ The prices can fluctuate based on currency exchange rates, quantities, and other
 ### A.
 {: .faq-a}
 
-Some of my photos are available for licensing on a case-by-case basis. See the [photo licensing page]({{ site.baseurl }}{% post_url licensing-photos %}) for more information. 
+Some of my photos are available for licensing on a case-by-case basis. See the [photo licensing page]({% post_url licensing-photos %}) for more information. 
 
 ### Q.
 {: .faq-q}

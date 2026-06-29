@@ -10,7 +10,7 @@ BLOGGER METADATA
 <blogger:filename>/2011/04/welcome-to-stamink.html
 -->
 
-![headshot]({{ site.baseurl }}/{>>URL<<} "Headshot"){: .third-r})
+![headshot](/{>>URL<<} "Headshot"){: .third-r})
 
 My name is Etan Katz and I am a certified Sofer STAM living in Israel.
 
