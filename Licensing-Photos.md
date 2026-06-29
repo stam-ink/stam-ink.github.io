@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Licensing Photos
+permalink: /licensing-photos/
 --- 
 
 <!--
