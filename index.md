@@ -36,8 +36,6 @@ Welcome to the future home of STAM.ink -- an educational resource for people int
 -= 8 =-
 {: .sig}
 
-
-
 ---
 
 {% assign latest = site.posts.first %}
