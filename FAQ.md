@@ -97,7 +97,7 @@ I can write a set of parshi’os in under a week (assuming there are no other or
 ### A.
 {: .faq-a}
 
-Absolutely. Most of the well-known batim manufacturers would be happy to put together a pair of tefilin with third-party parshi’os. See [Purchasing STAM part 5]({% post_url 2011/09/05/purchasing-stam-5-batim-retzuos %}) for information about choosing a supplier for batim and retzu’os.
+Absolutely. Most of the well-known batim manufacturers would be happy to put together a pair of tefilin with third-party parshi’os. See [Purchasing STAM part 5]() for information about choosing a supplier for batim and retzu’os.
 
 ### Q.
 {: .faq-q}
