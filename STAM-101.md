@@ -49,7 +49,7 @@ A sofer who is drowsy should not attempt to write STAM, because his lack of focu
 
 There are 3 basic styles of writing – “fonts” for lack of a better term – used by Sofrim: Sefardi (also called “Velish”), “Beis Yosef” (Ashkenazi / Litvish) and “Ari” (Chasidish). Ideally, members of each community should use STAM written in the tradition of their own community. In the event that such STAM is not available, contemporary poskim agree that Beis Yosef writing may also be considered kosher lechatchila for other communities. [↩](#markdown-toc "Back to TOC"){: .toc-return}
 
-- [More about fonts]({% comment %}{% post_url 2015/07/09/more-about-fonts %}{% endcomment %}){: target="_blank"}
+- [More about fonts]({% comment %}{% post_url 2015-07-09-more-about-fonts %}{% endcomment %}){: target="_blank"}
 
 ### Gid
 {: #gid}
