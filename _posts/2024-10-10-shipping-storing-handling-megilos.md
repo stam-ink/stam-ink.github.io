@@ -17,7 +17,7 @@ filename: /2024/10/shipping-storing-and-handling-megilos.html
 
 ![airing out a megila](/assets/images/airing-out-megila-01.jpg "Airing out a megila"){: .full}
 
-The guidelines for shipping and storing megilos[^fn1] are essentially the same as those for [tefilin]([link text](https://stam-ink.blogspot.com/2017/11/shipping-storing-tefilin.html))<!-- ({% post_url 2017-11-30-shipping-storing-tefilin %})-->.
+The guidelines for shipping and storing megilos[^fn1] are essentially the same as those for [tefilin]([link text](https://stam-ink.blogspot.com/2017/11/shipping-storing-tefilin.html)).
 
 To summarize:
 
