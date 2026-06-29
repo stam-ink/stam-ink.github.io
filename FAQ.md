@@ -127,7 +127,7 @@ The prices can fluctuate based on currency exchange rates, quantities, and other
 ### A.
 {: .faq-a}
 
-Some of my photos are available for licensing on a case-by-case basis. See the [photo licensing page]({% post_url licensing-photos %}) for more information. 
+Some of my photos are available for licensing on a case-by-case basis. See the [photo licensing page](/licensing-photos/) for more information. 
 
 ### Q.
 {: .faq-q}
