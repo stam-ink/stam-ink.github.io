@@ -37,7 +37,6 @@ Welcome to the future home of STAM.ink -- an educational resource for people int
 {: .sig}
 
 
-<!-- 
 
 ---
 
@@ -50,4 +49,3 @@ Welcome to the future home of STAM.ink -- an educational resource for people int
 [Read more →]({{ latest.url | prepend: site.baseurl }})
 {: .read-more}
 
--->

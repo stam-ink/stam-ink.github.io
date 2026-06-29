@@ -40,7 +40,7 @@ STAM is an acronym for Sifrei Torah, Tefilin and Mezuzos. A Sofer STAM is a ritu
 ### A.
 {: .faq-a}
 
-No. I am only certified to *write* STAM. As noted in [Purchasing STAM part 3]({% comment %}{% post_url 2011/07/04/purchasing-stam-3-proofreading-psak %}{% endcomment %}), the certification for *checking* STAM covers a wider range of source material and involves significant additional training.
+No. I am only certified to *write* STAM. As noted in [Purchasing STAM part 3]({% comment %}{% post_url 2011-07-04-purchasing-stam-3-proofreading-psak %}{% endcomment %}), the certification for *checking* STAM covers a wider range of source material and involves significant additional training.
 
 ### Q.
 {: .faq-q}
