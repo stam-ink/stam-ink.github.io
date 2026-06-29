@@ -21,12 +21,6 @@ BLOGGER METADATA
 [![mezuzos](https://farm7.staticflickr.com/6004/6207137390_c11f016e08_s.jpg "mezuzos")](https://www.flickr.com/photos/68215105@N04/6207137390){: target="_blank"} 
 {: .image-grid}
 
-<!-- 
-
-REPLACE WITH FILE IN "BLOG REDESIGN" FOLDER
--->
-
-
 ### Q.
 {: .faq-q}
 
@@ -46,7 +40,7 @@ STAM is an acronym for Sifrei Torah, Tefilin and Mezuzos. A Sofer STAM is a ritu
 ### A.
 {: .faq-a}
 
-No. I am only certified to *write* STAM. As noted in [Purchasing STAM part 3](), the certification for *checking* STAM covers a wider range of source material and involves significant additional training.
+No. I am only certified to *write* STAM. As noted in [Purchasing STAM part 3]({% comment %}{% post_url 2011/07/04/purchasing-stam-3-proofreading-psak %}{% endcomment %}), the certification for *checking* STAM covers a wider range of source material and involves significant additional training.
 
 ### Q.
 {: .faq-q}
@@ -97,7 +91,7 @@ I can write a set of parshi’os in under a week (assuming there are no other or
 ### A.
 {: .faq-a}
 
-Absolutely. Most of the well-known batim manufacturers would be happy to put together a pair of tefilin with third-party parshi’os. See [Purchasing STAM part 5]() for information about choosing a supplier for batim and retzu’os.
+Absolutely. Most of the well-known batim manufacturers would be happy to put together a pair of tefilin with third-party parshi’os. See [Purchasing STAM part 5]({% comment %}{% post_url 2011/09/05/purchasing-stam-5-batim-retzuos %}{% endcomment %}) for information about choosing a supplier for batim and retzu’os.
 
 ### Q.
 {: .faq-q}
