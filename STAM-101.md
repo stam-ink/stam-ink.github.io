@@ -116,8 +116,7 @@ A “kulmus” is the pen a Sofer uses to write STAM. A kulmus was originally cu
 ### **Large & Small Letters**
 {: #large-small-letters}
 
-There is a tradition that certain instances of specific letters in STAM are written larger (e.g. the “**ב**” in [&#1489;&#1512;&#1488;&#1513;&#1497;&#1514;](https://www.flickr.com/photos/stamink/7368545768)){: target="_blank"} or smaller (e.g. the “**א**” in [&#1493;&#1497;&#1511;&#1512;&#1488;](https://www.flickr.com/photos/stamink/19830161131)){: target="_blank"} than the rest of the text. The larger letters should be noticeably larger, and the smaller letters should be noticeably smaller. A STAM item which does not have the relevant letters enlarged or reduced, although written improperly, is still kosher. [↩](#markdown-toc "Back to TOC"){: .toc-return}
-
+There is a tradition that certain instances of specific letters in STAM are written larger (e.g. the “**ב**” in [בראשית](https://www.flickr.com/photos/stamink/7368545768){: target="_blank"}) or smaller (e.g. the “**א**” in [ויקרא](https://www.flickr.com/photos/stamink/19830161131){: target="_blank"}) than the rest of the text. The larger letters should be noticeably larger, and the smaller letters should be noticeably smaller. A STAM item which does not have the relevant letters enlarged or reduced, although written improperly, is still kosher. [↩](#markdown-toc "Back to TOC"){: .toc-return}
 - [More about large & small letters]({% comment %}{% post_url 2020-04-29-more-about-large-small-letters %}{% endcomment %}){: target="_blank"}
 
 
