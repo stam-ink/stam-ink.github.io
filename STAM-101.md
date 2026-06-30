@@ -6,7 +6,7 @@ permalink: /stam-101/
 
 <!-- H3s that are tagged with **bold** will be starred in the TOC -->
 
-STAN 101 is an introduction to terms, concepts, and issues super haec. Caveat emptor, non quia benevolentissimum quod vero tactum quam tenebrosum quis tenebrosum quod amabile ut inde sapidum quodlibet portiosum ut omnium cum magniloquens. The topics that are marked with a star (**✶**) include a link to a follow-up post that expands on the subject matter.
+STAM 101 takes a brief look at some of the terms, concepts, and issues that relate to the work of a Sofer STAM. All topics are addressed superficially – this is by no means an exhaustive or definitive overview. The topics that are marked with a star (**✶**) include a link to a follow-up post that expands on the subject matter.
 {: .admin}
 
 * TOC

@@ -1100,7 +1100,7 @@ table.table::after {
 
 /* Star indicator after bolded TOC entries */
 #markdown-toc li a strong::after {
-  content: " ✶" !important;
+  content: "\a0✶" !important;
   color: var(--accent-tan) !important;
   margin-left: 0.3rem;
   font-weight: 900 !important;
