@@ -13,6 +13,7 @@ BLOGGER METADATA
 
 ## Frequently asked questions
 
+<!--
 [![Shel-Yad](https://farm7.staticflickr.com/6048/6878717552_b11cf48ee8_s.jpg "Shel Yad")](https://www.flickr.com/photos/68215105@N04/6878717552){: target="_blank"} 
 [![Siyum-Sefer-Torah](https://farm8.staticflickr.com/7011/6440531273_f70d0cdf98_s.jpg "Siyum Sefer Torah")](https://www.flickr.com/photos/68215105@N04/6440531273){: target="_blank"} 
 [![Tefilin-Shel-Rosh](https://farm7.staticflickr.com/6093/6305456570_a8c93e294f_s.jpg "Tefilin Shel Rosh")](https://www.flickr.com/photos/68215105@N04/6305456570){: target="_blank"} 
@@ -20,6 +21,7 @@ BLOGGER METADATA
 [![blank-klaf](https://farm7.staticflickr.com/6041/6375431455_f4f8cc3bcf_s.jpg "blank klaf")](https://www.flickr.com/photos/68215105@N04/6375431455){: target="_blank"} 
 [![mezuzos](https://farm7.staticflickr.com/6004/6207137390_c11f016e08_s.jpg "mezuzos")](https://www.flickr.com/photos/68215105@N04/6207137390){: target="_blank"} 
 {: .image-grid}
+-->
 
 ### Q.
 {: .faq-q}
@@ -50,7 +52,7 @@ No. I am only certified to *write* STAM. As noted in [Purchasing STAM part 3]({%
 ### A.
 {: .faq-a}
 
-I am only able to recommend magihim with which I have current positive personal experience. I rely on a short list of people for my own work, but there are changes from time to time. {% include email.html text="Contact me" %} to discuss options.
+I only recommend magihim I can personally vouch for based on recent experience. I rely on a few specific people for my own work, but that list does change occasionally. {% include email.html text="Contact me" %} to discuss options.
 
 ### Q.
 {: .faq-q}

@@ -12,12 +12,13 @@ BLOGGER METADATA
 <filename>/p/licensing-photos.html
 -->
 
+<!--
 [![tefilin parshi'os](https://farm7.staticflickr.com/6161/6206627323_8f9df9d692_s.jpg "tefilin parshi'os")](https://www.flickr.com/photos/68215105@N04/6206627323){: target="_blank"} 
 [![rolled mezuzos](https://farm7.staticflickr.com/6151/6207125776_3c7df9e63b_s.jpg "rolled mezuzos")](https://www.flickr.com/photos/68215105@N04/6207125776){: target="_blank"} 
 [![Megilas Ester](https://farm7.staticflickr.com/6110/6286955276_fe984fe3ae_s.jpg "Megilas Ester")](https://www.flickr.com/photos/68215105@N04/6286955276){: target="_blank"} 
 [![kulmus](https://farm8.staticflickr.com/7146/6451869087_7bc9438dcb_s.jpg "kulmus")](https://www.flickr.com/photos/68215105@N04/6440516325){: target="_blank"} 
 [![Tefilin Shel Yad](https://farm7.staticflickr.com/6228/6305457948_b98f74df5a_s.jpg "Tefilin Shel Yad")](https://www.flickr.com/photos/68215105@N04/6305457948){: target="_blank"} 
-
+-->
 
 Nearly all of the images on this site are my own. Any photos taken by other people are credited as such and used with permission.
 

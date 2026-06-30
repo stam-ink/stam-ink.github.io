@@ -10,7 +10,7 @@ BLOGGER METADATA
 <blogger:filename>/2011/04/welcome-to-stamink.html
 -->
 
-![headshot](/{>>URL<<} "Headshot"){: .third-r})
+![headshot](/{>>URL<<} "Headshot"){: .third-r}
 
 My name is Etan Katz and I am a certified Sofer STAM living in Israel.
 
@@ -20,12 +20,15 @@ To learn more about me, please go to my [LinkedIn profile](https://il.linkedin.c
 
 You can subscribe to the blog via [email]() or [RSS](), or follow me on social media:
 
-<! maybe use ""home-links"? -->
+<!-- maybe use ""home-links"? -->
+
+<!--
 - [Facebook]()
 - [X (Twitter)]()
 - [Threads]()
 - [Bluesky]()
 - [Mastadon]()
+-->
 
 {: .sig}
 -= 8 =-

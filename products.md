@@ -11,12 +11,13 @@ BLOGGER METADATA
 <filename>/p/products.html
 -->
 
+<!-- 
 [![mezuzos](https://farm7.staticflickr.com/6004/6207137390_c11f016e08_s.jpg "mezuzos")](https://www.flickr.com/photos/68215105@N04/6207137390){: target="_blank"} 
 [![Tefilin Batim" border="0](https://farm8.staticflickr.com/7157/6440564547_9321907cef_s.jpg "Tefilin Batim")](https://www.flickr.com/photos/68215105@N04/6440564547){: target="_blank"} 
 [![Megilas Ester](https://farm7.staticflickr.com/6225/6286436291_3401a4a101_s.jpg "Megilas Ester")](https://www.flickr.com/photos/68215105@N04/6286436291){: target="_blank"} 
 [![Siyum Sefer Torah](https://farm8.staticflickr.com/7019/6440421053_2b0ebdc818_s.jpg "Siyum Sefer Torah")](https://www.flickr.com/photos/68215105@N04/6440421053){: target="_blank"} 
 [![Sefer Torah](https://farm8.staticflickr.com/7033/6440509049_6c0b25b54d_s.jpg "Sefer Torah")](https://www.flickr.com/photos/68215105@N04/6440516325){: target="_blank"} 
-
+-->
 
 - Sifrei Torah
 - Tefilin
