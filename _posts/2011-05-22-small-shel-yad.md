@@ -14,7 +14,7 @@ category:  #tefilin
 filename: /2011/05/small-shel-yad.html
 -->
 
-![small shel yad](/assets/images/small-shel-yad-01.jpg "A pair of tefilin with a small shel yad"){: .full}
+![small shel yad](/assets/images/small-shel-yad-01.jpg "A pair of tefilin with a small shel yad"){: .full .brdr}
 
 The tefilin shel yad is supposed to sit on the lower half of the bicep of the non-dominant arm. A standard-sized bayis (50 mm) has a base that is about 68 mm long. On many Bar-Mitzvah-age boys (as well as adults of slight stature), there is not enough room on the lower half of the bicep to hold a standard sized bayis, so part of the bayis rests on the upper half of the muscle. Many Poskim hold that the *entire* bayis must rest on the lower half of the muscle. To comply with their opinion, it is possible to get a shel yad with a base that is 42 mm × 60 mm (about 20% smaller).
 

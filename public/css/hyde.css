@@ -527,13 +527,13 @@ sup,
 /* STAM 101 note list spacing */
 .content p + ul.note-101,
 .content p + ol.note-101 {
-  margin-top: -0.45rem !important;
+  margin-top: -0.75rem !important;
 }
 
 ul.note-101,
 ol.note-101 {
   padding-top: 0 !important;
-  margin-top: -0.45rem !important;
+  margin-top: -0.75rem !important;
   margin-bottom: 2rem !important;
 }
 
