@@ -16,14 +16,10 @@ BLOGGER METADATA
 
 
 
-- **Sifrei Torah**
-- **Tefilin**
-- **Mezuzos**
-- **Megilos**
-- **Nevi’im**
+I write **Sifrei Torah**, **tefilin**, **mezuzos**, **megilos**, and **nevi'im**.
 
 
-My writing is mehudar, following the opinions of Rabbi Mordechai Friedlander ZTz"L.[^fn1]
+My writing is mehudar, following the opinions of Rabbi Mordechai Friedlander, Zatzal.[^fn1]
 
 All items are written on hand-processed klaf.
 
@@ -34,19 +30,24 @@ Tefilin parshi’os can be purchased separately or as part of a complete pair of
 
 Most work is made to order. Please allow sufficient time when commissioning STAM.[^fn2]
 
-Independent verification of the work’s quality is encouraged. Writing samples can be seen below.
+Independent verification of the work’s quality is encouraged. See writing samples below.
 
 Many references available. {% include email.html text="Contact me" %} for for price quotes and further details.
+
+---
+
+### Writing Samples
+
+All of these images are of my own handwriting<!-- in a variety of sizes. Tefilin and mezuzos usually have small or very small writing, Sifrei Torah, megilos, and nevi'im usually have medium or large writing-->.
+{: .box}
+
+![megilas Ester](/assets/images/megila-01.jpg "Megilas Ester"){: .full}  
+![megila detail](/assets/images/megila-detail-01.jpg "Megilas Ester detail"){: .full}  
+![sefer torah](/assets/images/sefer-torah-01.jpg "Sefer Torah"){: .full}  
+![navi detail](/assets/images/navi-detail-01.jpg "Yechezkel detail"){: .full}
 
 -= 8 =-
 {: .sig}
 
 [^fn1]: Occasionally, some items may be available which are kosher lechatchila, but not mehudar. All non-mehudar STAM will be specified as such.
 [^fn2]: A limited number of mezuzos are available for short-term loan while work is in progress.    
-
-### Writing Samples
-
-All of these images are of my own handwriting in a variety of sizes. Tefilin and mezuzos usually have small or very small writing, Sifrei Torah, megilos, and nevi'im usually have medium or large writing.
-{: .box}
-
-<!-- a few good big pictures of handwriting -->

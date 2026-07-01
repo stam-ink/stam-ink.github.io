@@ -57,7 +57,7 @@ I only recommend magihim I can personally vouch for based on recent experience. 
 ### Q.
 {: .faq-q}
 
-*I found a mistake/damage in a Sefer Torah/megila/navi. Can you fix it?*
+*I found a mistake / damage in a Sefer Torah/megila/navi. Can you fix it?*
 
 ### A.
 {: .faq-a}

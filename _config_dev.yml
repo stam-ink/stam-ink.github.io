@@ -1,0 +1,13 @@
+title: STAM.ink
+description: Sofer, so good
+remote_theme: poole/hyde
+permalink: pretty
+baseurl: ""
+url: "https://stam-ink.github.io"
+paginate: 1
+paginate_path: "/page:num/"
+show_drafts: true
+
+# Plugins
+plugins:
+  - jekyll-feed
