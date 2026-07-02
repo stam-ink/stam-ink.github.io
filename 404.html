@@ -3,19 +3,14 @@ layout: default
 title: "404: Page not found"
 permalink: /404.html
 ---
-<h1>404: Page not found</h1>
+<div class="hero-header">
+  <img src="{{ '/assets/videos/404.gif' | relative_url }}" alt="404 Animation Loop">
+  <h1>404: Page not found</h1>
+</div>
 
-<!--
-<video autoplay loop muted playsinline width="100%">
-  <source src="/assets/videos/404.mp4" type="video/mp4">
-</video>
--->
-
-<img src="/assets/videos/404.gif" class="full" alt="blank pages">
-
-  <h3 lang="he" style="text-align: left;">תעיתי כשה אבד</h3>
-
+<h3 lang="he" style="text-align: left;">תעיתי כשה אבד</h3>
 <p><em>&#8220;I have strayed like a lost sheep&#8221;</em> &#8212; Tehillim 119:176</p>
+
 <p>The page you&#8217;re looking for doesn&#8217;t exist or has moved.</br>
 <a href="{{ '/' | prepend: site.baseurl }}">Return to the home page</a>
 </p>

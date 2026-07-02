@@ -796,6 +796,38 @@ img.mini {
   object-fit: cover;
 }
 
+/* Container that stacks elements on top of each other */
+.hero-header {
+  display: grid;
+  align-items: center;  /* Centers the text vertically over the image */
+  justify-items: center; /* Centers the text horizontally over the image */
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* Force both the image and the text into the exact same grid spot */
+.hero-header img,
+.hero-header h1 {
+  grid-area: 1 / 1; 
+}
+
+/* Ensure the image behaves and fills the width */
+.hero-header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Style the text so it pops clearly over the moving background */
+.hero-header h1 {
+  z-index: 2; /* Forces text to sit on top of the image */
+  margin: 0 !important;
+  color: #ffffff; /* Make text crisp white, or whatever matches your branding */
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6); /* Adds a subtle dark shadow so text remains highly readable over bright spots in the GIF */
+  text-align: center;
+}
+
+
 /* ==========================================================================
    13. Tables
    ========================================================================== */
