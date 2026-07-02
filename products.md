@@ -41,14 +41,14 @@ Many references available. {% include email.html text="Contact me" %} for for pr
 All of these images are of my own handwriting<!-- in a variety of sizes. Tefilin and mezuzos usually have small or very small writing, Sifrei Torah, megilos, and nevi'im usually have medium or large writing-->.
 {: .box}
 
+![sefer torah](/assets/images/sefer-torah-01.jpg "Sefer Torah"){: .full}  
+
 ![megilas Ester](/assets/images/megila-01.jpg "Megilas Ester"){: .full}  
 
 <div class="two-up">
   <img src="/assets/images/megila-detail-02.jpg" alt="megila detail" >
   <img src="/assets/images/megila-detail-01.jpg" alt="megila detail">
 </div>
-
-![sefer torah](/assets/images/sefer-torah-01.jpg "Sefer Torah"){: .full}  
 
 ![navi detail](/assets/images/navi-detail-01.jpg "Yechezkel detail"){: .full}
 
