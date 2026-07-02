@@ -822,9 +822,14 @@ img.mini {
 .hero-header h1 {
   z-index: 2; /* Forces text to sit on top of the image */
   margin: 0 !important;
-  color: #ffffff; /* Make text crisp white, or whatever matches your branding */
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6); /* Adds a subtle dark shadow so text remains highly readable over bright spots in the GIF */
+  color: #ffffff; /* Make text crisp white */
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6); /* Text shadow for legibility */
   text-align: center;
+  
+  /* --- Mobile Cushioning --- */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box; /* Ensures the padding doesn't accidentally push the text layout wide */
 }
 
 
