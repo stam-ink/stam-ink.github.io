@@ -4,7 +4,7 @@
  <title>STAM.ink</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2026-07-02T12:59:10+03:00</updated>
+ <updated>2026-07-02T16:17:16+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -1788,7 +1788,9 @@ filename: /2017/07/more-about-white-klaf.html
 
 &lt;p&gt;The advantages of writing on a light-box are clearly diminished if the klaf is too dark or has spots or stripes of color. Even though there is no direct benefit to the customer, in this situation it may be worthwhile for the &lt;em&gt;sofer&lt;/em&gt; to make the extra effort to choose white klaf.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/{&amp;gt;&amp;gt;URL&amp;lt;&amp;lt;}&quot; alt=&quot;Lightbox&quot; title=&quot;Two strips of klaf on a light-box. When the light is on, the white piece of klaf on the right is almost transparent, while the darker piece of klaf on the left is practically opaque.&quot; class=&quot;full&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/videos/lightbox.gif&quot; alt=&quot;Light-box&quot; class=&quot;half-c&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;Two strips of klaf on a light-box. When the light is on, the white piece of klaf on the right is almost transparent, while the darker piece of klaf on the left is practically opaque.&lt;/p&gt;
 
 &lt;h3 id=&quot;poor-visual-acuity&quot;&gt;Poor Visual Acuity&lt;/h3&gt;
 

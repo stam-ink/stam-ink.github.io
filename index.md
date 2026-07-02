@@ -11,11 +11,9 @@ BLOGGER METADATA
 <filename>/p/welcome.html
 -->
 
-# Welcome!
+<!-- # Welcome!
 
 <img class="fullwidth" src="https://blogger.googleusercontent.com/img/a/AVvXsEjDTq0gEhftOQjVvj-7X8xdQ23-wz8LRgc09uxpu6klqsqtKUo2i8w9vkWCVT6sWKg-1iCtKjTYl9Uwak6ckQrVR6i5uxPtMjX9ECvQ48eDzWr2M2fsIi6TTRUTxI8vj75ZzyJ8-RHYzUZ1IGtrDfeqpIK3D4dKEI2xThIGIRZOYYi83LjmGT0gSAF0Fg" alt="klaf" title="klaf.jpg" border="0" width="544" height="306" />
-
-<!-- 
 
 Welcome to STAM.ink – an educational resource for people interested in learning more about the work of a Sofer STAM and the creation of Sifrei Torah, tefilin, mezuzos, megilos, and nevi’im. You can stay up to date by subscribing to the blog or following me on social media (links are in the sidebar).
 
@@ -31,7 +29,19 @@ If this is your first time here, the following links can help get you started: F
   {% include email.html text="Contact" %}
 </nav>
 
+
+<div class="hero-header">
+<img src="{{ site.baseurl }}/assets/videos/pages.gif" alt="completed pages" class="full">
+<h1>Welcome!</h1>
+</div>
 -->
+
+<h1>Welcome!</h1>
+
+
+<video autoplay loop muted playsinline poster="/assets/videos/pages.jpg" width="100%">
+  <source src="{{ site.baseurl }}/assets/videos/pages.mp4" type="video/mp4">
+</video>
 
 Welcome to the future home of STAM.ink -- an educational resource for people interested in learning more about the work of a Sofer STAM and the creation of Sifrei Torah, tefilin, mezuzos, megilos, and nevi’im. While we are getting the new site up and running, feel free to check out the [old blog](https://stam-ink.blogspot.com/p/welcome.html){: target="_blank"}.
 

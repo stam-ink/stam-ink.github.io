@@ -656,6 +656,14 @@ img.brdr {
   margin-bottom: 3.5rem !important;
 }
 
+/* Target a caption paragraph that follows a paragraph containing a half-c image */
+p:has(img.half-c) + .caption {
+  width: 75% !important;        /* Pulls the text width down to roughly 2/3 of the column */
+  max-width: 700px !important;  /* Optional safety cap so it looks balanced on huge screens */
+  margin-left: auto !important;  /* Centers the narrowed block horizontally */
+  margin-right: auto !important; /* Centers the narrowed block horizontally */
+}
+
 /* --- Named image size/layout classes --- */
 
 /* 1. Full width, centered, no wraparound */

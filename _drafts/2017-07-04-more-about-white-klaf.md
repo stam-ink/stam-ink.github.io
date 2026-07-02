@@ -17,11 +17,15 @@ A [previous post]({% comment %}{% post_url 2011-07-24-white-klaf %}{% endcomment
 ### Light-box
 {: #light-box}
 
+
 Many sofrim write STAM using a light-box: The work surface under the klaf is illuminated, and the tikun is printed on transparent material and positioned behind the klaf. The sofer can see the tikun *through* the klaf, and essentially traces the letters onto the klaf. This method can significantly speed up the writing process while also reducing spelling mistakes and spacing irregularities.
 
 The advantages of writing on a light-box are clearly diminished if the klaf is too dark or has spots or stripes of color. Even though there is no direct benefit to the customer, in this situation it may be worthwhile for the *sofer* to make the extra effort to choose white klaf.
 
-![Lightbox]({{ site.baseurl }}/{>>URL<<} "Two strips of klaf on a light-box. When the light is on, the white piece of klaf on the right is almost transparent, while the darker piece of klaf on the left is practically opaque."){: .full}
+![Light-box]({{ site.baseurl }}/assets/videos/lightbox.gif){: .half-c}
+
+Two strips of klaf on a light-box. When the light is on, the white piece of klaf on the right is almost transparent, while the darker piece of klaf on the left is practically opaque.
+{: .caption}
 
 ### Poor Visual Acuity
 {: #poor-visual-acuity}
