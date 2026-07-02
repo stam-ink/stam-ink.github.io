@@ -796,7 +796,7 @@ img.mini {
   object-fit: cover;
 }
 
-/* Container that stacks elements on top of each other */
+/* 8. 404 -- Container that stacks elements on top of each other */
 .hero-header {
   display: grid !important;
   align-items: center !important;   /* Centers text vertically */
