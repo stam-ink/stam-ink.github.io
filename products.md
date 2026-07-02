@@ -42,8 +42,14 @@ All of these images are of my own handwriting<!-- in a variety of sizes. Tefilin
 {: .box}
 
 ![megilas Ester](/assets/images/megila-01.jpg "Megilas Ester"){: .full}  
-![megila detail](/assets/images/megila-detail-01.jpg "Megilas Ester detail"){: .full}  
+
+<div class="two-up">
+  <img src="/assets/images/megila-detail-02.jpg" alt="megila detail" >
+  <img src="/assets/images/megila-detail-01.jpg" alt="megila detail">
+</div>
+
 ![sefer torah](/assets/images/sefer-torah-01.jpg "Sefer Torah"){: .full}  
+
 ![navi detail](/assets/images/navi-detail-01.jpg "Yechezkel detail"){: .full}
 
 -= 8 =-

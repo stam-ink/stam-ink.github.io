@@ -623,7 +623,7 @@ mark,
   border-radius: 0;
 }
 
-/* Hairline border helper (for white/light images) */
+/* Hairline border (for white/light images) */
 img.brdr {
   outline: 1px solid var(--accent-tan) !important;
   outline-offset: -1px;
@@ -690,13 +690,7 @@ img.third-r {
   clear: both !important;
 }
 
-/* 5. Stamp: 120px cap **** No use for this yet. Kill it??? **** */
-img.stamp {
-  max-width: 120px !important;
-  width: 16.66%;
-}
-
-/* 6. Mini: 60px cap, inline flush-left */
+/* 5. Mini: 60px cap, inline flush-left */
 img.mini {
   max-width: 60px !important;
   width: 16.66%;
@@ -730,7 +724,52 @@ img.mini {
   }
 }
 
-/* --- Photo gallery (small pics, 2-5 in a row, overflow clips) --- */
+/* 6. Two-up Container (pair of pics, no captions) */
+.two-up {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2.5rem;
+  margin: 2.5rem 0;
+}
+
+.two-up:has(+ .two-up) {
+  margin-bottom: 0;
+}
+
+.two-up + .two-up {
+  margin-top: 12px;
+}
+
+.two-up a,
+.two-up img {
+  margin: 0 !important;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+/* 7. Photo gallery (small pics, 3-5 in a row, overflow clips) */
+
+/* Mobile View: Force 4-across on narrow screens */
+@media (max-width: 550px) {
+  .grid {
+    /* Change repeat(auto-fill, 120px) to a fixed count of fluid columns */
+    grid-template-columns: repeat(4, 1fr) !important; 
+    
+    /* Shrink the gap slightly for mobile so images have more breathing room */
+    gap: 8px !important; 
+    
+    /* Dynamically cap the height so rows don't stretch vertically as the screen scales */
+    max-height: calc((100vw - (2rem + 24px)) / 4) !important; 
+  }
+  
+  .grid + .grid {
+    margin-top: 8px !important;
+  }
+}
+
+/* Photo gallery Desktop Override */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 120px);
@@ -756,7 +795,6 @@ img.mini {
   aspect-ratio: 1 / 1 !important;
   object-fit: cover;
 }
-
 
 /* ==========================================================================
    13. Tables
