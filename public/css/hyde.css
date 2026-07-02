@@ -798,40 +798,53 @@ img.mini {
 
 /* Container that stacks elements on top of each other */
 .hero-header {
-  display: grid;
-  align-items: center;  /* Centers the text vertically over the image */
-  justify-items: center; /* Centers the text horizontally over the image */
+  display: grid !important;
+  align-items: center !important;   /* Centers text vertically */
+  justify-items: center !important; /* Centers text horizontally */
+  position: relative !important;    /* Creates a localized stacking context */
   width: 100%;
   margin-bottom: 2rem;
 }
 
 /* Force both the image and the text into the exact same grid spot */
-.hero-header img,
+.hero-header img.full,
 .hero-header h1 {
-  grid-area: 1 / 1; 
+  grid-area: 1 / 1 !important; 
 }
 
-/* Ensure the image behaves and fills the width */
-.hero-header img {
-  width: 100%;
-  height: auto;
-  display: block;
+/* Neutralize any theme-specific positioning on the .full image */
+.hero-header img.full {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  position: static !important; /* Prevents absolute positioning overrides */
+  margin: 0 !important;        /* Clears any theme breakout margins */
+  transform: none !important;
 }
 
-/* Style the text so it pops clearly over the moving background */
+/* Style the text so it sits sharply on top */
 .hero-header h1 {
-  z-index: 2; /* Forces text to sit on top of the image */
+  z-index: 10 !important; /* High index to ensure it wins the stacking fight */
   margin: 0 !important;
-  color: #ffffff; /* Make text crisp white */
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6); /* Text shadow for legibility */
+  color: #ffffff !important; 
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8) !important; 
   text-align: center;
-  
-  /* --- Mobile Cushioning --- */
-  padding-left: 1rem;
-  padding-right: 1rem;
-  box-sizing: border-box; /* Ensures the padding doesn't accidentally push the text layout wide */
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  box-sizing: border-box !important;
 }
 
+/* Hide the line break on desktop/larger screens */
+.mobile-break {
+  display: none !important;
+}
+
+/* Show the line break on mobile screens (widths under 600px) */
+@media (max-width: 600px) {
+  .mobile-break {
+    display: inline !important;
+  }
+}
 
 /* ==========================================================================
    13. Tables
