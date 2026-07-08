@@ -15,7 +15,7 @@ filename: /2012/03/purchasing-stam-addendum.html
 
 ## The Historical State of the STAM Industry
 
-![Baruch Sheamar]({{ site.baseurl }}/{>>URL<<} "Baruch She'amar & Levush."){: .full}
+![Baruch Sheamar]({>>URL<<} "Baruch She'amar & Levush."){: .full}
 
 [Purchasing STAM Part 1]({% post_url 2011-06-13-purchasing-stam-1-intro %}) examined the current state of the STAM industry – concluding that it is a bit of a mess and a great deal of the STAM on the market is pasul or borderline-kosher.
 
