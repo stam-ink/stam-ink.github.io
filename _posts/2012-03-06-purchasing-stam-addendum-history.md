@@ -17,7 +17,7 @@ filename: /2012/03/purchasing-stam-addendum.html
 
 ![Baruch Sheamar]({>>URL<<} "Baruch She'amar & Levush."){: .full}
 
-[Purchasing STAM Part 1]({% post_url 2011-06-13-purchasing-stam-1-intro %}) examined the current state of the STAM industry – concluding that it is a bit of a mess and a great deal of the STAM on the market is pasul or borderline-kosher.
+[Purchasing STAM Part 1]({% comment %}{% post_url 2011-06-13-purchasing-stam-1-intro %}{% endcomment %}) examined the current state of the STAM industry – concluding that it is a bit of a mess and a great deal of the STAM on the market is pasul or borderline-kosher.
 
 Unfortunately, this is nothing new. There are many instances in the writings of the Rishonim and Achronim where they bemoan the sorry state of the STAM industry *in their own time*. A colleague has collected many of the relevant quotes into one list, which is presented here with his permission.
 
