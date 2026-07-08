@@ -39,7 +39,7 @@ It is **not** recommended to use a “T’fidanit” or similar protective case 
 
 [^fn1]: If rough handling is expected, they can also be packed in a cushioning material (e.g. bubble-wrap).
 
-[^fn2]: It can not be [overemphasized]({% comment %}{% post_url 2018-04-12-more-about-square %}{% endcomment %}) that tefilin *must* be stored in a **cool** and **dry** environment. Heat and humidity can cause the four sections of the shel rosh to spread apart – potentially invalidating the tefilin. This is even more of a concern when “airing out” the tefilin, because the batim are more susceptible to warping when they are out of their protective covers. If the ambient temperature and humidity can not be adequately controlled, the retzu’os should still be unwound and spread out after shipping, but the batim should remain in the covers. As an additional precaution, the “breathing” period should be restricted to an hour or less.
+[^fn2]: It can not be [overemphasized]({% post_url 2018-04-12-more-about-square %}) that tefilin *must* be stored in a **cool** and **dry** environment. Heat and humidity can cause the four sections of the shel rosh to spread apart – potentially invalidating the tefilin. This is even more of a concern when “airing out” the tefilin, because the batim are more susceptible to warping when they are out of their protective covers. If the ambient temperature and humidity can not be adequately controlled, the retzu’os should still be unwound and spread out after shipping, but the batim should remain in the covers. As an additional precaution, the “breathing” period should be restricted to an hour or less.
 
 [^fn3]: See the [note](#note) above.
 

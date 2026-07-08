@@ -20,22 +20,22 @@ The “Tikun Ben Asher” series of blog posts was published intermittently over
 ### Index
 {: #index}
 
-1. [History & Authority]({% comment %}{% post_url 2017-01-03-keter-1-intro %}{% endcomment %})
-2. [Masora]({% comment %}{% post_url 2017-04-20-keter-2-masora %}{% endcomment %})
-3. [Nevi’im & Megilos]({% comment %}{% post_url 2017-10-29-keter-3-neviim-megilos %}{% endcomment %})
-4. [Megilas Ester]({% comment %}{% post_url 2018-04-29-keter-4-megilas-ester %}{% endcomment %})
+1. [History & Authority]({% post_url 2017-01-03-keter-1-intro %})
+2. [Masora]({% post_url 2017-04-20-keter-2-masora %})
+3. [Nevi’im & Megilos]({% post_url 2017-10-29-keter-3-neviim-megilos %})
+4. [Megilas Ester]({% post_url 2018-04-29-keter-4-megilas-ester %})
 
 ### Summary
 {: #summary}
 
-***[History & Authority]({% comment %}{% post_url 2017-01-03-keter-1-intro %}{% endcomment %})***
+***[History & Authority]({% post_url 2017-01-03-keter-1-intro %})***
 
 - The Keter Aram Tzova (also known as the Aleppo Codex or the Tikun Ben Asher) is a manuscript of the entire Tanach written in Teveria in the tenth century.
 - Aharon Ben Asher proofread the manuscript repeatedly to correct mistakes and resolve conflicts between earlier traditions.
 - Due to his efforts, the text and masoretic notes of the Keter are remarkably consistent.
 - Aharon Ben Asher (and the Keter) are repeatedly mentioned by later sources as the final authority on matters of masora relating to the text of Tanach. 
 
-***[Masora]({% comment %}{% post_url 2017-04-20-keter-2-masora %}{% endcomment %})***
+***[Masora]({% post_url 2017-04-20-keter-2-masora %})***
 
 - The Keter is unique in its internal consistency, but it is only one of several authoritative manuscripts of Tanach.
 - Sofrim around the world and throughout history worked to faithfully copy Sifrei Torah from the master texts they had available. 
@@ -43,14 +43,14 @@ The “Tikun Ben Asher” series of blog posts was published intermittently over
 - Several Rishonim and Achronim attempted to codify the definitive text of the Chumash.
 - When writing Sifrei Torah, every community should continue to use the traditional text that has been accepted within that community, even if it disagrees with the masora recorded in ancient manuscripts.
 
-***[Nevi’im & Megilos]({% comment %}{% post_url 2017-10-29-keter-3-neviim-megilos %}{% endcomment %})***
+***[Nevi’im & Megilos]({% post_url 2017-10-29-keter-3-neviim-megilos %})***
 
 - There is no established tradition for the text of most of Nach.
 - The lack of a masora is not relevant for communities that read the Haftaros from a printed book, because their reading is valid as long as the text is read correctly.
 - Some communities read the Haftaros from a kosher scroll (following the tradition of the Vilna Ga’on), and therefore need scrolls copied from an authoritative text. 
 - Most contemporary poskim agree that scrolls of Nach should be written according to the Tikun Ben Asher if there is no other accepted masora. 
 
-***[Megilas Ester]({% comment %}{% post_url 2018-04-29-keter-4-megilas-ester %}{% endcomment %})***
+***[Megilas Ester]({% post_url 2018-04-29-keter-4-megilas-ester %})***
 
 - Unlike the rest of Nach, megilas Ester has established traditions.
 - The text of Ester in the Keter has some differences in both spelling and layout when compared to the standardized text as recorded in the Keses Hasofer.

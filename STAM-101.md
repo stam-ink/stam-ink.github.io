@@ -49,7 +49,7 @@ A sofer who is drowsy should not attempt to write STAM, because his lack of focu
 
 There are 3 basic styles of writing – “fonts” for lack of a better term – used by Sofrim: Sefardi (also called “Velish”), “Beis Yosef” (Ashkenazi / Litvish) and “Ari” (Chasidish). Ideally, members of each community should use STAM written in the tradition of their own community. In the event that such STAM is not available, contemporary poskim agree that Beis Yosef writing may also be considered kosher lechatchila for other communities. [↩](#markdown-toc "Back to TOC"){: .toc-return}
 
-- [More about fonts]({% comment %}{% post_url 2015-07-09-more-about-fonts %}{% endcomment %}){: target="_blank"}
+- [More about fonts]({% post_url 2015-07-09-more-about-fonts %}){: target="_blank"}
 {: .note-101}
 
 ### Gid
@@ -107,7 +107,7 @@ The books of Tanach have varying levels of inherent holiness. A Sefer Torah – 
 
 STAM is written on *[klaf](https://www.flickr.com/photos/stamink/6375431455/)*, which could be made from the skin of any kosher animal (but not fish). Ritual slaughter is not required. The skins must be processed in a solution of lime or gall-nuts for 4 days or at least until the hairs fall off. The processing must be done [lishma](#lishma) – the person putting the skins in the lime-bath must say that he is doing it “for the sanctity of a Sefer Torah (or Tefilin, Mezuza, etc.)”. A Sefer Torah is generally made from 62 or 63 sheets of klaf, each of which is the skin of one complete animal. [↩](#markdown-toc "Back to TOC"){: .toc-return}
 
-- [More about klaf]({% comment %}{% post_url 2011-11-20-more-about-klaf %}{% endcomment %}){: target="_blank"}
+- [More about klaf]({% post_url 2011-11-20-more-about-klaf %}){: target="_blank"}
 {: .note-101}
 
 ### Kulmus
@@ -120,7 +120,7 @@ A “kulmus” is the pen a Sofer uses to write STAM. A kulmus was originally cu
 
 There is a tradition that certain instances of specific letters in STAM are written larger (e.g. the “**ב**” in [בראשית](https://www.flickr.com/photos/stamink/7368545768){: target="_blank"}) or smaller (e.g. the “**א**” in [ויקרא](https://www.flickr.com/photos/stamink/19830161131){: target="_blank"}) than the rest of the text. The larger letters should be noticeably larger, and the smaller letters should be noticeably smaller. A STAM item which does not have the relevant letters enlarged or reduced, although written improperly, is still kosher. [↩](#markdown-toc "Back to TOC"){: .toc-return}
 
-- [More about large & small letters]({% comment %}{% post_url 2020-04-29-more-about-large-small-letters %}{% endcomment %}){: target="_blank"}
+- [More about large & small letters]({% post_url 2020-04-29-more-about-large-small-letters %}){: target="_blank"}
 {: .note-101}
 
 ### Line-spacing
@@ -148,7 +148,7 @@ If a significant portion of the text in an article of STAM is *significantly* di
 
 The 24 books of Tanach are all holy; G&#8209;d’s ten names have an additional level of holiness. These names must be written lishma: “…for the sake of the holiness of The Name (of G&#8209;d)” – and can *never* be erased. Some of the words used as G&#8209;d’s name are also used sometimes in a non-divine context (for example, “אלהים אחרים” – which refers to idolatry), and in that context they have no extra holiness. There are some words which have an ambiguous context (for example, “בני א&#8209;להים”), and they are written conditionally-lishma: “…for the sake of the holiness of the Name (of G&#8209;d), *if this word is in fact a holy name*”. [↩](#markdown-toc "Back to TOC"){: .toc-return}
 
-- [More about the Names of G&#8209;d]({% comment %}{% post_url 2014-06-26-more-about-names-g-d %}{% endcomment %}){: target="_blank"}
+- [More about the Names of G&#8209;d]({% post_url 2014-06-26-more-about-names-g-d %}){: target="_blank"}
 {: .note-101}
 
 ### One Line
@@ -161,8 +161,8 @@ There are several instances in Tanach where specific consecutive words must be w
 
 A *parsha* is any portion of text in the Torah preceded by a significant amount of blank space. There are two kinds of parshi’os: *pesucha* (open section) and *setuma* (closed section). According to all opinions: If the text starts at the beginning of the line, and the preceding line ends in the middle of the line (with the rest of that line left blank) – it is a parsha pesucha; If the text starts in the middle of the line, preceded by a blank space, as well as some words from the previous parsha – it is a parsha setuma. Other ways of inserting blank space into the text (i.e. skipping an entire line), as well as the exact amount of blank space needed to be considered a parsha, are the subject of dispute among the Poskim. In most chumashim the parshi’os are indicated by a “**פ**” or “**ס**” between the last verse of one parsha and the first verse of the next. [↩](#markdown-toc "Back to TOC"){: .toc-return}
 
-- [More about parshi'os part 1]({% comment %}{% post_url 2020-06-22-more-about-parshios-1-size-placement %}{% endcomment %}){: target="_blank"}
-- [More about parshi'os part 2]({% comment %}{% post_url 2022-09-06-more-about-parshios-2-tefilin-mezuzos-eicha %}{% endcomment %}){: target="_blank"}
+- [More about parshi'os part 1]({% post_url 2020-06-22-more-about-parshios-1-size-placement %}){: target="_blank"}
+- [More about parshi'os part 2]({% post_url 2022-09-06-more-about-parshios-2-tefilin-mezuzos-eicha %}){: target="_blank"}
 {: .note-101}
 
 ### Prudos
@@ -185,7 +185,7 @@ Retzu’os are more than just straps to hold the Tefilin in place. According to 
 
 Some communities read the haftaros from nevi’im written on scrolls of klaf. This custom follows the opinion of the Vilna Ga’on, who preferred that all books of Tanach be written with the same protocols as Sifrei Torah. This includes writing by hand on scrolls of [klaf](#klaf) with [kosher ink](#ink) (as opposed to printing on paper and binding into volumes), and following all the laws of STAM. This opinion of the Ga’on applies not only to nevi’im and megilos used for public reading, but to *all* [kisvei kodesh](#kisvei-kodesh) (e.g. Tehilim), even if they are used for study or personal reading. [↩](#markdown-toc "Back to TOC"){: .toc-return}
 
-- [More about scrolls of Nevi'im]({% comment %}{% post_url 2019-06-11-more-about-scrolls-neviim %}{% endcomment %}){: target="_blank"}
+- [More about scrolls of Nevi'im]({% post_url 2019-06-11-more-about-scrolls-neviim %}){: target="_blank"}
 {: .note-101}
 
 ### She'elas Tinok
@@ -208,7 +208,7 @@ The left and right margins of a STAM item should be fully-justified, with the ed
 
 The letters in STAM “hang” below the line (unlike most writing we are familiar with, where the letters “sit” on top of the line). The lines – called [sirtut](https://www.flickr.com/photos/stamink/6375431455/){: target="_blank"} – are scored into the klaf with a steel awl. In Sifrei Torah, Megilos, Nevi’im and Mezuzos (but not Tefilin), there is a requirement that every letter must be written on sirtut. If the sirtut for 3 letters is erased (or otherwise missing), the Sefer or Mezuza is pasul according to many opinions. There is a disagreement among the Poskim if the sirtut can be put in (or put *back* in) after the writing already exists. Tefilin just need sirtut for the outer margins, but the custom is to put sirtut on all the lines of Tefilin as well – just to keep the writing straight. [↩](#markdown-toc "Back to TOC"){: .toc-return}
 
-- [More about sirtut]({% comment %}{% post_url 2015-08-04-more-about-sirtut %}{% endcomment %}){: target="_blank"}
+- [More about sirtut]({% post_url 2015-08-04-more-about-sirtut %}){: target="_blank"}
 {: .note-101}
 
 ### The Sofer
@@ -221,7 +221,7 @@ A [sofer](https://www.flickr.com/photos/stamink/6440421053){: target="_blank"} m
 
 The [batim](#batim) of tefilin must be square in 3 places: the ketzitza (the “box” that houses the parshi’os); the titura (the base under the ketzitza – not including the ma’avarta where the [retzu’os](#retzu'os) pass through); and the stitching. If any of these are not square, the tefilin are pasul. The “squareness” does not necessarily need to be measured with calipers or a micrometer – if it looks square to the eye that is enough, at least bidi’eved. Even so, batim-makers usually use calipers to get the measurements as precise as possible. There is no requirement for the height of the ketzitza – it need not be a cube, so long as the length and width are equal. [↩](#markdown-toc "Back to TOC"){: .toc-return}
 
-- [More about square]({% comment %}{% post_url 2018-04-12-more-about-square %}{% endcomment %}){: target="_blank"}
+- [More about square]({% post_url 2018-04-12-more-about-square %}){: target="_blank"}
 {: .note-101}
 
 ### **White Space**
@@ -229,7 +229,7 @@ The [batim](#batim) of tefilin must be square in 3 places: the ketzitza (the “
 
 The Gemara specifies the minimum amount of blank klaf that should surround the columns of text in Sifrei Torah and [kisvei kodesh](#kisvei-kodesh). Although the Gemara uses the finger-width as a unit of measurement, the approximate equivalent measurements for Sifrei Torah are 6 cm space above the text, 8 cm below the text, and 4 cm between the columns. For kisvei kodesh the margins can be smaller: 3 cm space above the text, 4.5 cm below the text, and 2 cm between columns. According to some opinions, the measurements listed in the Gemara are only for scrolls that are one amah tall (approximately 48 cm), and therefore smaller scrolls can have proportionally smaller margins. The margins can be larger than these minimum dimensions, as long as the height of the column of text is greater than the combined height of the upper and lower margins, and the width of each column is greater than the space between the columns. If the margins are too small or too large, the Sefer is not pasul, but it cannot be considered [mehudar](http://stam-ink.blogspot.co.il/2011/12/purchasing-stam-part-7.html#mehudar). [↩](#markdown-toc "Back to TOC"){: .toc-return}
 
-- [More about white space]({% comment %}{% post_url 2020-11-12-more-about-white-space %}{% endcomment %}){: target="_blank"}
+- [More about white space]({% post_url 2020-11-12-more-about-white-space %}){: target="_blank"}
 {: .note-101}
 
 ### Word-spacing & Letter-spacing

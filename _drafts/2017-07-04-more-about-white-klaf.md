@@ -12,7 +12,7 @@ filename: /2017/07/more-about-white-klaf.html
 -->
 
 {: .box}
-A [previous post]({% comment %}{% post_url 2011-07-24-white-klaf %}{% endcomment %}) explained why the color of the klaf should not be a primary consideration when purchasing STAM. While all of the points made in that post still hold true as a general rule, there are certain situations where a preference for white klaf *might* be justified…
+A [previous post]({% post_url 2011-07-24-white-klaf %}) explained why the color of the klaf should not be a primary consideration when purchasing STAM. While all of the points made in that post still hold true as a general rule, there are certain situations where a preference for white klaf *might* be justified…
 
 ### Light-box
 {: #light-box}

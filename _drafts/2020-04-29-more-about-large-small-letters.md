@@ -14,7 +14,7 @@ filename: /2020/04/more-about-large-and-small-letters.html
 
 ![ויקרא]({{ site.baseurl }}/{>>URL<<} "The first word in Sefer Vayikra is written with a small “א”."){: .third-r}
 
-According to the masora, certain instances of specific letters in Tanach should be written larger or smaller than the rest of the text.[^fn1] Some communities have different traditions regarding which letters should be larger or smaller. As with other matters of [masora]({% comment %}{% post_url 2017-04-20-keter-2-masora#masora-v-masora %}{% endcomment %}), each community should follow its own traditions. A STAM item that does not have large and small letters according to the tradition of the community is not pasul, but it should be corrected if possible.[^fn2]
+According to the masora, certain instances of specific letters in Tanach should be written larger or smaller than the rest of the text.[^fn1] Some communities have different traditions regarding which letters should be larger or smaller. As with other matters of [masora]({% post_url 2017-04-20-keter-2-masora %}#masora-v-masora), each community should follow its own traditions. A STAM item that does not have large and small letters according to the tradition of the community is not pasul, but it should be corrected if possible.[^fn2]
 
 Letters that are *not* included in the masoretic lists of large and small letters should *not* be arbitrarily written larger or smaller. In most STAM items this is usually not an issue, but there are two situations in megilas Ester where it becomes relevant.
 
@@ -36,7 +36,7 @@ There are instances of this non-masoretic visual emphasis in megilos from many d
 ### The Sons of Haman
 {: #sons-haman}
 
-A more common example of non-masoretic large letters appears towards the end of megilas Ester (9:7–9), where there is a [stacked shira]({% comment %}{% post_url 2019-10-28-shira#stacked %}{% endcomment %}) listing the names of the sons of Haman. According to [some opinions]({% comment %}{% post_url 2020-09-06-aseres-binei-haman#height %}{% endcomment %}), this shira – which only takes up eleven lines – should fill the entire height of the column. If the layout of the megila is more than eleven lines tall, many poskim advocate enlarging all of the text of these eleven lines to fill the space.
+A more common example of non-masoretic large letters appears towards the end of megilas Ester (9:7–9), where there is a [stacked shira]({% post_url 2019-10-28-shira %}#stacked) listing the names of the sons of Haman. According to [some opinions]({% post_url 2020-09-06-aseres-binei-haman %}#height), this shira – which only takes up eleven lines – should fill the entire height of the column. If the layout of the megila is more than eleven lines tall, many poskim advocate enlarging all of the text of these eleven lines to fill the space.
 
 ![Aseres Binei Haman]({{ site.baseurl }}/{>>URL<<} "Aseres binei Haman enlarged to fill the column."){: .full}
 
@@ -48,11 +48,12 @@ These poskim maintain that the enlarged letters in this case have a different st
 Most megilos in the market today follow this opinion and have the eleven lines of aseres binei Haman written large enough to fill the full height of the column.
 
 -= 8 =-
+{: .sig}
 
-[^fn1]: For a basic introduction to large and small letters, see [STAM 101: Large & Small Letters](/stam-101#large-small-letters/).
+[^fn1]: For a basic introduction to large and small letters, see [STAM 101: Large & Small Letters](/stam-101/#large-small-letters).
 
-[^fn6]: This is true whether it follows the tradition of a different community, or does not follow any accepted tradition.
+[^fn2]: This is true whether it follows the tradition of a different community, or does not follow any accepted tradition.
 
-[^fn4]: There are only two books in Tanach that do not contain the name of G&#8209;d: Ester and Shir Hashirim.
+[^fn3]: There are only two books in Tanach that do not contain the name of G&#8209;d: Ester and Shir Hashirim.
 
-[^fn5]: Another possible hint to G&#8209;d’s presence in the megila is the repeated use of the word “hamelech”. There is a common practice to emphasize this hint by arranging the layout of the megila so that most of the columns start with the word “hamelech”. See [STAM 101: Hamelech](/stam-101#hamelech/) for more info.
+[^fn4]: Another possible hint to G&#8209;d’s presence in the megila is the repeated use of the word “hamelech”. There is a common practice to emphasize this hint by arranging the layout of the megila so that most of the columns start with the word “hamelech”. See [STAM 101: Hamelech](/stam-101/#hamelech) for more info.

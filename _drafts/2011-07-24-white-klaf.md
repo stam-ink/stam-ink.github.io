@@ -28,14 +28,14 @@ Which brings us to the last and presumably most practical option, writing on kla
 Klaf comes in many colors – primarily white, brown and black – in various shades and tones. Sometimes the skin is one uniform color, but more often it is spotted or striped. Besides the color, klaf has many other properties that also vary widely from one piece to the next: Klaf can be thick or thin, soft or hard, smooth or textured, translucent or opaque, dry or damp or oily… The fibers that make up the klaf can be dense or sparse, long or short, elastic or brittle, wide or narrow… Every single one of these additional characteristics has a direct impact on the ease of writing. The easier it is to write, the nicer the writing will look and the faster it will be completed. These qualities also determine how forgiving the klaf will be when it comes to erasing and correcting mistakes. It would not be an exaggeration to say that the variable with the *smallest* impact on the final product is the color of the klaf. That being the case, color should usually be the *last* consideration.
 
 {: .callout #note}
-**NOTE:**{: .ultra} See [the follow-up post]({% comment %}{% post_url  2017-07-04-more-about-white-klaf %}{% endcomment %}) for a few specific situations where there might be justification for preferring white klaf.
+**NOTE:**{: .ultra} See [the follow-up post]({% post_url  2017-07-04-more-about-white-klaf %}) for a few specific situations where there might be justification for preferring white klaf.
 
 A 28-line megila is written on four sheets of klaf. It is not uncommon for a sofer to sort through 20 or 30 sheets of klaf to find the four *best* ones.[^fn3] To require white klaf is to severely limit the choices available. The sofer will be forced to compromise on many of the more important qualities in order to give the client a white megila, and in doing so will deliver a product that is not as good as it could have been.
 
 -= 8 =-
 {: .sig}
 
-[^fn1]: For an introduction to klaf see [STAM 101: Klaf](/stam-101#klaf/) and [More About Klaf]({% comment %}{% post_url 2011-11-20-more-about-klaf %}{% endcomment %}). To learn what to look for (and what to avoid) when choosing a klaf factory see [Purchasing STAM Part 4]({% comment %}{% post_url 2011-07-17-purchasing-stam-4-klaf %}{% endcomment %}).
+[^fn1]: For an introduction to klaf see [STAM 101: Klaf](/stam-101/#klaf) and [More About Klaf]({% post_url 2011-11-20-more-about-klaf %}). To learn what to look for (and what to avoid) when choosing a klaf factory see [Purchasing STAM Part 4]({% post_url 2011-07-17-purchasing-stam-4-klaf %}).
 
 [^fn2]: Many expert Sofrim can identify which factory produced a given piece of klaf by the way it looks and feels (and sometimes even by the smell!).
 

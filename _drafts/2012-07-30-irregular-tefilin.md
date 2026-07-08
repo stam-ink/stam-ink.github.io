@@ -26,7 +26,7 @@ Even though the halachic status is not compromised in these instances, and the i
 -= 8 =-
 {: .sig}
 
-[^fn1]: Assuming there is no issue of [kisidran](/stam-101#kisidran/).
+[^fn1]: Assuming there is no issue of [kisidran](/stam-101/#kisidran).
 
 [^fn2]: An obvious exception being a situation where the buyer specifically requested that the shel yad be on *one* strip of parchment, or that there be no holes *at all* in the bayis of the shel rosh. In those cases the sale is invalid and the seller would have to refund the buyer’s money.
 

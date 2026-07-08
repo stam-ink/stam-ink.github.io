@@ -42,6 +42,7 @@
   --accent-tan:    #dbd2bd;   /* Rules, borders, tinted areas */
   --link-purple:   #878799;   /* Standard link color */
   --link-hover:    #999384;   /* Link hover state */
+  --fade-depth:    2.5rem;    /* Picture edges (ꜛ=longer fade, ꜜ=shorter fade) */
 }
 
 
@@ -503,7 +504,7 @@ blockquote[lang="he"] {
 .endnote,
 .aside,
 .table,
-caption,
+.caption,
 .note-101 {
   font-size: 0.85rem;
   line-height: 1.4;
@@ -757,7 +758,15 @@ img.mini {
   display: block;
 }
 
-/* 7. Photo gallery (small pics, 3-5 in a row, overflow clips) */
+/* 7. Inline (pic w/i paragraph, no margins, no captions) */
+.inline {
+    width: 100%;
+    display: block;
+    margin: 0.1em auto !important;
+    clear: both;
+}
+
+/* 8. Photo gallery (small pics, 3-5 in a row, overflow clips) */
 
 /* Mobile View: Force 4-across on narrow screens */
 @media (max-width: 550px) {
@@ -804,7 +813,7 @@ img.mini {
   object-fit: cover;
 }
 
-/* 8. 404 -- Container that stacks elements on top of each other */
+/* 9. 404 -- Container that stacks elements on top of (in front of) each other */
 .hero-header {
   display: grid !important;
   align-items: center !important;   /* Centers text vertically */
@@ -853,6 +862,48 @@ img.mini {
     display: inline !important;
   }
 }
+
+/* 10. Image Fade Masks (Adjust fade-depth at root -- at top of hyde.css file)    */
+
+/* Fade top & bottom */
+.fade-v {
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black var(--fade-depth),
+    black calc(100% - var(--fade-depth)),    
+    transparent
+  );
+
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black var(--fade-depth),
+    black calc(100% - var(--fade-depth)),    
+    transparent
+  );
+}
+
+/* Fade left & right */
+.fade-h {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black var(--fade-depth),
+    black calc(100% - var(--fade-depth)),    
+    transparent 100%
+  );
+
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black var(--fade-depth),
+    black calc(100% - var(--fade-depth)),    
+    transparent 100%
+  );
+}
+
+
 
 /* ==========================================================================
    13. Tables

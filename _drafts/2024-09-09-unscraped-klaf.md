@@ -17,7 +17,7 @@ category:  #tefilin
 filename: /2024/09/unscraped-klaf.html
 -->
 
-As mentioned in a [previous post]({% comment %}{% post_url 2011-07-17-purchasing-stam-4-klaf %}{% endcomment %}), handmade klaf has many hidurim that are not found in machine made klaf and is therefore halachicly preferable. 
+As mentioned in a [previous post]({% post_url 2011-07-17-purchasing-stam-4-klaf %}), handmade klaf has many hidurim that are not found in machine made klaf and is therefore halachicly preferable. 
 
 There are additional hidurim that might be available (at additional cost) from some klaf-makers. One such hidur, based on the opinion of the Chayei Adam, is that the hair-side of the klaf cannot be scraped at all during the tanning process. According to this opinion, scraping the back of the klaf – even if only a thin layer of the skin is removed – will negate its status as klaf which will invalidate it for use in STAM.
 

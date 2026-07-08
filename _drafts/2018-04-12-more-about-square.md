@@ -13,12 +13,12 @@ category:  #tefilin
 filename: /2018/04/more-about-square.html
 -->
 
-Certain parts of tefilin batim must be perfectly [square](/stam-101#square/). Batim that are made correctly and handled properly should remain square for the lifetime of the tefilin – with one caveat: On rare occasions, the four sections of the ketzitza of the shel rosh (the *box* that houses the parshi’os) can spread apart. If the sections spread apart *significantly*, the ketzitza will no longer be square, and the tefilin will become pasul.
+Certain parts of tefilin batim must be perfectly [square](/stam-101/#square). Batim that are made correctly and handled properly should remain square for the lifetime of the tefilin – with one caveat: On rare occasions, the four sections of the ketzitza of the shel rosh (the *box* that houses the parshi’os) can spread apart. If the sections spread apart *significantly*, the ketzitza will no longer be square, and the tefilin will become pasul.
 
 {: .callout #note}
 **NOTE:**{: .ultra} Even if the bayis warps considerably, it is usually possible for a professional batim maker to mold it back into the correct shape and return it to a kosher state.
 
-Some batim makers glue the sections of the ketzitza together, but this may invalidate the tefilin according to some poskim. Higher-quality batim, called *[prudos](/stam-101#prudos/)*, have no glue (or very little glue) between the sections of the ketzitza. Prudos are more mehudar, but have an increased risk of warping over time. 
+Some batim makers glue the sections of the ketzitza together, but this may invalidate the tefilin according to some poskim. Higher-quality batim, called *[prudos](/stam-101/#prudos)*, have no glue (or very little glue) between the sections of the ketzitza. Prudos are more mehudar, but have an increased risk of warping over time. 
 
 ### Keeping it Square
 {: #keeping-square}
@@ -35,6 +35,6 @@ Some batim makers glue the sections of the ketzitza together, but this may inval
 -= 8 =-
 {: .sig}
 
-[^fn3]: As mentioned in the post on [shipping & storing tefilin]({% comment %}{% post_url 2017-11-30-shipping-storing-tefilin %}{% endcomment %}), tefilin should *never* be stored for extended periods of time in an airtight container.
+[^fn3]: As mentioned in the post on [shipping & storing tefilin]({% post_url 2017-11-30-shipping-storing-tefilin %}), tefilin should *never* be stored for extended periods of time in an airtight container.
 
 [^fn1]: Made from any semirigid material (e.g. felt, foam, leather, etc.).

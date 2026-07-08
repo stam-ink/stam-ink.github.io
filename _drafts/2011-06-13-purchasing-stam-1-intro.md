@@ -16,7 +16,7 @@ filename: /2011/06/purchasing-stam-part-1.html
 ## The STAM Industry
 
 {: .box}
-For a brief overview of the complete series, including links to all of the posts, see [Purchasing STAM: Index & Summary]({% comment %}{% post_url 2012-03-20-purchasing-stam-index-summary %}{% endcomment %}).
+For a brief overview of the complete series, including links to all of the posts, see [Purchasing STAM: Index & Summary]({% post_url 2012-03-20-purchasing-stam-index-summary %}).
 
 “STAM” is an acronym for Sifrei Torah, tefilin, and mezuzos.[^2] Nearly all observant Jews will be involved in at least one STAM-related purchase in their lifetimes. Every Jewish male adult needs a pair of tefilin. Every Jewish home needs several mezuzos. Megilos, while usually considered a luxury item, also represent a significant portion of the STAM business. Besides being bought for personal use, many STAM items are commonly purchased as gifts.[^3]
 
@@ -28,7 +28,7 @@ Additionally, even in situations where the people involved are well versed in ha
 
 Finally, all too often, the non-kosher STAM comes to market through deliberate deception. STAM is big business, and like any big business, it attracts shady operators who are interested in making easy money by preying on the uninformed. For example, costs can be cut drastically by moving the production of raw materials (parchment, etc.) overseas – often to China or Russia. Supervision is practically nonexistent, and many of these factories operate without regard for any halachic standards. They churn out 100% pasul materials that are brought to market at bargain-basement prices.
 
-What can a STAM buyer do to protect himself? [Read on]({% comment %}{% post_url 2011-06-16-purchasing-stam-2-sofer %}{% endcomment %})…
+What can a STAM buyer do to protect himself? [Read on]({% post_url 2011-06-19-purchasing-stam-2-sofer %})…
 
 -= 8 =-
 {: .sig}
@@ -37,6 +37,6 @@ What can a STAM buyer do to protect himself? [Read on]({% comment %}{% post_url 
 
 [^fn3]: Sifrei Torah and nevi’im, although less likely to be bought by the average Jew, represent a large portion of the STAM market. Everything written here applies to them as well.
 
-[^fn4]: Unfortunately, this is nothing new. Historically, the STAM industry has had problems since the times of the early Rishonim. See [Purchasing STAM: Addendum]({% comment %}{% post_url 2012-03-06-purchasing-stam-addendum-history %}{% endcomment %}) for more information.
+[^fn4]: Unfortunately, this is nothing new. Historically, the STAM industry has had problems since the times of the early Rishonim. See [Purchasing STAM: Addendum]({% post_url 2012-03-06-purchasing-stam-addendum-history %}) for more information.
 
-[^fn5]: See [Purchasing STAM: part 7]({% comment %}{% post_url 2011-12-17-purchasing-stam-7-bidieved-lechatchila-mehudar %}{% endcomment %}) for an explanation of these terms.
+[^fn5]: See [Purchasing STAM: part 7]({% post_url 2011-12-17-purchasing-stam-7-bidieved-lechatchila-mehudar %}) for an explanation of these terms.

@@ -13,7 +13,7 @@ category:  #tefilin
 filename: /2015/05/shel-rosh-knot.html
 -->
 
-The knots used to tie the straps of tefilin[^fn1] are halacha leMoshe miSinai and must be tied [lishma](/stam-101#lishma/) by a Torah-observant adult Jewish male.
+The knots used to tie the straps of tefilin[^fn1] are halacha leMoshe miSinai and must be tied [lishma](/stam-101/#lishma) by a Torah-observant adult Jewish male.
 
 The knot of the shel rosh should be constructed to evoke the Hebrew letter “ד”. There are two prevalent ways to tie the knot:
 
@@ -41,7 +41,7 @@ Since there is some disagreement among the sources as to the preferred knot, and
 -= 8 =-
 {: .sig}
 
-[^fn1]: for a brief overview of tefilin straps, see [STAM 101: Retzu’os](/stam-101#retzuos/).
+[^fn1]: for a brief overview of tefilin straps, see [STAM 101: Retzu’os](/stam-101/#retzuos).
 
 [^fn2]: in contrast to the square knot, the double-ד knot has a hole in the middle – making it look somewhat like a ם.
 

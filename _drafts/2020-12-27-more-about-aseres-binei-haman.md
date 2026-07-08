@@ -13,7 +13,7 @@ category:  #megila
 filename: /2020/12/more-about-aseres-binei-haman.html
 -->
 
-When writing megilas Ester, the practice in most communities is to write [aseres binei Haman]({% comment %}{% post_url 2020-09-06-aseres-binei-haman %}{% endcomment %}) as an entire column. Many megilos are written with a layout of 21 lines or more, and the column of aseres binei Haman is written with <!-- Aseres Binei Haman -->larger letters to fill the vertical space. These megilos follow the opinion of the poskim who permit enlarging the letters of an entire column, even though they are not part of the masora of large and small letters.[^fn1]
+When writing megilas Ester, the practice in most communities is to write [aseres binei Haman]({% post_url 2020-09-06-aseres-binei-haman %}) as an entire column. Many megilos are written with a layout of 21 lines or more, and the column of aseres binei Haman is written with <!-- Aseres Binei Haman -->larger letters to fill the vertical space. These megilos follow the opinion of the poskim who permit enlarging the letters of an entire column, even though they are not part of the masora of large and small letters.[^fn1]
 
 Some poskim do not agree with this view. They hold that it is forbidden to enlarge or reduce *any* letters except those dictated by the masora. To accommodate their position, there are several ways to write a megila without enlarging the text of aseres binei Haman.
 
@@ -43,13 +43,13 @@ Short megilos have additional halachic considerations, which will be addressed i
 
 ![Ester 21]({{ site.baseurl }}/{>>URL<<} "skipped lines"){: .full}
 
-Theoretically, another way to write aseres binei Haman as its own column – without enlarging the letters – is to skip lines. For example, aseres binei Haman in a 21-line megila would have one blank line between each of the 11 lines of text. This arrangement is problematic because the skipped lines may be considered [parsha breaks]({% comment %}{% post_url 2020-06-22-more-about-parshios-1-size-placement#blank %}{% endcomment %}) in the wrong place.
+Theoretically, another way to write aseres binei Haman as its own column – without enlarging the letters – is to skip lines. For example, aseres binei Haman in a 21-line megila would have one blank line between each of the 11 lines of text. This arrangement is problematic because the skipped lines may be considered [parsha breaks]({% post_url 2020-06-22-more-about-parshios-1-size-placement %}#blank) in the wrong place.
 
 A megila with skipped lines in aseres binei Haman is – at best – kosher bidi’eved. It is not advisable to purchase such a megila, and it should not be used to fulfill the mitzva (unless there are no other megilos available). 
 
 -= 8 =-
 {: .sig}
 
-[^fn1]: See [More About Large & Small Letters]({% comment %}{% post_url 2020-04-29-more-about-large-small-letters#sons-haman %}{% endcomment %}) for more information.
+[^fn1]: See [More About Large & Small Letters]({% post_url 2020-04-29-more-about-large-small-letters %}#sons-haman) for more information.
 
-[^fn2]: See [Aseres Binei Haman]({% comment %}{% post_url 2020-09-06-aseres-binei-haman#height %}{% endcomment %}) for more information.
+[^fn2]: See [Aseres Binei Haman]({% post_url 2020-09-06-aseres-binei-haman %}#height) for more information.

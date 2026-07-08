@@ -17,8 +17,6 @@ filename: /2022/05/sefer-torah-layout.html
 
 It is customary to arrange the layout of a Sefer Torah with several of the columns starting with specific words. The acronym **בי״ה שמ״ו** is used as a mnemonic for this custom, but there are disagreements regarding some of the words referenced by the acronym. These are the words which appear at the top of the columns in contemporary Sifrei Torah:[^fn1]
 
-<div lang="he">
-
 - **<mark>ב</mark>**ראשית ברא (בראשית 1:1)
 - **<mark>י</mark>**הודה אתה יודוך (בראשית 49:8)
 - **<mark>ה</mark>**באים אחריהם (שמות 14:28)
@@ -26,10 +24,9 @@ It is customary to arrange the layout of a Sefer Torah with several of the colum
 - **<mark>ש</mark>**ני השעירם (ויקרא 16:8) 
 - **<mark>מ</mark>**ה טבו (במדבר 24:5) 
 - **<mark>ו</mark>**אעידה בם (דברים 31:28) 
+{: lang="he"}
 
-</div>
-
-There is no record of this custom in the [ancient masora]({% comment %}{% post_url 2017-01-03-keter-1-intro#authority %}{% endcomment %}), but it was already well established during the time of the Rishonim. A Sefer Torah that does not incorporate this custom is still kosher bidi’eved.
+There is no record of this custom in the [ancient masora]({% post_url 2017-01-03-keter-1-intro %}#authority), but it was already well established during the time of the Rishonim. A Sefer Torah that does not incorporate this custom is still kosher bidi’eved.
 
 {: .callout #note}
 **NOTE:**{: .ultra} For the other columns in a Sefer Torah, the current practice is to start them with a word that begins with the letter vav. This convention – called **ווי העמודים** – has no authoritative source, and is not required.
